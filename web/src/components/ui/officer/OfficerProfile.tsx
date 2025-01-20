@@ -19,6 +19,12 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
   onBack,
   onCaseSelect
 }) => {
+  const uniqueIncidentTypes = React.useMemo(() => {
+    if (!officer) return [];
+    const types = new Set(officer.incidents.map(incident => incident.incident_type));
+    return Array.from(types).filter(Boolean).sort();
+  }, [officer]); // Changed dependency to just 'officer' since it includes everything we need
+
   if (!officer) {
     return (
       <div className="container max-w-5xl mx-auto py-8 px-4">
@@ -38,11 +44,6 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
       </div>
     );
   }
-
-  const uniqueIncidentTypes = React.useMemo(() => {
-    const types = new Set(officer.incidents.map(incident => incident.incident_type));
-    return Array.from(types).filter(Boolean).sort();
-  }, [officer.incidents]);
 
   return (
     <div className="container max-w-5xl mx-auto py-8 px-4">

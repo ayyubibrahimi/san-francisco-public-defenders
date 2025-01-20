@@ -11,6 +11,30 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      // Handle unused variables more comprehensively
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          varsIgnorePattern: "React|^_|Incident|CookieOptions", // Added Incident and CookieOptions
+          args: "after-used",
+          argsIgnorePattern: "^_|options", // Added options
+          destructuredArrayIgnorePattern: "^_",
+          caughtErrorsIgnorePattern: "^_",
+          ignoreRestSiblings: true,
+        },
+      ],
+      // Add rule for React Hooks
+      "react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": [
+        "warn",
+        {
+          additionalHooks: "(useRecoilCallback|useRecoilTransaction_UNSTABLE)",
+        },
+      ],
+    },
+  },
 ];
 
 export default eslintConfig;

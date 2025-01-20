@@ -72,12 +72,14 @@ export const IncidentCard: React.FC<IncidentCardProps> = ({ incident, onCaseSele
             )}
           </div>
         </div>
-        <Badge
-          variant={getIncidentVariant(incidentType)}
-          className="h-fit"
-        >
-          {incidentType}
-        </Badge>
+        <div className="shrink-0">
+          <Badge
+            variant={getIncidentVariant(incidentType) as "default" | "secondary" | "destructive" | "outline"}
+            className="h-fit"
+          >
+            {incidentType}
+          </Badge>
+        </div>
       </div>
     </div>
   );

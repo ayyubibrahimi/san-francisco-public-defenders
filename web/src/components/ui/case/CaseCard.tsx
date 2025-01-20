@@ -7,13 +7,18 @@ import { Case } from '../../types/case';
 interface CaseCardProps {
   case: Case;
   onClick: (caseData: Case) => void;
+  searchResults?: Array<{
+    incident_id: string;
+    matchingText: string[];
+    pageNumbers: number[];
+  }>;
 }
 
-export const CaseCard: React.FC<CaseCardProps> = ({ case: caseData, onClick }) => {
-  // Get search context from URL params
-  const searchParams = new URLSearchParams(window.location.search);
-  const searchTerm = searchParams.get('search');
-  
+export const CaseCard: React.FC<CaseCardProps> = ({ 
+  case: caseData, 
+  onClick,
+  searchResults 
+}) => {
   // Find matching text snippets if they exist
   const searchMatches = searchResults?.find(r => r.incident_id === caseData.incident_id);
 

@@ -82,7 +82,7 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
 
         const content = result.page_content;
         const words = content.split(/\s+/);
-        const termIndex = words.findIndex(word => 
+        const termIndex = words.findIndex((word: string) => 
           word.toLowerCase().includes(term.toLowerCase())
         );
         
@@ -163,7 +163,7 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
       setTextMatches(new Map());
     }
     return () => debouncedSearch.cancel();
-  }, [searchTerm]);
+  }, [searchTerm, debouncedSearch]);
 
   const getFilteredCases = () => {
     let filtered = cases;
