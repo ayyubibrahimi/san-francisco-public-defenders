@@ -1,0 +1,1085 @@
+officer_name,incident_id,incident_type,source,incident_date,star_no,officer_agency,ois_details,incident_details,uid
+"haggett, john",comm34,firearm,comm,nat,,,2006 shooting of unknown victim. sfpd ois #2006-0003.,,a6360d6a6711e2fed394ae553fe295aaa31c5dda54e96bad201d09124935ddae
+"cole, matthew",comm34,firearm,comm,nat,,,2006 shooting of unknown victim. sfpd ois #2006-0003.,,84f0b0ae85d8ce3216084571737f395dd4b67d65f3c018acd54a2484d089b5d5
+"street, adam h",comm34,firearm,comm,nat,,,2006 shooting of unknown victim. sfpd ois #2006-0003.,,3fe1738e8f53c695aeeddf276c71674e08e22c1dde598850fb6025e3b3bfbb75
+"yee, henry b",comm34,firearm,comm,nat,,,2006 shooting of unknown victim. sfpd ois #2006-0003.,,c3a992e6a975c3faf41352adf69a8d8b183c383fc65f26813c4c70f810d50f41
+,comm91,nan,nan,nat,,,nan,,6b281b37b512da3628813ff5a2d05c990521c104b498bfd7125b425a73ae37ba
+"fabbri, carl p",nan,firearm,sfpd,nat,,,nan,,70f6290325be952218f29018697d11609e5924fb150b95b9009c6805458b36fd
+"carrasco, troy m",sfpd266,firearm,sfpd,2023-10-09,,,nan,,739b521a6e9b4e521fb1133f37f0bd83acc394d7494592d62d0bc286a4f97437
+"artiga, gabriel",sfpd258,firearm,sfpd,2023-08-28,nan,nan,nan,nan,9564604aba98655a759ec5f8cb4f31cc37a464b896a4b01330f2ccd301ca3862
+"lucia, russell",sfpd258,firearm,sfpd,2023-08-28,nan,sfpd,nan,nan,bf22e992518d9e730a74754192107ec840705924924193855577843d41b80d88
+"o'brien, daniel p",sfpd258,firearm,sfpd,2023-08-28,,,nan,,dfe5281ab9fde44698a9c47b86a97520d47a31b031f6f05c31f0a0601348d216
+"tien, edward l.",sfpd258,firearm,sfpd,2023-08-28,979.0,sfpd,nan,nan,2f769a871da9f8d24dd6ca9b07c9b5ccd032c7555e73d9ab3954f3fb634aabfc
+"villanueva, eduardo f",sfpd232,firearm,sfpd,2023-06-22,628.0,sfpd,nan,nan,26a1d8f194b83b5b9fb08eadf6de07cb134f8f663cedc605469f0a82dc3a4646
+"bratchikov, stanislav k.",sfpd231,firearm,sfpd,2023-05-09,654.0,sfpd,nan,nan,806153e3c5c259a7682cbe1112a78b7bd7fb66feab63e5bfbe29383b47b4ba6e
+"buhagiar, gregory m",sfpd231,firearm,sfpd,2023-05-09,,,nan,,273b7f38c263f4435e9489f6ce04fdf61c2fa7b6347bb6896907360375b47063
+"phillips, scott r",sfpd231,firearm,sfpd,2023-05-09,,,nan,,e86af3d8f07cfa55a0d21181850d42af181d50e9d18c8fc149068ebf3d927f96
+"wakayama, david i",sfpd231,firearm,sfpd,2023-05-09,,,nan,,0b3f6153d0ce7fde9b68bd598084bc2f93d71436eb224030da9717dac8346274
+"faubel, cory a",sfpd147,firearm,sfpd,2022-08-06,1520.0,sfpd,nan,nan,8b36dac2aefb13939aa2cadff769c4722be8cedd06ffbc3e74964397f6929163
+"m'bouroukounda, jean-michel m",sfpd147,firearm,sfpd,2022-08-06,3735.0,sfpd,nan,nan,d4623f479cf4f1556acae0128c621277337a1f3ca7615988aed9adabcd26d0c3
+"rotschi, michael p",sfpd147,firearm,sfpd,2022-08-06,,,nan,,e7322adb871facaf8017bd398ed210b1963a49f8335ea56a01d63cd730799f50
+"schrachta, cain",sfpd147,firearm,sfpd,2022-08-06,1183.0,sfpd,nan,nan,80e5f5295ec4018d2239a6f787f6178ca10b8218db3a64b417194e83bba01330
+"collins, trent durrell",sfpd138,firearm,sfpd,nat,52.0,sfpd,nan,nan,119823af59d9efc7803afd4047fda5915451c06739e845164565823943c8b468
+"dequis, joshua d",sfpd138,firearm,sfpd,nat,334.0,sfpd,nan,nan,1e8f868df1542794517e761c486f6d274382f6216c4627b4f623203ec3269b35
+"o'driscoll, aidan finbarr",sfpd138,firearm,sfpd,nat,1875.0,sfpd,nan,nan,50ef394083ed7f52d0c7c11fcda78adc58d6ecfdb556de1380776badf426c683
+"rosaia, daniel p",sfpd138,firearm,sfpd,nat,,,nan,,15256023ab1af00de99575c51b7b8930c1d9e0e783b08e6043a6c54f8478782d
+"wakayama, david i",sfpd126,firearm,sfpd,2022-01-20,,,nan,,0b3f6153d0ce7fde9b68bd598084bc2f93d71436eb224030da9717dac8346274
+"uang, steven h",sfpd126,firearm,sfpd,2022-01-20,1299.0,sfpd,nan,nan,80648f157a48fa783adc0486b3675c1b31b5c33a70f894f1f9b075244e16bfab
+"lim, oliver n",sfpd126,firearm,sfpd,2022-01-20,,,nan,,2c84b086e01c76c404b95885fe7f4e31b8c22421a44043f9e6985fd26d9add29
+"quinlan, john payton",sfpd114,firearm,sfpd,2021-11-19,2256.0,sfpd,nan,nan,2c4a5930dcf28ea1f60202a65f35c76c08a69aae734e9bcf88bf6a963340f299
+"prasadi, ryan r.",sfpd242,gbi,sfpd,2021-11-07,1024.0,sfpd,nan,nan,a6573bd0475d0be91e806b3ef86765b2e0817a80edf1e47ced2fed72f31f434d
+"carroll, corbyn m",dpa103,excessive force,dpa,2021-08-03,,,nan,,21c1d96c467d5d5ea3a8b8084bc61fb6370d1ecb44e53f98b18c7f9d506499a4
+"mcauliffe, zachary mead",sfpd97,firearm,sfpd,2021-05-07,1752.0,sfpd,"may 7, 2021 shooting of xavier pittman jr. sfpd ois #21-001.","may 7, 2021 shooting of xavier pittman jr. sfpd ois #21-001.",210f007c2e4f349a1a2f3377268c59cb144d035213e6906cb4123c8633a98341
+"ochoa, eduard j",dpa104,unlawful search/arrest,dpa,2021-04-22,,,nan,,cd94b27d29a9b8d3c4ede7dde9a55ebbf9026b6a45761f77ee8377e9d03ce68f
+"lentz, alexander nicholas","sfpd128,sfpd254",gbi,sfpd,2021-02-17,,,nan,,501a2c2a9346bc37be237bdbed937b9c2965f957e52cdf64e2d522060de0f0ed
+"griffin, glennon r.","sfpd128,sfpd254",gbi,sfpd,2021-02-17,,,nan,,4c3106c04d702ea5c4106efc855e4438f02cbbe2f764da959461c83f9114193a
+"colgan, steven w",sfpd251,gbi,sfpd,2020-11-04,834.0,sfpd,nan,nan,e335b5461b3964a377ea74f240bee3b52e44484bdf087f43c8aa9cdd09e1d232
+"roach, kyle a.",dpa64,firearm,dpa,2020-10-10,2457.0,sfpd,nan,nan,dc65f156876268c2d12bec47358180e1e88e1da1217e57084ea54724c5e621d8
+"delgado, nicholas p.",dpa64,firearm,dpa,2020-10-10,2415.0,sfpd,nan,nan,a600433e7912f85d7c6381c76de3f52a948c7c8c1c10edb6acbeb5c013ca8b3c
+"grey, john n","dpa48,dpa67",gbi,dpa,2020-02-09,,,nan,,ee5dd2a4120692a33ee99c2730aa8b479fc085f5ce6d9bdba9b396c84a2f6aa0
+"zografos, sotirios c",sfpd260,gbi,sfpd,2020-01-20,1139.0,sfpd,nan,nan,03702393ec2304c3a13ea9b47b2ecb6d1bb9243b1b5319a9f2d0bfa82bce7b5c
+"hayes, sterling christopher","comm12,sfpd93",firearm,"comm,sfpd",2019-12-07,,,"december 7, 2019 shooting of jamaica hampton. sfpd ois #19-003. shooting ""in policy.""",,41119cdd924a05ba8e15fa0fdb446ff6c55b8d8601674fb2888bbff7ca5d858c
+"flores, christopher tino","comm12,sfpd93",firearm,"comm,sfpd",2019-12-07,2144.0,sfpd,"december 7, 2019 shooting of jamaica hampton. sfpd ois #19-003. shooting ""in policy.""","december 7, 2019 shooting of jamaica hampton. sfpd ois #19-003. shooting ""in policy.""",c1262ee01ab17c6fd5d90cec218b4d4b60f0b8827f2b5ed55b868b4d5f94e660
+"neary, sean c",sfpd250,gbi,sfpd,2019-11-14,,,nan,,de8f240e654bc1eb64fbaf0a2213430c36ffe92b85940702aed43c4758290dff
+"castro, carlos a",sfpd250,gbi,sfpd,2019-11-14,2300.0,sfpd,nan,nan,80c22922da108d8970fb36efc62830137ebbeb68aecc7d2af9645fb5944c76e7
+"stangel, terrance j","sfpd79,sfpd173",gbi,sfpd,2019-10-06,323.0,sfpd,nan,nan,06cc2d9311a6a0eb525d886c93fe359d1877113aa15b99f121405b81165fea1f
+"shavers, michael a",comm128,firearm,comm,2019-09-20,,,nan,,9d70ed0b2dfc1bc4706b63a8b8c26bc7c8e3901fd303493957418e8a27faf41b
+"suguitan, roderick",sfpd323,firearm,sfpd,2019-08-25,,,nan,,21bb6312f6f0c908abb4dea67e531e59870cb384d06119d3ed40ad470ed3140c
+"neary, sean c",sfpd249,gbi,sfpd,2019-07-24,,,nan,,de8f240e654bc1eb64fbaf0a2213430c36ffe92b85940702aed43c4758290dff
+"brown jr, gordon f.",sfpd274,prejudice or discrimination,sfpd,2019-07-21,265.0,sfpd,nan,nan,5fa0af2540acd784175837ab7d98dab548598bb110c70750c7fb47a5ef96303e
+"sanchez-zamudio, marco p.",sfpd256,gbi,sfpd,2019-06-29,2399.0,sfpd,nan,nan,e31c818f988db3cc173f6a2263b3553d64790047765dea7dcf74677ba6a49518
+"galande, christina c","dpa70,sfpd157,comm116",unlawful search/arrest,"dpa,sfpd,comm",2019-03-10,,,nan,,6404afc97568eae6264f17bd219f51c89760e355af36f54e04da39b2f02a7b08
+"nagai, nicholas h.","dpa2.14.19posted,dpa93",gbi,dpa,2019-02-14,,,nan,,d3f5301c173f318051776bbb675d83e38706dc7f8beaa54652019ee920398952
+"santana, bryan m","dpa2.14.19posted,dpa93",gbi,dpa,2019-02-14,,,nan,,dda383484a6e088b847a31cbe26981f870399724905202705ca70d3325b9dae1
+"ishida, john matthew","comm114,comm115,sfpd203,sfpd246,comm139",unlawful search/arrest,"comm,sfpd",2019-02-01,,,nan,,689d201804f6b58da245ba1d6c8c2f1858a8d08f020abdce12b6f6b69d3c94e0
+"griffin, glennon r.","comm114,comm115,sfpd203,sfpd246,comm139",unlawful search/arrest,"comm,sfpd",2019-02-01,,,nan,,4c3106c04d702ea5c4106efc855e4438f02cbbe2f764da959461c83f9114193a
+"hernandez, brett s.","dpa65,dpa68,sfpd141",unlawful search/arrest,"dpa,sfpd",2019-01-24,307.0,sfpd,nan,nan,9c635325e59bd595465ad32c62058bff9f337fab0ee8898a0d157d7b39dd46a9
+"reavey, joseph a.",sfpd294,gbi,sfpd,2019-01-20,1026.0,sfpd,nan,nan,7497239da1f112773d829a6c8762ba631319ef0836227cd320f93e5f5aff9721
+"vail, ryan j","sfpd24,sfpd181",gbi,sfpd,2019-01-05,887.0,sfpd,nan,nan,5495636e07b3c225953c4e2c2af0fc03c872b3961fb123fef134cd1ad17a4ee8
+"rabsatt, bernard a","sfpd24,sfpd181",gbi,sfpd,2019-01-05,829.0,sfpd,nan,nan,d42bb5b21bf5c6dd0d2e44b732f551879a84ccfb60c52f578045fee13fffdc2d
+"cabillo, joshua nathan",dpacabillo,nan,dpa,nat,,,nan,,5fbe16f42590ecba55e38942f6a7c6f8df0a41dfcf265b77a854d47ece890614
+"lau, victor","sfpd169,sfpd248",gbi,sfpd,2018-12-30,933.0,sfpd,nan,nan,253aa4d3998dda47a9a05d8258be08b41ca8346aa557013b84ddfdebc954a25b
+"leyva, giovanny a.","sfpd169,sfpd248",gbi,sfpd,2018-12-30,2437.0,sfpd,nan,nan,c71b2d2450b9645396cfc1a15df7d59e40be2a2aaaf6c7b0863d86df5ce55362
+"mroz, matthew j.","sfpd169,sfpd248",gbi,sfpd,2018-12-30,,,nan,,cf7421b96c7e29b125a6d2c1e98d40297c7949c5bf335d1d634c23f1d3a1d46b
+"nguyen, duc m.","sfpd169,sfpd248",gbi,sfpd,2018-12-30,2731.0,sfpd,nan,nan,33c6d7cfb72d6eb675a43bf822120e608d1de3505f8fbfcf82b2a491aea2901f
+"rodriguez, david e",sfpd307,unlawful search/arrest,sfpd,2018-11-15,,,nan,,1c163f5c3ec6a0d433656a86fb680aa7e8c02c2156ee7b7cb0f28c66ecc02ed9
+"damonte, christopher p","sfpd162,comm116",dishonesty,"sfpd,comm",2018-09-24,,,nan,,f78a3901b37aa381dea695ef88b55cc346cb63a1bb5194677b3daed5c8a7f6e6
+"finn, thomas e.","sfpd102,sfpd244",gbi,sfpd,2018-09-17,773.0,sfpd,nan,nan,db6ed931c3920c6f996c7b6bdc5f544ac36432c9977094b54cfa30cea989fc0b
+"mcfall, joshua k.","sfpd102,sfpd244",gbi,sfpd,2018-09-17,4314.0,sfpd,nan,nan,ffbaa4bcd6aa4b1acfd3aec2dd7ee477a07fcd931fd30b9cf0fd20815cbfb288
+"sullivan, bartholomew b","sfpd102,sfpd244",gbi,sfpd,2018-09-17,6.0,sfpd,nan,nan,ff63bcdf5d361d21ed7efc2a9531a9e448a64fb9722eca577066b1ce5af7f1b1
+"tanaka, charles k","sfpd102,sfpd244",gbi,sfpd,2018-09-17,1340.0,sfpd,nan,nan,b3e8b395d4be6b1f054b3f29f17a793b83550e3c50c63920cfc89d2a44f195fd
+"o'brien, daniel p",sfpd281,gbi,sfpd,2018-09-08,,,nan,,dfe5281ab9fde44698a9c47b86a97520d47a31b031f6f05c31f0a0601348d216
+"toomey, joseph j",sfpd281,gbi,sfpd,2018-09-08,1930.0,sfpd,nan,nan,0d65ce271c2d1de278b00642233b8d7c08ef34af72a592f13ae749359d9f2e67
+"hayes, sterling christopher","sfpd101,sfpd187",gbi,sfpd,2018-08-12,,,nan,,41119cdd924a05ba8e15fa0fdb446ff6c55b8d8601674fb2888bbff7ca5d858c
+"gabriel, gene p",sfpd282,gbi,sfpd,2018-07-21,,,nan,,50a8a8d73cc054056426335ccdc998f6506876de6a1a4a07df63b3a9e4961a0a
+"sherry, nicholas s.","dpa71,sfpd318",excessive force,"dpa,sfpd",2018-07-09,1046.0,sfpd,nan,nan,21b42d6c296632fb87873ecc2bc291d3c6c922b87ccfc8a7a9f0e77a114c4369
+"raney, david c.",sfpd297,gbi,sfpd,2018-07-03,235.0,sfpd,nan,nan,37d99d460a1934027c38000a8479b267cfd3297fb1f37d1f938ece6aecd08896
+"marcic, michael a",sfpd321,"unlawful search/arrest,excessive force",sfpd,2018-06-20,817.0,sfpd,nan,nan,2267bfe969e20d6e6960fd4f464f2e8a96c4568a58f9c2260c8b57d8c679e376
+"fergus, john c","comm41,da52,sfpd136,dpa101,dpa102,dpa105",firearm,"comm,da,sfpd,dpa",2018-06-09,,,"june 9, 2018 shooting of oliver jose barcenas. sfpd ois #17-005. officer was reinstated.",,b5def9243e66f7e26bfe3fab6453d08b5306d353cabe43edc5d831c3b8c89f7b
+"cabillo, joshua nathan",sfpd327,excessive force,sfpd,2018-06-09,,,nan,,5fbe16f42590ecba55e38942f6a7c6f8df0a41dfcf265b77a854d47ece890614
+"caldera, leonard i",sfpd262,gbi,sfpd,2018-06-06,498.0,sfpd,nan,nan,d87eccea4a00dcfa2903c94a198b2677a08add672ab215948119e89a585d25ab
+"burke, brian p","dpa90,sfpd301",excessive force,"dpa,sfpd",2018-05-31,32.0,sfpd,nan,nan,8c3c88b0a5a248d3b7997a478448c00719c4f90d6e417cf2f88bbf72de592046
+"bryant, anthony",da53,nan,da,nat,834.0,sfsd,nan,nan,5e08002b1b35b2fa3f2a4e088cbd906763c86a9579ca4a1843084afea39b3f91
+"rodgers wells, wendy",da53,nan,da,nat,1748.0,sfsd,nan,nan,6c730d3129fddbd0949142b158d68086ed5ebc85c69b6158c08b0a3ae172fe8d
+"peppers, anthony",da53,nan,da,nat,1700.0,sfsd,nan,nan,daab9600ef4366fa0ab36dcf6dfb840823b4086170349f76fb05a85ea4ae312e
+"reininger, william","comm5,comm16,sfpd69,dpa66",firearm,"comm,sfpd,dpa",2018-05-11,374.0,sfpd,"may 11, 2018 shooting of unknown victim. sfpd ois #18-004. shooting ""not in policy.""","may 11, 2018 shooting of unknown victim. sfpd ois #18-004. shooting ""not in policy.""",fa4a113f606db4efbe318c866a30b0b197f144df4757d065ac30608101be7170
+"robinson, eric john","comm146,sfpd303",excessive force,"sfpd,comm",nat,,,nan,,128d0d4bcededcd82ae9f40b0c02c80188df17e103b5c0fbdb87132030c374d3
+"robinson, eric john",dpa88,dishonesty,dpa,2018-05-03,,,nan,,128d0d4bcededcd82ae9f40b0c02c80188df17e103b5c0fbdb87132030c374d3
+"bernard, nathan e",sfpd72,gbi,sfpd,2018-04-15,,,nan,,fd6ba92c0b1e454e5520d8a09404cfe6f51b9c137006607e824a5c07bcf15876
+"casey, tasawan","comm40,da51,dpa42,dpa43,sfpd273,sfpd276",firearm,"comm,da,dpa,sfpd",2018-03-21,2177.0,sfpd,"march 21, 2018 shooting of jehad eid. sfpd ois #18-003. shooting ""in policy.""","march 21, 2018 shooting of jehad eid. sfpd ois #18-003. shooting ""in policy.""",a93a0af0dce766d0ce9928b745cc9255910487044257e45a488ab0291fb8c055
+"endo, kevin a.","comm40,da51,dpa42,dpa43,sfpd273,sfpd276",firearm,"comm,da,dpa,sfpd",2018-03-21,2475.0,sfpd,"march 21, 2018 shooting of jehad eid. sfpd ois #18-003. shooting ""in policy.""","march 21, 2018 shooting of jehad eid. sfpd ois #18-003. shooting ""in policy.""",181320cc38cf157f0638ab96287aeabe247738940374969954f709329ca0e8ee
+"lewis, k",sheriff4,gbi,sheriff,2018-03-21,1187.0,sfsd,nan,nan,a2de7c853996fbb48fe02507a3c6d6361d5b2c5f0fdd19a238c1cfac64dbb96d
+"mroz, matthew j.","sfpd76,sfpd185",gbi,sfpd,2018-03-12,,,nan,,cf7421b96c7e29b125a6d2c1e98d40297c7949c5bf335d1d634c23f1d3a1d46b
+"carroll, corbyn m","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,,,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",,21c1d96c467d5d5ea3a8b8084bc61fb6370d1ecb44e53f98b18c7f9d506499a4
+"smets, colby a.","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,253.0,sfpd,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.","march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",4ccbcfe06138e5861ee33ed0bc628b13a710ddddce901d297b981b5f47257e60
+"o'rourke, sean f.","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,2214.0,sfpd,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.","march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",61b1cc6034eb2c6de5eb7c1fa33ebc0a36be9f0b10c0ed2bf197a8802bb581f6
+"chiu, loren a.","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,1306.0,sfpd,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.","march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",1baaed5038276598d04ff92d9c7eb7849f8c7257d1c8ad731b02ea9082caa0ad
+"gustilo iii, juan daniel 0","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,1469.0,sfpd,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.","march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",dd5c5a9b0073523d49f4988ec37696d5304331b7388a9bcef097ca152983506f
+"nagai, nicholas h.","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,,,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",,d3f5301c173f318051776bbb675d83e38706dc7f8beaa54652019ee920398952
+"smith-russack, ari m.","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,4132.0,sfpd,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.","march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",1b2ee58429e56bc73b9b8a794333dafd8bfc7125aa3708f4abae71b0be35126e
+"cassinelli, stephen f","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,1104.0,sfpd,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.","march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",f3654654cf7efe114ef171a647e7df7a04a709897417888ac23ae41a487b442f
+"tupper, joshua c","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,4115.0,sfpd,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.","march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",63bbdf0a6ed19c28fb4b565250f3c3ff9b82528eac895206967c3b519d22a1d2
+"ishida, john matthew","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,,,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",,689d201804f6b58da245ba1d6c8c2f1858a8d08f020abdce12b6f6b69d3c94e0
+"barcena, oscar c","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,,,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",,9c5fa0685e4731212423b31f1ba17936a42278ab2f646a64bab0b55a52781cf8
+"santana, bryan m","dpa10,comm39,da55",firearm,"dpa,comm,da",2018-03-16,,,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",,dda383484a6e088b847a31cbe26981f870399724905202705ca70d3325b9dae1
+"buhagiar, gregory m","dpa22,dpa79,dpa87,sfpd324",firearm,"dpa,sfpd",2018-02-17,,,"february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020",,273b7f38c263f4435e9489f6ce04fdf61c2fa7b6347bb6896907360375b47063
+"cotter, christopher j","dpa22,dpa79,dpa87,sfpd324",firearm,"dpa,sfpd",2018-02-17,,,"february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020",,c82708de692ef24964c7b12f3348d978d608f06880b253d901921b1852bdd7ec
+"willkom, robby w.","dpa22,dpa79,dpa87,sfpd324",firearm,"dpa,sfpd",2018-02-17,,,"february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020",,d986571da3d9b8d3628cc4f502a82201b1fc0ee4b8719f18061523ef7a134981
+"griffin, glennon r.","dpa22,dpa79,dpa87,sfpd324",firearm,"dpa,sfpd",2018-02-17,,,"february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020",,4c3106c04d702ea5c4106efc855e4438f02cbbe2f764da959461c83f9114193a
+"sharron, anthony","dpa22,dpa79,dpa87,sfpd324",firearm,"dpa,sfpd",2018-02-17,382.0,sfpd,"february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020","february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020",475b4f65793009eb558a2763f23996b9d268b1033e0b62263620f8d0a2ea49e4
+"nazar, matthew s","dpa22,dpa79,dpa87,sfpd324",firearm,"dpa,sfpd",2018-02-17,2093.0,sfpd,"february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020","february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020",3d619d38617e20ba71f479b17246874c9da352b98e4cf00252b8f630ecbce2f1
+"oesterich, steven g.","dpa22,dpa79,dpa87,sfpd324",firearm,"dpa,sfpd",2018-02-17,880.0,sfpd,"february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020","february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020",a2c3b4c66b06eac69b075ad1c5e877722d43647dfad46edbf7a715e469b1fe12
+"hinds, joshua d",sfpd160,gbi,sfpd,2022-01-14,,,nan,,8e362924b85aa0debc6cc52741e2f819f557c412a5e874368bca631a7eeda5f3
+"naderi, salar",sfpd295,gbi,sfpd,2017-12-30,858.0,sfpd,nan,nan,36a8405f8bb8d49248f1921c8089ba3e7d8ec4cb529c8c513b6d658e0730c06c
+"samayoa, christopher","dpa97,dpa98,dpa100",firearm,dpa,2017-12-01,nan,sfpd,nan,nan,9171d6f7dc47a4501ca8db3d2a5bdc12abc2fbc2221d2b8533a708a8a5be16a7
+"talusan, edric d","dpa97,dpa98,dpa100",firearm,dpa,2017-12-01,,,nan,,ad2baac4a687150e56e2d49e758df582f51cf08b1b18e3162f13232f8712c3ab
+"goldsborough, maris w","dpa97,dpa98,dpa100",firearm,dpa,2017-12-01,413.0,sfpd,nan,nan,4214662db6404aa998d75b0bd5165fd0ca9e92d9fb6c4d8428253abf65bf972f
+"rotschi, michael p",sfpd265,gbi,sfpd,nat,,,nan,,e7322adb871facaf8017bd398ed210b1963a49f8335ea56a01d63cd730799f50
+"fung, samuel","comm45,sfpd73",firearm,"comm,sfpd",2017-11-01,42.0,sfpd,"november 1, 2017 shooting of unknown victim. sfpd ois #17-006. shooting ""in policy.""","november 1, 2017 shooting of unknown victim. sfpd ois #17-006. shooting ""in policy.""",a43983b072ecb2676d6e477ecd0251e1e209de22067a5675b80862d792d3eb41
+"rodriguez, david e",sfpd293,gbi,sfpd,2017-10-21,,,nan,,1c163f5c3ec6a0d433656a86fb680aa7e8c02c2156ee7b7cb0f28c66ecc02ed9
+"robinson, jason s","comm44,da50,sfpd112,dpa61,dpa63",firearm,"comm,da",2017-09-24,,,"september 24, 2017 shooting of damien murray. sfpd ois #17-005. shooting ""in policy.""",,d4816ab1053206a01ea901a7dc77742463fa078ce4c5fadca10b769c42ae0e15
+"ravelo, wilrolan j","comm44,da50,sfpd112,dpa61,dpa63",firearm,"comm,da",2017-09-24,2464.0,sfpd,"september 24, 2017 shooting of damien murray. sfpd ois #17-005. shooting ""in policy.""","september 24, 2017 shooting of damien murray. sfpd ois #17-005. shooting ""in policy.""",d30d99ea013d89a23a46adf3e41a27845a042ab38705a310df30657b8b6e0c38
+"hicks, sherry e","comm118,sfpd316",prejudice or discrimination,"comm,sfpd",2017-07-31,2227.0,sfpd,nan,nan,102d35100d171ffe76c4d09f082219b61a2502d6702b05125b80c2e204e6c236
+"gabriel, gene p",sfpd280,gbi,sfpd,2017-07-13,,,nan,,50a8a8d73cc054056426335ccdc998f6506876de6a1a4a07df63b3a9e4961a0a
+"grey, john n",sfpd264,gbi,sfpd,2017-06-27,,,nan,,ee5dd2a4120692a33ee99c2730aa8b479fc085f5ce6d9bdba9b396c84a2f6aa0
+"rotschi, michael p",sfpd264,gbi,sfpd,2017-06-27,,,nan,,e7322adb871facaf8017bd398ed210b1963a49f8335ea56a01d63cd730799f50
+"willkom, robby w.",sfpd264,gbi,sfpd,2017-06-27,,,nan,,d986571da3d9b8d3628cc4f502a82201b1fc0ee4b8719f18061523ef7a134981
+"wilson, glen m",sfpd264,gbi,sfpd,2017-06-27,627.0,sfpd,nan,nan,63f4ae36e4ad3f59e464fe3f2ef05e2e8cdc81c0c76d8db0b24896cbd9676043
+"fabela, martin a.",sfpd302,gbi,sfpd,2017-06-13,723.0,sfpd,nan,nan,11ab4cb3d111a6252a3b1453e523f7d66a86217463fe94879df8f02e11901141
+"colclough iii, david b",sfpd211,gbi,sfpd,2017-06-13,,,nan,,ab3d179b8b1bdf77de135a3ed91ab01a2375d1a998e72d01219df0c4b78033d0
+"thompson, dack 0","comm46,da49,comm96,sfpd205,sfpd255",firearm,"comm,da,sfpd",2017-05-21,,,"may 21, 2017 shooting at unknown suspect. sfpd ois #17-004. shooting ""in policy.""",,9ae2e73b48c1434c57262b293fefc9068b5639da0b9a4fd45a1744cc31193e61
+"cha, kenneth","da11,comm43,sfpd94,sfpd325",firearm,"da,comm,sfpd",2017-05-03,,,"may 3, 2017 shooting of nicholas flusche. sfpd ois #17-003. shooting ""in policy.""",,5964fc6d4190c116491b7163208cfbca36c461019aabe97dfb1741fb4bd01153
+"cagonot, jordan d","da11,comm43,sfpd94,sfpd325",firearm,"da,comm,sfpd",2017-05-03,2023.0,sfpd,"may 3, 2017 shooting of nicholas flusche. sfpd ois #17-003. shooting ""in policy.""","may 3, 2017 shooting of nicholas flusche. sfpd ois #17-003. shooting ""in policy.""",3e151bbcada418f87d41b187cd25ac8b9a12db2a26112749348dfeb2787b569c
+"neary, sean c",sfpd243,gbi,sfpd,2017-04-22,,,nan,,de8f240e654bc1eb64fbaf0a2213430c36ffe92b85940702aed43c4758290dff
+"rodriguez, david e",sfpd275,gbi,sfpd,2017-03-29,,,nan,,1c163f5c3ec6a0d433656a86fb680aa7e8c02c2156ee7b7cb0f28c66ecc02ed9
+"o'connor, denis m.",sfpd127,gbi,sfpd,2017-03-10,4350.0,sfpd,nan,nan,30022ce2efecff2a7640cb5faf5252e8da78e48e7046e3608e258bf0048cf192
+"obidi, joseph a",sfpd127,gbi,sfpd,2017-03-10,2328.0,sfpd,nan,nan,6d100193557cb6bbd5416a9f66de628373d45ab1a16401f595de5e3a4da63cd1
+"fry, joshua",dpa74,prejudice or discrimination,dpa,2017-02-24,nan,sfpd,nan,nan,3bd87dc58a667e8f4913a681c270992eced213657fdcb07b4bd658a1126d37b3
+"mackenzie, maxim r.","sfpd238,sfpd245",gbi,sfpd,2017-02-18,2099.0,sfpd,nan,nan,862f9f09edc09c7c39f9c5faf1bcbf190dae3f990fce2078358bff4936bbb6a7
+"schiff, richard henry","sfpd238,sfpd245",gbi,sfpd,2017-02-18,,,nan,,3b780b6d068bfc5ea859aba5a3e736fbf281a960af4de9fad4329093654cb629
+"burrows, reese",sfpd306,sexual assault,sfpd,2017-01-18,,,nan,,b077de3751e5d43ac55c02e8ca049c3084dbb543531d4c5b37a4729427557465
+"bryant, joshua j.",sfpd54,gbi,sfpd,2017-01-10,505.0,sfpd,nan,nan,e4fbaabd204fddbda6f93db605d485647eea24cdf6780c860759dbbfcfb85e53
+"cha, kenneth","comm42,comm96,sfpd113",firearm,comm,2017-01-06,,,"january 6, 2017 shooting of sean moore. sfpd ois #17-001. investigation open as of june 2020.",,5964fc6d4190c116491b7163208cfbca36c461019aabe97dfb1741fb4bd01153
+"watson, keyon c.",sfpd272,gbi,sfpd,2016-12-19,2746.0,sfpd,nan,nan,74c591460065a6f493609d93d9ef15294b2c88ebe3186d2eb615915f55e69220
+"kelly, daniel j.",sfpd272,gbi,sfpd,2016-12-19,211.0,sfpd,nan,nan,3e5e3e343258fc7b31d824a40f5ec7d8c15ecb910c4d7325290674f78267d7cd
+"hodgers, m",sheriff3,gbi,sheriff,2016-12-16,2200.0,sfsd,nan,nan,691d0d6eca2a29c0128406d62ee2a16c88f95331606430e4636e40b22d987e1b
+"castillo, s.",sheriff3,gbi,sheriff,2016-12-16,1785.0,sfsd,nan,nan,06ef8c80e73e85a1732de5524d0dd692c0c145f5c42e44d0d1389b00e8fb1dff
+"barnes, j",sheriff3,gbi,sheriff,2016-12-16,1723.0,sfsd,nan,nan,4894a89fcd198478e69aee93f36128ed99f2e9ece3b05e237c4739d108d4b35e
+,nan,firearm,da,nat,,,"december 2, 2016 shooting of unknown victim.",,6b281b37b512da3628813ff5a2d05c990521c104b498bfd7125b425a73ae37ba
+"cota, michael j","sfpd135,sfpd176",gbi,sfpd,2016-11-10,357.0,sfpd,nan,nan,6b4d503f7c2f4294cd59935f023ecf1ca1e298ae1519f74398359d019fab02ae
+"dudley, daniel j","sfpd135,sfpd176",gbi,sfpd,2016-11-10,1497.0,sfpd,nan,nan,32fe13b04a1d4d122109455d69ec1ac61e19b28ce4ec186b0f0807940d09950d
+"sapien, aaron",da48,firearm,da,2016-10-25,nan,nan,"october 25, 2016 shooting of notorious dickerson. shooting ""in policy.""","october 25, 2016 shooting of notorious dickerson. shooting ""in policy.""",6e863d9eeef2451bbc578e4132e89a558d9157e60f6294d43430b77bdc028135
+"mccarthy, donald",da48,firearm,da,2016-10-25,nan,nan,"october 25, 2016 shooting of notorious dickerson. shooting ""in policy.""","october 25, 2016 shooting of notorious dickerson. shooting ""in policy.""",5ac4f7f2e6d4ca36e51fc850e5e33c02481777bfa474164f40aff167e847aefd
+"brown, joshua",da48,firearm,da,2016-10-25,nan,nan,"october 25, 2016 shooting of notorious dickerson. shooting ""in policy.""","october 25, 2016 shooting of notorious dickerson. shooting ""in policy.""",b1918ac801eada1787da155d63bf63baa9eeca7bfba7a11759d9e910b58bde8a
+"sarabia, michael",da48,firearm,da,2016-10-25,nan,nan,"october 25, 2016 shooting of notorious dickerson. shooting ""in policy.""","october 25, 2016 shooting of notorious dickerson. shooting ""in policy.""",d74e2a198c03088f2bb34853da6d5d4f7dd0d1ffcd700e9bcff904c0e1654eb6
+"chew, nathan l","comm10,da10,comm96,sfpd99,dpa54,sfpd292",firearm,"comm,da,sfpd",2016-10-14,,,"october 14, 2016 shooting of nicolas mcwherter. sfpd ois #2016-0003. shooting ""in policy.""",,b4c471320caa1e43413872b6811d3020bef5ccbd824450e2e6d86975e12522a1
+"dominguez, paul m","comm10,da10,comm96,sfpd99,dpa54,sfpd292",firearm,"comm,da,sfpd",2016-10-14,2212.0,sfpd,"october 14, 2016 shooting of nicolas mcwherter. sfpd ois #2016-0003. shooting ""in policy.""","october 14, 2016 shooting of nicolas mcwherter. sfpd ois #2016-0003. shooting ""in policy.""",3badb954520731c87d8d1d8481218b33a468d7977879f42a72d11d3421e8261f
+"mullins, kerry",sfpd85,gbi,sfpd,2016-09-05,2174.0,sfpd,nan,nan,1197b550c610120144e994393a177a8f38aec7fd31bc8eb348102d249b946934
+"harris, steve",da1,dishonesty,da,2016-07-14,7058.0,dai,nan,nan,34322455d56e395e8befe92c648372c77eaaf77db441f102fb59d33f2701d09b
+"neary, sean c",sfpd217,gbi,sfpd,2016-07-12,,,nan,,de8f240e654bc1eb64fbaf0a2213430c36ffe92b85940702aed43c4758290dff
+"bugarin, justin-paul de la cruz.",sfpd221,gbi,sfpd,2016-07-06,1728.0,sfpd,nan,nan,6bec048d5143bf660e6a05f024e3e9ef6fd7ebbd78e703170fd444d8935cf906
+"griffin, patrick t",sfpd221,gbi,sfpd,2016-07-06,,,nan,,f0b098f7e8320d2a596b5479347a38f807d9c642c3bae67ac30fdb8572887d47
+"hui, victor",sfpd221,gbi,sfpd,2016-07-06,1370.0,sfpd,nan,nan,7597618f2ef78f1b57e70e04ee0f10ff8fbb80a7d9e553c37bfeffc62cf12929
+"lalor, martin",sfpd221,gbi,sfpd,2016-07-06,,,nan,,1af83f7fcca33a2f382e87d430b83121dd33f71dbabd3c40e7784b122b3b496c
+"laval, daniel r",sfpd221,gbi,sfpd,2016-07-06,4016.0,sfpd,nan,nan,50f48a377e0a18c6071a615df66a2690b520931bb1932fd7a08e62b6b1c65c85
+"moriyama, gary j",sfpd221,gbi,sfpd,2016-07-06,,,nan,,bea70fe864b03cb57275bc645c73237b4a8ab105afafcb9905d3c9162b3117c1
+"saw, terence",sfpd221,gbi,sfpd,2016-07-06,,,nan,,985e9aec5d2e42199328a9125be80d31c6899d418cc40f292677d5054d310ed2
+"schutz, derek r",sfpd221,gbi,sfpd,2016-07-06,999.0,sfpd,nan,nan,c6753e8898850ba7ec825df2bcce0d45c67fea25ceabaef433ccb3234923fb39
+"shablinskiy, yaroslav v.",sfpd221,gbi,sfpd,2016-07-06,2262.0,sfpd,nan,nan,7421dd60100f642337ee6735a51f52ce37408122d2a513b28ad8f84a515aee8c
+"suslow, nicholas a",sfpd221,gbi,sfpd,2016-07-06,886.0,sfpd,nan,nan,73c70f7a3b1b80a196770f3d1452949889291a80b4260a3df8f7a9efdbf83aa0
+"villalobos, hernan ruiz",sfpd221,gbi,sfpd,2016-07-06,2480.0,sfpd,nan,nan,81bc2e9afdf3d8ae937f92715d4f06983736a27aecde857ed5125e97760cb78d
+"wang, eric y.",sfpd221,gbi,sfpd,2016-07-06,4095.0,sfpd,nan,nan,8f33aaef1037716c8591dc2ea7d8561016e478cb9115ca66f242e991a6fdc60d
+"cotter, christopher j",sfpd239,gbi,sfpd,2016-06-24,,,nan,,c82708de692ef24964c7b12f3348d978d608f06880b253d901921b1852bdd7ec
+"burrows, reese",comm129,sexual assault,comm,2016-05-28,,,nan,,b077de3751e5d43ac55c02e8ca049c3084dbb543531d4c5b37a4729427557465
+"erb, justin c","sfpd27,comm4,dpa29,da12,dpa30,comm94,comm95,comm109",firearm,"sfpd,comm,dpa,da",2016-05-09,686.0,sfpd,"may 19, 2016 shooting of jessica williams. sfpd ois #16-002. dpa case number 0252-16. officer was suspended for 40 days.","may 19, 2016 shooting of jessica williams. sfpd ois #16-002. dpa case number 0252-16. officer was suspended for 40 days.",48582ef251a6378c665bc03054b2042cf705ac7956f521494c253f4859856062
+"eastlund, eric g.","sfpd27,comm4,dpa29,da12,dpa30,comm94,comm95,comm109",firearm,"sfpd,comm,dpa,da",2016-05-09,,,"may 19, 2016 shooting of jessica williams. sfpd ois #16-002. dpa case number 0252-16. officer was suspended for 40 days.",,b6a0e59632c6a2a9b30988b361d8db2eeef0b3e338492574f9bdf0b1661b93ea
+"torres, 14455",chp1,firearm,chp,2016-04-12,nan,chp,nan,nan,988da67adfbd48a09632855f03fe68cce1792fdab37184cafb829eeef621b8aa
+"mellone, michael conrad","dpa4,dpa7,dpa17,sfpd64,da47",firearm,"dpa,sfpd,da",2016-04-07,4249.0,sfpd,"april 7, 2016 shooting of luis gongora patt. sfpd ois #16-001. dpa case number 0164-16. shooting ""in policy.""","april 7, 2016 shooting of luis gongora patt. sfpd ois #16-001. dpa case number 0164-16. shooting ""in policy.""",e1d7b61d8c16c88b60ba8bb07afa70881a24249fcbe2d3271b6af2ff1128baa2
+"steger, nathaniel b","dpa4,dpa7,dpa17,sfpd64,da47",firearm,"dpa,sfpd,da",2016-04-07,2252.0,sfpd,"april 7, 2016 shooting of luis gongora patt. sfpd ois #16-001. dpa case number 0164-16. shooting ""in policy.""","april 7, 2016 shooting of luis gongora patt. sfpd ois #16-001. dpa case number 0164-16. shooting ""in policy.""",e1609fa3fbcebaa40a0718ff54e1504dea6796f5bdd2a8ca7fd0a230fb601728
+"gallagher, jason j",sfpd87,gbi,sfpd,2016-03-04,,,nan,,c0234ab0ec0b19a1658b9d17b48ecb156fc44098d2443c5e88503cc03acf335f
+"liang, derrick",sfpd87,gbi,sfpd,2016-03-04,,,nan,,d8144fcf8168adc3c2ac5eb2c507dbb69e1f71cc4a464e32c0e3db784094e54c
+"simpson, christopher michael",sfpd87,gbi,sfpd,2016-03-04,2137.0,sfpd,nan,nan,49248099789a68cfa542fc65c28529af28aef895495471ddd6f6d704fdc84f41
+"fergus, john c","dpa11,sfpd34,sfpd150",gbi,"dpa,sfpd",2016-02-29,,,nan,,b5def9243e66f7e26bfe3fab6453d08b5306d353cabe43edc5d831c3b8c89f7b
+"marino, mario a","dpa11,sfpd34,sfpd150",gbi,"dpa,sfpd",2016-02-29,2079.0,sfpd,nan,nan,1a73f0bd1afe644d0a29b759bebfdb7c0832e4906f839d18da31de1c03353a19
+"gallagher, jason j",sfpd89,gbi,sfpd,2016-02-07,,,nan,,c0234ab0ec0b19a1658b9d17b48ecb156fc44098d2443c5e88503cc03acf335f
+"liang, derrick",sfpd89,gbi,sfpd,2016-02-07,,,nan,,d8144fcf8168adc3c2ac5eb2c507dbb69e1f71cc4a464e32c0e3db784094e54c
+"kempinski, lawrence",comm119,prejudice or discrimination,comm,2016-02-01,nan,sfpd,nan,nan,e15b260adae5e9db2a97cf3035a2a8e1f7903863cf5275022f342168ef179806
+"dazhan, carlos",bart1,firearm,bart,2015-12-25,nan,bart,"december 25, 2015 shooting of charles goetting. internal affairs investigation case #ia2015-135.","december 25, 2015 shooting of charles goetting. internal affairs investigation case #ia2015-135.",e844cc5f630583e4147a426e51128af972535a9cfe06d998bae407cea55254f4
+"seto, winson a","sfpd4,dpa31,sfpd70,da46,dpa75",firearm,"sfpd,dpa,da",2015-12-02,,,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",,307a0d20604e905d647ab1096b460f42c3d3609c282fd481016731a48a71bff4
+"cuevas, nicholas joseph lee","sfpd4,dpa31,sfpd70,da46,dpa75",firearm,"sfpd,dpa,da",2015-12-02,2295.0,sfpd,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""","december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",be607ca58d6b96668204904c4053a5e3f2ff0198cdef1a6717eeecdb45233d48
+"santos, antonio f","sfpd4,dpa31,sfpd70,da46,dpa75",firearm,"sfpd,dpa,da",2015-12-02,2.0,sfpd,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""","december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",9b3fef5293ee3259573ad66efa996a30b2f91e19aaefd10db759181adc0d40da
+"august, charles d","sfpd4,dpa31,sfpd70,da46,dpa75",firearm,"sfpd,dpa,da",2015-12-02,1119.0,sfpd,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""","december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",c58e50467c802f67db663dc0969ce87f279705a1e50c4d6f5fa26cdf11652c96
+"phillips, scott r","sfpd4,dpa31,sfpd70,da46,dpa75",firearm,"sfpd,dpa,da",2015-12-02,,,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",,e86af3d8f07cfa55a0d21181850d42af181d50e9d18c8fc149068ebf3d927f96
+"navarro, shaun a","sfpd4,dpa31,sfpd70,da46,dpa75",firearm,"sfpd,dpa,da",2015-12-02,,,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",,b17dadd34f8fc586f44a2ac5e383b9d48b31c1df33a8c2bdcc8226f355805377
+"ortiz, jessie a","sfpd4,dpa31,sfpd70,da46,dpa75",firearm,"sfpd,dpa,da",2015-12-02,1131.0,sfpd,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""","december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",560413afef2730c17acac790993c382d806df5f640545cc32ecb00ed4541173a
+"traw, jennifer j","sfpd4,dpa31,sfpd70,da46,dpa75",firearm,"sfpd,dpa,da",2015-12-02,,,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",,9572cf6d38e69fcc5386362831f5926f3a185f83803f5ba493f193ea834b01b2
+"aloise, jeffrey t","comm50,da45,comm96,sfpd296",firearm,"comm,da,sfpd",2015-11-11,,,"november 11, 2015, shooting of javier lopez gracia. sfpd ois #15-009. shooting ""in policy.""",,f2255073dfb6d4c81ca27b91c5e4956669b68678624054172a8a4f114d179871
+"garza, andres r.","comm50,da45,comm96,sfpd296",firearm,"comm,da,sfpd",2015-11-11,4253.0,sfpd,"november 11, 2015, shooting of javier lopez gracia. sfpd ois #15-009. shooting ""in policy.""","november 11, 2015, shooting of javier lopez gracia. sfpd ois #15-009. shooting ""in policy.""",aca39c846367c0c1a73c6751c2c569b3ef2846831141bc713605a5c1ff391058
+"camilosa, jeffrey araullo","comm50,da45,comm96,sfpd296",firearm,"comm,da,sfpd",2015-11-11,,,"november 11, 2015, shooting of javier lopez gracia. sfpd ois #15-009. shooting ""in policy.""",,df8ba92b96337f4641b80bbcbd43e9f00cd76ed1b5a0646d1e46d814380ea679
+"navarro, shaun a",sfpd240,gbi,sfpd,2015-11-09,,,nan,,b17dadd34f8fc586f44a2ac5e383b9d48b31c1df33a8c2bdcc8226f355805377
+"seto, winson a",sfpd240,gbi,sfpd,2015-11-09,,,nan,,307a0d20604e905d647ab1096b460f42c3d3609c282fd481016731a48a71bff4
+"gallagher, jason j",sfpd88,gbi,sfpd,2015-10-25,,,nan,,c0234ab0ec0b19a1658b9d17b48ecb156fc44098d2443c5e88503cc03acf335f
+"liang, derrick",sfpd88,gbi,sfpd,2015-10-25,,,nan,,d8144fcf8168adc3c2ac5eb2c507dbb69e1f71cc4a464e32c0e3db784094e54c
+"hart, damon m","sfpd15,da44,comm111",firearm,"sfpd,da",2015-10-24,1271.0,sfpd,"october 24, 2015 shooting of randal maykopet. sfpd ois #15-008. shooting ""in policy.""","october 24, 2015 shooting of randal maykopet. sfpd ois #15-008. shooting ""in policy.""",d909cfa24c9a3caac0f933bae0709f560e30edd796900cfe3a3bfbf90d8237ab
+"zografos, dino","sfpd15,da44,comm111",firearm,"sfpd,da",2015-10-24,nan,sfpd,"october 24, 2015 shooting of randal maykopet. sfpd ois #15-008. shooting ""in policy.""","october 24, 2015 shooting of randal maykopet. sfpd ois #15-008. shooting ""in policy.""",3ed90fd9acc5f01d829bfd93f87ed93c12a8edc3beb1eb697b53bdc40e50df7f
+"lu, frank",sheriff2,gbi,sheriff,2015-10-23,2113.0,sfsd,nan,nan,a56409a9e2b37a364e72c8fa443dc89da9138fdcfbeceddadc46e9e87dd47588
+"mccloskey, joseph","da9,sfpd26,comm112,dpa89",firearm,"da,sfpd,dpa",2015-10-15,2151.0,sfpd,"october 15, 2015 shooting of herbert benitez. sfpd ois #15-007. shooting ""in policy.""","october 15, 2015 shooting of herbert benitez. sfpd ois #15-007. shooting ""in policy.""",f4bc9c1a590b283384689f5c532b5ef53e546a72466e7486ddaa8d2d651c06eb
+"koniaris, michael p","da9,sfpd26,comm112,dpa89",firearm,"da,sfpd,dpa",2015-10-15,1919.0,sfpd,"october 15, 2015 shooting of herbert benitez. sfpd ois #15-007. shooting ""in policy.""","october 15, 2015 shooting of herbert benitez. sfpd ois #15-007. shooting ""in policy.""",80fc1f42e9bee434d8a72108c0a24f4dda3a1a6e147e9fbcfad108f649cbe97e
+"buckley, nicholas c",sfpd121,gbi,sfpd,2015-09-20,,,nan,,bfe1b28c65f8f61d0523b7cb6bc7d60e5bff914357e1fdedd8da18d66bbeae94
+"friedman, matthew s",sfpd152,gbi,sfpd,2015-09-08,,,nan,,ab1c03a6bcad0d93fb037db6d8dd329603c15d42a34ddf7c2e533db3450418f6
+"lai, jason",comm122,prejudice or discrimination,comm,2015-09-02,nan,sfpd,nan,nan,5906a9cce0e36012aba63bf5db021bd86b4c680e00724fe58e436a7147f615ae
+"galande, christina c",sfpd139,gbi,sfpd,2015-07-30,,,nan,,6404afc97568eae6264f17bd219f51c89760e355af36f54e04da39b2f02a7b08
+"garon, jamie lee",sfpd139,gbi,sfpd,2015-07-30,1684.0,sfpd,nan,nan,1705996df802e04a2127630a73ef5fcac6b8db8d5aa8dd2e4b67531cf26dbcbc
+"gilliam, nicole toyoko",sfpd139,gbi,sfpd,2015-07-30,1075.0,sfpd,nan,nan,5450e8b4fc39e11e154dcf165c5ddb375bb538f8bec5618b0b5566454490b186
+"kilgariff, martin j.",sfpd139,gbi,sfpd,2015-07-30,1459.0,sfpd,nan,nan,44ed2ea3ffa3e89ad87155bf5c6d933a840d8e01949c64f4febce4d66ebd54c9
+"loftus, laurie c",sfpd139,gbi,sfpd,2015-07-30,796.0,sfpd,nan,nan,232f8d2670270e2ab8eaf24ad1010f9cf5de68ff29727154cd25ac8e39756b03
+"ng, kimberly l.",sfpd139,gbi,sfpd,2015-07-30,1817.0,sfpd,nan,nan,4f5bf7f96442d286e2f24dc3f22b702ca7e3098a149f144838f4de5207215991
+"o'connor, bridget k.",sfpd139,gbi,sfpd,2015-07-30,434.0,sfpd,nan,nan,dd3787557bf22ea51fc9f9d2aae03927504d48bc73e8208bb094edfd41fded03
+"patino, colin p",sfpd139,gbi,sfpd,2015-07-30,1310.0,sfpd,nan,nan,9d39d06265b9d6bcde539a8ef3eb6647dba2dca8fe62b35071639961bf248be3
+"wood, barry l","comm79,sfpd311",firearm,"comm,sfpd",2015-07-26,2219.0,sfpd,"july 26, 2015 shooting of unknown victim. sfpd ois #2015-0005. shooting ""in policy.""","july 26, 2015 shooting of unknown victim. sfpd ois #2015-0005. shooting ""in policy.""",5a41d19af770e05deed76cb26ed312e5dd38e3a73c84e86c9710b3d8e16df15f
+"aloise, jeffrey t",sfpd287,gbi,sfpd,2015-06-19,,,nan,,f2255073dfb6d4c81ca27b91c5e4956669b68678624054172a8a4f114d179871
+"jones, richard j",sfpd287,gbi,sfpd,2015-06-19,852.0,sfpd,nan,nan,44ebeb2af7e40a5da48b1812c22862211e149737de7fa493247908a897935e9c
+"pascua, roselo p",sfpd287,gbi,sfpd,2015-06-19,4014.0,sfpd,nan,nan,e8d43a95afefc523764359a1f6c95dc571dc27ae5dd5cb3074a2ba77ca487c19
+"guin jr, elbert l",sfpd309,dishonesty,sfpd,2015-05-22,,,nan,,d2e840f349cf96cc85ea41f25061804ffde92ea51118210c37e7a3ba253a9508
+"andreotti, richard william",sfpd237,gbi,sfpd,2015-05-19,104.0,sfpd,nan,nan,48bd81a2b8eba3d2cde414fb8e4c2763a48ca2cb3ddd94afbf70658da2550149
+"gallagher, jason j",sfpd90,gbi,sfpd,2015-04-19,,,nan,,c0234ab0ec0b19a1658b9d17b48ecb156fc44098d2443c5e88503cc03acf335f
+"lucchetti, jonathon r",da8,gbi,da,2015-04-06,1655.0,sfpd,nan,nan,afc842f4bb59583c346335ecdbc72f39b54030eaaca24eaf7b4b31eb007682da
+"maguire, thomas j","sfpd30,da43",firearm,"sfpd,da",2015-03-17,1158.0,sfpd,"march 17, 2015 shooting of alice brown. sfpd ois #15-004. in policy (use of firearm); not in policy (equipment)","march 17, 2015 shooting of alice brown. sfpd ois #15-004. in policy (use of firearm); not in policy (equipment)",7435c008714e30a5808d6d27344008ab92cb939054a4f8e2a3d955f91b815c1d
+"tursi, michael e","sfpd30,da43",firearm,"sfpd,da",2015-03-17,,,"march 17, 2015 shooting of alice brown. sfpd ois #15-004. in policy (use of firearm); not in policy (equipment)",,20ffe186163a0d562e823e090deb2a302721c54683336d758d629ddc52b0fdea
+"casey, daniel robert",sfpd241,gbi,sfpd,2015-03-13,,,nan,,365aa27c69666c24cdd00ecc3d6c17479ca904417e76bff6cb1b7997f01f3251
+"reboli, eric f","dpa3,sfpd9,sfpd21,da42,comm99",firearm,"dpa,sfpd,da",2015-02-26,,,"february 26, 2015 shooting of amilcar perez-lopez. sfpd ois #15-003. dpa case number 0134-15. shooting ""in policy.""",,b632a18b88ecda7463607a7cd38c6bce1e44cac67dfbcc837d7f90fd1011e386
+"tiffe, craig m","dpa3,sfpd9,sfpd21,da42,comm99",firearm,"dpa,sfpd,da",2015-02-26,,,"february 26, 2015 shooting of amilcar perez-lopez. sfpd ois #15-003. dpa case number 0134-15. shooting ""in policy.""",,06709e6b780c4737be32ba9fa9b32f01f7db0bbc6e2b247f65e66d8b543c8bfa
+"casey, daniel robert",dpa26,gbi,dpa,2015-02-07,,,nan,,365aa27c69666c24cdd00ecc3d6c17479ca904417e76bff6cb1b7997f01f3251
+"nguyen, michael l",dpa26,gbi,dpa,2015-02-07,1799.0,sfpd,nan,nan,6361b1d9e001b068a6ee264ec7e0aac1c5a89dabe0fe433622dbff9ca468bbba
+"williams, brendan christopher",dpa26,gbi,dpa,2015-02-07,1695.0,sfpd,nan,nan,f79541f39a7e930069942229ac97fe1a9e58453f4f0182fa07c527127d2779da
+"ryan, shaughn p",dpa26,gbi,dpa,2015-02-07,,,nan,,78b355f05caa91333be0d39173691a4b60f51e338342cf3c0842efed8b42f6ca
+"cabillo, joshua nathan",sfpd133,gbi,sfpd,2015-02-02,,,nan,,5fbe16f42590ecba55e38942f6a7c6f8df0a41dfcf265b77a854d47ece890614
+"buckley, nicholas matthew",sfpd133,gbi,sfpd,2015-02-02,,,nan,,d72feecad819a2ebb958e6eef256d55c99f05021a51d226193838516bc7dc1f3
+"reyes, joseph",comm120,prejudice or discrimination,dpa,2015-02-01,,,nan,,1a632804d48c0e0d8fc2dab8e4a78a4d7c5b248f9ae8d15472bade9c67bbc4fd
+"schwab, noel",sfpd148,prejudice or discrimination,sfpd,2015-01-20,,,nan,,a8374efd0d7074c8d903ff8ea624f7bd9e3cbd2065579fc4a944cf1c43d01920
+"serujo, michael","sfpd63,comm49,da40",firearm,"sfpd,comm,da",2015-01-04,nan,sfpd,"january 4, 2015 shooting of matthew hoffman. sfpd ois #15-002. shooting ""in policy.""","january 4, 2015 shooting of matthew hoffman. sfpd ois #15-002. shooting ""in policy.""",2468dc09ed7adbb1a0671e149d2fb2da2a076273c7df30b6f5b6035ea17f1495
+"pena, nicolas a","sfpd63,comm49,da40",firearm,"sfpd,comm,da",2015-01-04,2361.0,sfpd,"january 4, 2015 shooting of matthew hoffman. sfpd ois #15-002. shooting ""in policy.""","january 4, 2015 shooting of matthew hoffman. sfpd ois #15-002. shooting ""in policy.""",83ccb0a79c5fc823fe6ad93f64efb7979fedbfdc8c5660bcbd74b24b813ff24d
+"padilla, sean e","sfpd46,da54,comm98",firearm,"sfpd,da,comm",2015-01-04,4177.0,sfpd,"january 4, 2015 shooting of demond rogers/rodgers. sfpd ois #15-001. shooting ""not in policy.""","january 4, 2015 shooting of demond rogers/rodgers. sfpd ois #15-001. shooting ""not in policy.""",f924eab33c08e9cad4c648dd1db731ef433ed2ca2ddffc1368dbb614f4010ea1
+"buckley, nicholas matthew","dpa78,dpa20,dpa18",gbi,dpa,2014-11-11,,,nan,,d72feecad819a2ebb958e6eef256d55c99f05021a51d226193838516bc7dc1f3
+"johnson, david m","da6,comm1,sfpd29,comm108",firearm,"da,sfpd,comm",2014-11-06,,,"november 6, 2014 shooting of jason seymour. sfpd ois #14-007. shooting ""in policy.""",,1b779a5e8e994cda3ef827d0ca74d845d470a9df727eaa3de639b9601ab6b607
+"solares, erick a","da6,comm1,sfpd29,comm108",firearm,"da,sfpd,comm",2014-11-06,2011.0,sfpd,"november 6, 2014 shooting of jason seymour. sfpd ois #14-007. shooting ""in policy.""","november 6, 2014 shooting of jason seymour. sfpd ois #14-007. shooting ""in policy.""",6d73f04e6a8a12ef06ad5bf652d4714b5dfd3c0f0dd1f5ea5055a933ba8e692a
+"ochoa, eduard j","da6,comm1,sfpd29,comm108",firearm,"da,sfpd,comm",2014-11-06,,,"november 6, 2014 shooting of jason seymour. sfpd ois #14-007. shooting ""in policy.""",,cd94b27d29a9b8d3c4ede7dde9a55ebbf9026b6a45761f77ee8377e9d03ce68f
+"barreneche, eric d",sfpd218,gbi,sfpd,2014-11-01,1544.0,sfpd,nan,nan,46504a1bc9a069725230da5993dc3ea8e11bbdd2b612c5242667c91f33713cc6
+"chow, celina wing yue",sfpd218,gbi,sfpd,2014-11-01,1038.0,sfpd,nan,nan,c356a573a57acb509abfdf00f1a8d52a1fe1c01761337fa1912d4ee55a85a680
+"gabriel, laurence r",sfpd218,gbi,sfpd,2014-11-01,1751.0,sfpd,nan,nan,0c11b9897ed098ab6e0caac430d3b2d248b562312fcd93ebcec0e90a6a6718b5
+"olcomendy, frank russell",sfpd218,gbi,sfpd,2014-11-01,2191.0,sfpd,nan,nan,fcf11a6c14ab81ff3513d29e0e0511e96c8347d346d31952aabaf82c6e538f9c
+"pena, regiland s",sfpd218,gbi,sfpd,2014-11-01,2076.0,sfpd,nan,nan,e1c601ec1fa238cea1aa6fa7325eb0474c3ebe83b0a431cd5e4885590c75418d
+"schiff, richard henry",sfpd218,gbi,sfpd,2014-11-01,,,nan,,3b780b6d068bfc5ea859aba5a3e736fbf281a960af4de9fad4329093654cb629
+"yu, nelson",sfpd218,gbi,sfpd,2014-11-01,,,nan,,51c0a39de8908c01c890d27000bf0b41996f07ef793e7397a4ed6c414fbcb8d3
+"buckley, nicholas matthew",nan,gbi,dpa,2014-11-01,,,nan,,d72feecad819a2ebb958e6eef256d55c99f05021a51d226193838516bc7dc1f3
+"bautista, anthony san andres",sfpd234,gbi,sfpd,2014-10-21,4279.0,sfpd,nan,nan,56bdbe8ecf1dda2abf52059a565c8fb9f81bc0885109ac67f37a3fe1b9b9d1e0
+"cotter, christopher j",sfpd159,in custody death,sfpd,2014-10-14,,,nan,,c82708de692ef24964c7b12f3348d978d608f06880b253d901921b1852bdd7ec
+"cowhig, aaron m",sfpd159,in custody death,sfpd,2014-10-14,,,nan,,59c3a9b4dd75f359645537d242d932b82d0784e141ed93e968cedb16c78ef6e1
+"george, james willis",sfpd159,in custody death,sfpd,2014-10-14,445.0,sfpd,nan,nan,da5850a5e4392a49d6ea09da482bd6304339c95f7ba15aa6a1616a96e21e54a7
+"jisrawi, malek henry",sfpd159,in custody death,sfpd,2014-10-14,1571.0,sfpd,nan,nan,4677b759d8d6af3a0d2b9e57ceea278c8098f70753e3cd649cf4d4a2160b71db
+"skover, jeffrey",sfpd125,prejudice or discrimination,sfpd,2014-10-14,nan,sfpd,nan,nan,186f9cb565cbb8297d70a47d4a3712afe2142cf621097623c61e3a22abf1668a
+"alvarez, melonee",sfpd247,unlawful search/arrest,sfpd,2014-10-13,,,nan,,230216f345d447f89d70d6a0dd1963949b94f4747142188309bb1da0e8456b3b
+"lentz, alexander nicholas",sfpd213,gbi,sfpd,2014-10-08,,,nan,,501a2c2a9346bc37be237bdbed937b9c2965f957e52cdf64e2d522060de0f0ed
+"scafani, anthony m.","da3,sfpd38,comm97",firearm,"da,sfpd,comm",2014-10-07,2319.0,sfpd,"october 7, 2014 shooting of oshaine evans. sfpd ois #14-006. shooting ""in policy.""","october 7, 2014 shooting of oshaine evans. sfpd ois #14-006. shooting ""in policy.""",4db8482c4891a33549803bba61e1a133486e1c3d0d7f51bca26d361400b58130
+"reeder, brenton thomas","da3,sfpd38,comm97",firearm,"da,sfpd,comm",2014-10-07,4247.0,sfpd,"october 7, 2014 shooting of oshaine evans. sfpd ois #14-006. shooting ""in policy.""","october 7, 2014 shooting of oshaine evans. sfpd ois #14-006. shooting ""in policy.""",4b46df0a6cc49770f62fcc5177414e55b2c49e1d4497ba5a38a764e013529079
+"nocetti, darren j","da3,sfpd38,comm97",firearm,"da,sfpd,comm",2014-10-07,394.0,sfpd,"october 7, 2014 shooting of oshaine evans. sfpd ois #14-006. shooting ""in policy.""","october 7, 2014 shooting of oshaine evans. sfpd ois #14-006. shooting ""in policy.""",4905369449ddd8d42a83d101606932e6437fe24a19ad6eb269d78c8f6131ed74
+"goff, david a","da3,sfpd38,comm97",firearm,"da,sfpd,comm",2014-10-07,,,"october 7, 2014 shooting of oshaine evans. sfpd ois #14-006. shooting ""in policy.""",,8139ffa5ef89e0f5c401aefa79067adb70fcd2de062c22d4712aec72d4ee667a
+"labson, rodrigo f",sfpd216,gbi,sfpd,2014-09-30,1955.0,sfpd,nan,nan,d422d5df0de385da180ab5c6e563bbf3512205f6508602487a769c4c1b60f9f3
+"saw, terence",sfpd216,gbi,sfpd,2014-09-30,,,nan,,985e9aec5d2e42199328a9125be80d31c6899d418cc40f292677d5054d310ed2
+"alvarenga jr, omar a","sfpd31,da2,comm107",firearm,"sfpd,da,comm",2014-09-25,1630.0,sfpd,"september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""","september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""",0fae7f2ae89c4672ff62c229bb2c9f9d96d05dca4c25580582c4c18b035f51e4
+"cotter, christopher j","sfpd31,da2,comm107",firearm,"sfpd,da,comm",2014-09-25,,,"september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""",,c82708de692ef24964c7b12f3348d978d608f06880b253d901921b1852bdd7ec
+"johnson, james p","sfpd31,da2,comm107",firearm,"sfpd,da,comm",2014-09-25,2430.0,sfpd,"september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""","september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""",8c322840c1d95477436ebf5ac3705d562ad2e5db9258bcbf7a59731fddfb4ba1
+"macaulay, kurt t","sfpd31,da2,comm107",firearm,"sfpd,da,comm",2014-09-25,2440.0,sfpd,"september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""","september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""",47c4d004a60193823da5ea25ba5a09b3000674f388aa20b76ad7d581e8d30a1e
+"wong, gordon j","sfpd31,da2,comm107",firearm,"sfpd,da,comm",2014-09-25,1478.0,sfpd,"september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""","september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""",ed6f5998490d3467997a0d67027168834be083296d783fb7f731722f6ba68526
+"mceachern, ryan d","sfpd31,da2,comm107",firearm,"sfpd,da,comm",2014-09-25,1341.0,sfpd,"september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""","september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy.""",8b030f7acee59b60849600277a3bc6bd77ffb3a4239530bc36bea7a76f2f664a
+"guerrero, tomas bernard",sfpd197,gbi,sfpd,2014-08-19,1242.0,sfpd,nan,nan,dbee8a74b2f75b53a6ee4d20dd5bf0a3fab17778ab0d8304a0922fc3a77ccad3
+"luedtke, herman h",sfpd197,gbi,sfpd,2014-08-19,4019.0,sfpd,nan,nan,7d3630b5a50c00e786ee5b3210c1221ca4d70abbbeb998ff04e850fef678d884
+"tiffe, craig m",sfpd235,gbi,sfpd,2014-07-31,,,nan,,06709e6b780c4737be32ba9fa9b32f01f7db0bbc6e2b247f65e66d8b543c8bfa
+"buckley, nicholas c",sfpd122,gbi,sfpd,2014-07-21,,,nan,,bfe1b28c65f8f61d0523b7cb6bc7d60e5bff914357e1fdedd8da18d66bbeae94
+"gallagher, jason j",sfpd91,gbi,sfpd,2014-06-23,,,nan,,c0234ab0ec0b19a1658b9d17b48ecb156fc44098d2443c5e88503cc03acf335f
+"lee, harry k",sfpd49,gbi,sfpd,2014-06-15,4221.0,sfpd,nan,nan,a67e15a6c2de1428ed69c0589281a9d30adb6875343afa1d9fd939227df8705d
+"cheng, gary",sfpd154,gbi,sfpd,2014-05-29,2311.0,sfpd,nan,nan,4558ef9376ba514ee1ef4ac27e7bfa218d96cd4244d8c6857f1e94af682eafb1
+"jones, darius t",sfpd233,gbi,sfpd,2014-05-08,,,nan,,aeac15daf0570a4ddc12b23aba68a3c668dcd4f5b81b79aee05c27245d04dfa6
+"mcwilliams, thomas c",sfpd233,gbi,sfpd,2014-05-08,1227.0,sfpd,nan,nan,1c9e3f013813cc70c0968e4e3149ac371f6ae67a4d5efa1492494455ea66d5d6
+"ortega, matthew b.",dpa72,gbi,dpa,2014-04-06,1979.0,sfpd,nan,nan,600d7f04511379214de7c41e3e32e8fad78908bd6b69c571137261bc2bf7a120
+"godfrey, mary",sfpd98,firearm,sfpd,2014-03-29,,,"march 29, 2014 shooting. sfpd oid #14-0004. shooting ""not in policy.""",,da9d8a4bdada83943039e22fc8e74239f0d4282d5dc43894cc87fc57fe910a3c
+"jones, darius t",sfpd229,gbi,sfpd,2014-03-26,,,nan,,aeac15daf0570a4ddc12b23aba68a3c668dcd4f5b81b79aee05c27245d04dfa6
+"schiff, richard henry","sfpd2,sfpd25,dpa2,dpa6,comm9,da39",firearm,"dpa,sfpd,comm,da",2014-03-21,,,"march 21, 2014 shooting of alex nieto. sfpd ois #14-004. dpa case number 0179-14. shooting ""in policy.""",,3b780b6d068bfc5ea859aba5a3e736fbf281a960af4de9fad4329093654cb629
+"morse, roger c","sfpd2,sfpd25,dpa2,dpa6,comm9,da39",firearm,"dpa,sfpd,comm,da",2014-03-21,1923.0,sfpd,"march 21, 2014 shooting of alex nieto. sfpd ois #14-004. dpa case number 0179-14. shooting ""in policy.""","march 21, 2014 shooting of alex nieto. sfpd ois #14-004. dpa case number 0179-14. shooting ""in policy.""",3e3c3695159732350a6cf8709063439644ff2bb199cfc64b4ef6705ce79e491d
+"sawyer, jason c","sfpd2,sfpd25,dpa2,dpa6,comm9,da39",firearm,"dpa,sfpd,comm,da",2014-03-21,,,"march 21, 2014 shooting of alex nieto. sfpd ois #14-004. dpa case number 0179-14. shooting ""in policy.""",,39c8068affdf3a259470446e1ca5bc283d546fb9cf278c341e56d173a98d3c4b
+"chew, nathan l","sfpd2,sfpd25,dpa2,dpa6,comm9,da39",firearm,"dpa,sfpd,comm,da",2014-03-21,,,"march 21, 2014 shooting of alex nieto. sfpd ois #14-004. dpa case number 0179-14. shooting ""in policy.""",,b4c471320caa1e43413872b6811d3020bef5ccbd824450e2e6d86975e12522a1
+"liu, curtis",comm121,prejudice or discrimination,comm,2014-03-11,nan,sfpd,nan,nan,a43eaace04bbcf3da48e102cfea47433cdd62ca6bb7879e914c52a42f544c831
+"barbosa, perfecto john","comm7,comm13,comm80,sfpd179",firearm,comm,2014-03-08,4241.0,sfpd,"march 8, 2014 shooting of unknown victim. sfpd ois #2014-003. shooting ""in policy.""","march 8, 2014 shooting of unknown victim. sfpd ois #2014-003. shooting ""in policy.""",8f6c19f81c54f11a9aae7095ea9020ecc955275889b0988fb6d079aa4ab77072
+"cunningham, blake w.",dpa24,gbi,dpa,2014-03-04,4264.0,sfpd,nan,nan,b47e77484f45af122445ece2bbf869c4d53696d8df55a5f1d819d65a1e064656
+"kelly, brian",dpa24,gbi,dpa,2014-03-04,1019.0,sfpd,nan,nan,35aa1a3435c58af10b2afeadff22ef4dc7892b56dd3154d9e9e0be2d5862249c
+"camilosa, jeffrey araullo",dpa24,gbi,dpa,2014-03-04,,,nan,,df8ba92b96337f4641b80bbcbd43e9f00cd76ed1b5a0646d1e46d814380ea679
+"prieto, luis e",dpa24,gbi,dpa,2014-03-04,2458.0,sfpd,nan,nan,4edd4ef0c3a550c93169759e624380375f04de45bdbeaa777a1d2ce2c5f68f81
+"thompson, brandon l","sfpd42,da38,comm93,comm110",firearm,"sfpd,da",2014-02-04,153.0,sfpd,"february 4, 2014 shooting of ramone wellington. sfpd ois #14-002. shooting ""in policy.""","february 4, 2014 shooting of ramone wellington. sfpd ois #14-002. shooting ""in policy.""",6deb40de78e7ee682aada6b119cf31dcef8789dd4c88839847e675b105a20d3f
+"robinson, bernadette","sfpd56,comm67",firearm,"sfpd,comm",2014-01-12,1733.0,sfpd,"january 12, 2014 shooting of unknown victim. sfpd ois #14-001. shooting ""in policy.""","january 12, 2014 shooting of unknown victim. sfpd ois #14-001. shooting ""in policy.""",71c2993a075b05359f57059664379dba334df4d417bc327eb47f533aaace15e4
+"wong, wayne","sfpd52,comm89,dpa77,dpa83",firearm,"sfpd,comm,dpa",2013-12-30,2223.0,sfpd,"december 30, 2013 shooting of unknown victim. sfpd ois #13-009. shooting ""in policy.""","december 30, 2013 shooting of unknown victim. sfpd ois #13-009. shooting ""in policy.""",5fbefc3d1002ce719bbd50091c8fb61783b39ffb9b65fabd6c0f3a1d71efb024
+"bartley, tommie f",sfpd215,gbi,sfpd,2013-11-18,532.0,sfpd,nan,nan,0bb4e5ba274834e8cb77bd5a7ad2473dbbcd262c0f9d1d370754a56aaaaadcb5
+"hackard, matthew austin",sfpd215,gbi,sfpd,2013-11-18,27.0,sfpd,nan,nan,2786aede20771d82bbd43121b1bfb887095079b421b0891e8b3ef849f334c3e5
+"lentz, alexander nicholas",sfpd215,gbi,sfpd,2013-11-18,,,nan,,501a2c2a9346bc37be237bdbed937b9c2965f957e52cdf64e2d522060de0f0ed
+"traw, jennifer j",sfpd215,gbi,sfpd,2013-11-18,,,nan,,9572cf6d38e69fcc5386362831f5926f3a185f83803f5ba493f193ea834b01b2
+"polovina, theodore a","dpa28,dpa96",gbi,dpa,2013-11-15,2456.0,sfpd,nan,nan,5ddd4acfe2c581096644602a9ba16477b13453e3e75d4b1153d6950b5b0bc59f
+"skaug, gregory h","dpa28,dpa96",gbi,dpa,2013-11-15,2478.0,sfpd,nan,nan,7553f0dab7063a569e88cb61c59d9fcef0b66e2ea100bfa8129eeca5c392aea4
+"banegas, milen s","dpa28,dpa96",gbi,dpa,2013-11-15,963.0,sfpd,nan,nan,1a36b73b8ccf687034d730e3430f0f1eaf715023e9eb873547f8ac55f0828b21
+"byrne, kevin a","comm6,comm15,sfpd60",firearm,"comm,sfpd",2013-10-27,,,"october 27, 2013 shooting of unknown victim. sfpd ois #13-008. shooting ""in policy.""",,3f1eb3d4a92c296180be5c5e49e471aaf5a3ed778c2f5f8364f4fdbb494caaed
+"moore, gordon k.","comm6,comm15,sfpd60",firearm,"comm,sfpd",2013-10-27,1398.0,sfpd,"october 27, 2013 shooting of unknown victim. sfpd ois #13-008. shooting ""in policy.""","october 27, 2013 shooting of unknown victim. sfpd ois #13-008. shooting ""in policy.""",0864088c79b6b596c5897319bb803b14b750a38df201a548b231b1faeb653e3d
+"schaefer, chris d","comm6,comm15,sfpd60",firearm,"comm,sfpd",2013-10-27,76.0,sfpd,"october 27, 2013 shooting of unknown victim. sfpd ois #13-008. shooting ""in policy.""","october 27, 2013 shooting of unknown victim. sfpd ois #13-008. shooting ""in policy.""",ab6d6cd0c0f0919be9bbc89578bebc4a601d04e24d1efdecb667e468bb36ede6
+"zimiga, jason thomas","comm6,comm15,sfpd60",firearm,"comm,sfpd",2013-10-27,879.0,sfpd,"october 27, 2013 shooting of unknown victim. sfpd ois #13-008. shooting ""in policy.""","october 27, 2013 shooting of unknown victim. sfpd ois #13-008. shooting ""in policy.""",f56a8731ad6cc83158d4d7cf0f589ec0720d06c30d1d3ffe88266a5b3c36d92f
+"ruetti, paul l",dpa27,gbi,dpa,2013-10-26,,,nan,,468d4a9d9d4f0c3487eccb64bc769cd97781d57b7dbf07676a91b21c93cfc658
+"daugherty, ryan d",dpa27,gbi,dpa,2013-10-26,,,nan,,4598c4c4092ecf96bb7ae89aeb1fb649046fa52141ab4a5fb170774ecad5ea4d
+"payne, adrian c",sfpd220,gbi,sfpd,2013-10-15,,,nan,,be8c321af9cfe40f90a50befad0814fac8d07691f592f62d4c30c7b546ba5927
+"ruiz, richard",sfpd83,gbi,sfpd,2013-10-09,nan,sfpd,nan,nan,9221cbf69abad4e092d9d1149646cb1760a37a1a840e8f4c145282d9f8e194b6
+"cummings, jeremy s",sfpd212,gbi,sfpd,2013-08-05,2261.0,sfpd,nan,nan,1f40ab5bbf3afe379c15923e8ff31fa8911cec5226b07b28f526fabfe8210dec
+"doherty, ryan p","sfpd19,comm64,da37",firearm,"sfpd,comm,da",2013-07-20,,,"july 20, 2013 shooting at carlos miranda. sfpd ois #13-007. shooting ""in policy.""",,c7e851ecee56ae260c7730e0cda6e5c74654d4025e9ebcc371ea1888f729de8c
+"salazar, joseph m","dpa59,dpa79",gbi,dpa,2013-06-30,,,nan,,2804bfdfa52f86efd67bfa6816788a68271a08bb332c5db318cef57e2d99c990
+"goff, david a",sfpd214,gbi,sfpd,2013-06-22,,,nan,,8139ffa5ef89e0f5c401aefa79067adb70fcd2de062c22d4712aec72d4ee667a
+"hunt,  richard j",sfpd214,gbi,sfpd,2013-06-22,1970.0,sfpd,nan,nan,b02a43330b7cca81e64f285f6dfffb33909ad009c790fcb68f3b627102543610
+"lopez, matthew",sfpd80,gbi,sfpd,2013-05-11,,,nan,,4a0988e08fe408c5e614b41c4a7f7c2ac0122b92e015d2ba436863b96d6b8aa9
+"smith, courtney",sfpd186,sexual assault,sfpd,2013-05-01,,,nan,,5a1fbc6ff085607b493b31eb7982b10cf03d4f318a42e2f9654e5a1b881416ae
+"cowhig, aaron m","sfpd18,da36,comm90",firearm,"sfpd,da",2013-04-17,,,"april 17, 2013 shooting of dale stuart wilkerson. sfpd ois #13-006. shooting ""in policy.""",,59c3a9b4dd75f359645537d242d932b82d0784e141ed93e968cedb16c78ef6e1
+"seavey, matthew a",sfpd65,gbi,sfpd,2013-04-11,2292.0,sfpd,nan,nan,8377c901b7352e1c56f4c0fada0dfaf623cc60728bf66eb2ab47df647d133a98
+"daugherty, ryan d","sfpd44,comm62,da35",firearm,"sfpd,comm,da",2013-04-13,,,"april 7, 2013 shooting of fredi ulisis martinez. sfpd ois #13-005. shooting ""in policy.""",,4598c4c4092ecf96bb7ae89aeb1fb649046fa52141ab4a5fb170774ecad5ea4d
+"reyes, joseph",sfpd190,gbi,sfpd,2013-03-18,,,nan,,1a632804d48c0e0d8fc2dab8e4a78a4d7c5b248f9ae8d15472bade9c67bbc4fd
+"brown, howard t","da34,comm92",firearm,"da,comm",2013-03-15,1243.0,sfpd,"march 15, 2013 shooting of peter russell. sfpd ois #13-003. shooting ""not in policy.""","march 15, 2013 shooting of peter russell. sfpd ois #13-003. shooting ""not in policy.""",cd21b9901309f1f7be0cae487ec7f5b178ad002059f6a014317bf4f44ce8af34
+"caraway, brendan t",sfpd230,gbi,sfpd,2013-03-12,2258.0,sfpd,nan,nan,9a694c22420a0b66e491fea97c01383bf3f27d9c471ca57ad2e942b57a2f6c15
+"rodarte, hector r",sfpd230,gbi,sfpd,2013-03-12,315.0,sfpd,nan,nan,cb7602412778bccb57cc6bc7250386ad8c51c6f5d39e8c8d30860a25b5092a91
+"zeltser, edward",sfpd252,gbi,sfpd,2013-03-06,2297.0,sfpd,nan,nan,4cc3b5890d1a60c2ceaf100a254a02f491c3d6172406631961fa29bf8104d83d
+"rightmire, kevin j","sfpd41,da33,sfpd84,comm87",firearm,"sfpd,da,comm",2013-03-05,,,"march 5, 2013 shooting of eddie tilman. sfpd ois #13-002. shooting ""in policy.""",,866ee8ab469af08ae4a19d9f7e71b1f3b166edb087ce01b877b088ece1060c6b
+"talusan, edric d","sfpd41,da33,sfpd84,comm87",firearm,"sfpd,da,comm",2013-03-05,,,"march 5, 2013 shooting of eddie tilman. sfpd ois #13-002. shooting ""in policy.""",,ad2baac4a687150e56e2d49e758df582f51cf08b1b18e3162f13232f8712c3ab
+"perdomo, bruce anthony",da32,firearm,da,2013-03-02,nan,daly city pd,"march 2, 2013 shooting of aaron westley sawyer. shooting ""in policy.""","march 2, 2013 shooting of aaron westley sawyer. shooting ""in policy.""",586ac0bb276bb5b0d083db9dda71ea1a1cc47aa7bc79063cb20fae3fb3e6fa5f
+"keeve, damon z",sfpd305,unlawful search/arrest,sfpd,2013-02-22,944.0,sfpd,nan,nan,2b16fc72829633425db0255a3b346833c886ee52f1bcaed1b417002bcfb8a058
+"o'keefe, kohl","sfpd40,da31,comm88",firearm,"sfpd,da,comm",2013-02-14,4291.0,sfpd,"february 14, 2013 shooting at alexander gibbons. sfpd ois #13-001. shooting ""in policy.""","february 14, 2013 shooting at alexander gibbons. sfpd ois #13-001. shooting ""in policy.""",e8c152c105a295b631f42d74535d4c38c46a7fe21fc11bcf0d06d09bbb7ce3ae
+"shavers, michael a",sfpd209,gbi,sfpd,2013-02-10,,,nan,,9d70ed0b2dfc1bc4706b63a8b8c26bc7c8e3901fd303493957418e8a27faf41b
+"benzinger, stephen d",sfpd227,gbi,sfpd,2013-01-26,,,nan,,3fba78c77077191eacef5abff04f4dfe042795937b9251d7a1e84dbf5968f6c7
+"rightmire, kevin j",sfpd319,gbi,sfpd,2012-12-17,,,nan,,866ee8ab469af08ae4a19d9f7e71b1f3b166edb087ce01b877b088ece1060c6b
+"gallagher, jason j",sfpd92,gbi,sfpd,2012-12-07,,,nan,,c0234ab0ec0b19a1658b9d17b48ecb156fc44098d2443c5e88503cc03acf335f
+"peltier, lori",sfpd92,gbi,sfpd,2012-12-07,nan,sfpd,nan,nan,4b06caa1adbe1e5cc6614455d7ed3af65c01ec3455b74237779263fe3e92ca25
+"peregrina, maria j.",sfpd202,gbi,sfpd,2012-11-26,2266.0,sfpd,nan,nan,569c144aaf2c8967d3459904c55d86be2d6fd3554f824ab5d730242bfc3f4c21
+"chaplin, toney d","sfpd14,da29,comm77",firearm,"sfpd,da",2012-09-20,951.0,sfpd,"september 20, 2012 shooting of oliver barcenas. sfpd ois #12-006. shooting ""in policy.""","september 20, 2012 shooting of oliver barcenas. sfpd ois #12-006. shooting ""in policy.""",5f9f8a08e50fe72a1ebc2047b8461178eb9959d163cc3049761e330f6fea83e1
+"gonzalez, el ceg",sheriff1,firearm,sheriff,2012-09-10,1103.0,sfsd,nan,nan,363f3ae3713edfe0861c910c5fad97c78f431b56859720b136af832c7e874d35
+"berrigan, regina","comm76,da30,sfpd182",firearm,"comm,da,sfpd",2012-08-27,nan,sfpd,"august 27, 2012 shooting of larry massey. sfpd ois #12-005. shooting ""in policy.""","august 27, 2012 shooting of larry massey. sfpd ois #12-005. shooting ""in policy.""",1b7ff2693b12537294712fe14cc2183dd3febfe4acf58d9cd6b3880c40098134
+"williams, shante c.","sfpd23,da28",firearm,"sfpd,da",2012-08-04,2336.0,sfpd,"august 4, 2012 shooting of brian cooper, aka melvin cooper. sfpd ois #12-004. shooting ""in policy.""","august 4, 2012 shooting of brian cooper, aka melvin cooper. sfpd ois #12-004. shooting ""in policy.""",b07bef18170282e6fcf3ff289be0d2b7ac16f917a3028762c94a2484400f1959
+"lee, jonathan",sfpd120,firearm,sfpd,nat,2354.0,sfpd,nan,nan,51f55286eaaa79161dd2ae81389a9d6e635b5512f5dcda637b4a10b396b079ea
+"ozol, jonathan t",sfpd120,firearm,sfpd,nat,2358.0,sfpd,nan,nan,78c6bcd0239ec8536e47e9e4f7c1d6d1808a8de341c38fa3ae1f20f61742def4
+"godfrey, mary","comm19,da27,sfpd96",firearm,"comm,da,sfpd",2012-07-18,,,"july 18, 2012 shooting of pralith praloumg. sfpd ois #12-003. shooting ""in policy.""",,da9d8a4bdada83943039e22fc8e74239f0d4282d5dc43894cc87fc57fe910a3c
+"archilla, luis a",sfpd137,sexual assault,sfpd,2012-07-18,722.0,sfpd,"officer luis archilla interviewed an attempted rape/sexual assault victim and later sent ""a number of inappropriate text messages that were not relevant to the case"" (offering to exchange naked photos, asking her to dinner, asking if she wanted to be handcuffed). officer archilla admitted that he acted unprofessional, and stated that he was joking and being playful. the allegation of conduct unbecoming an officer was deemed improper conduct.","officer luis archilla interviewed an attempted rape/sexual assault victim and later sent ""a number of inappropriate text messages that were not relevant to the case"" (offering to exchange naked photos, asking her to dinner, asking if she wanted to be handcuffed). officer archilla admitted that he acted unprofessional, and stated that he was joking and being playful. the allegation of conduct unbecoming an officer was deemed improper conduct.",49e02c6074d2391be0930d981c6815c956edfd6c5d102fe7c89b674a208b839d
+"dejesus, luis p",dpa21,gbi,dpa,2012-07-17,,,nan,,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"abi-chahine, faysal",dpa21,gbi,dpa,2012-07-17,4251.0,sfpd,nan,nan,b9a6845297a79dded2166353af9c45bb48f201c010575e53d543cd231e4c38f1
+"sanders jr, kelvin a",dpa21,gbi,dpa,2012-07-17,4191.0,sfpd,nan,nan,a134e14330ab0570c2f07768968f10550cb68c5c8c2c2f0f04c4a968a503b892
+"silver, daniel b",dpa21,gbi,dpa,2012-07-17,,,nan,,4af6f5fac71c82933fa69a47e95d4785f57e16ae0e69af3b3651f2df82786d50
+"jackson, damon a",dpa21,gbi,dpa,2012-07-17,4093.0,sfpd,nan,nan,a22698768aa3bdb5ac161becf9dac60684c0a294ba938a07ea6bd049e34cb0a6
+"kepler, kyle",da26,firearm,da,2012-07-05,nan,nan,"july 5, 2012 shooting of antonio roberson. shooting ""in policy.""","july 5, 2012 shooting of antonio roberson. shooting ""in policy.""",5b2b13b23ad324b1f651f8348efb50639c78cc46f25dcb1723d52cd18206ce68
+"griffin, patrick t",da25,firearm,da,2012-06-29,,,"june 29, 2012 shoting of roselyndo sicat. shooting ""in policy.""",,f0b098f7e8320d2a596b5479347a38f807d9c642c3bae67ac30fdb8572887d47
+"tursi, michael e",da25,firearm,da,2012-06-29,,,"june 29, 2012 shoting of roselyndo sicat. shooting ""in policy.""",,20ffe186163a0d562e823e090deb2a302721c54683336d758d629ddc52b0fdea
+"celis, michael","sfpd153,comm127",prejudice or discrimination,"sfpd,comm",2012-06-12,,,nan,,82a80eb9135f1ebdcc56628e599a65cce9a658fd68725ca84c37359f9c18663e
+"benzinger, stephen d","comm112a,sfpd188",unlawful search/arrest,"comm,sfpd",2012-06-08,,,nan,,3fba78c77077191eacef5abff04f4dfe042795937b9251d7a1e84dbf5968f6c7
+"smith, benjamin m","sfpd11,sfpd20,comm75,da24",firearm,"sfpd,comm,da",2012-05-13,15.0,sfpd,"may 13, 2012 shooting at derryck king. sfpd ois #12-002. shooting ""in policy.""","may 13, 2012 shooting at derryck king. sfpd ois #12-002. shooting ""in policy.""",bcb88115fb15718dc2ae44de0962bceb18741c28d1f3b2cd86945341ba56e6d8
+"ware, walter c","sfpd11,sfpd20,comm75,da24",firearm,"sfpd,comm,da",2012-05-13,66.0,sfpd,"may 13, 2012 shooting at derryck king. sfpd ois #12-002. shooting ""in policy.""","may 13, 2012 shooting at derryck king. sfpd ois #12-002. shooting ""in policy.""",b1847f904f1d022794f2c6d710ca6eea3b3e74f962479504580de183cdd29f4f
+"hinds, joshua d","sfpd32,da23,comm86",firearm,"sfpd,da,comm",2012-05-09,,,"may 9, 2012 shooting of dennis hughes. sfpd ois #12-001. shooting ""in policy.""",,8e362924b85aa0debc6cc52741e2f819f557c412a5e874368bca631a7eeda5f3
+"liberta, ronald t","sfpd32,da23,comm86",firearm,"sfpd,da,comm",2012-05-09,682.0,sfpd,"may 9, 2012 shooting of dennis hughes. sfpd ois #12-001. shooting ""in policy.""","may 9, 2012 shooting of dennis hughes. sfpd ois #12-001. shooting ""in policy.""",86383afbf0cb7868d0b887725df432d8d696cfcd8b2c9b8ee1732e7d23b23bc7
+"schwab, noel",comm125,prejudice or discrimination,comm,2012-05-06,,,nan,,a8374efd0d7074c8d903ff8ea624f7bd9e3cbd2065579fc4a944cf1c43d01920
+"eastlund, eric g.",sfpd37,gbi,sfpd,2012-04-18,,,nan,,b6a0e59632c6a2a9b30988b361d8db2eeef0b3e338492574f9bdf0b1661b93ea
+"cowhig, aaron m",sfpd37,gbi,sfpd,2012-04-18,,,nan,,59c3a9b4dd75f359645537d242d932b82d0784e141ed93e968cedb16c78ef6e1
+"keesor, john r",sfpd317,gbi,sfpd,2012-04-04,,,nan,,8c479ee64f899c6350e3883e80ac4e1a0af6bae539d0df7785ec55ad45f11290
+"o'connor-nantroup, jessica",sfpd317,gbi,sfpd,2012-04-04,nan,sfpd,nan,nan,90e40beb4325a3193010cf914547b820b45335a0d643f54d2dc1070a1a986b3b
+"farrell, jesse t",sfpd208,gbi,sfpd,2012-01-31,789.0,sfpd,nan,nan,3518668a20266b8f92989df523ab39d1a6d314967e63404179352361f2bad26f
+"embody, ocean r",sfpd208,gbi,sfpd,2012-01-31,1437.0,sfpd,nan,nan,1408f0a99dcd5565aa999bd4fd986476b66aaf2cc2b7eff5b2c82250fc5323dc
+"yu, nelson",sfpd288,dishonesty,sfpd,2012-01-07,,,nan,,51c0a39de8908c01c890d27000bf0b41996f07ef793e7397a4ed6c414fbcb8d3
+"jones, douglas",sheriff7,sexual assault,sheriff,nat,1696.0,sfsd,nan,nan,db69917f726ff44e28d9a445f91dec77febe785f18951bacfa057355554ffee7
+"alcaraz, gabriel","sfpd3,sfpd16,comm73,da22",firearm,"sfpd,comm,da",2011-12-16,,,"december 16, 2011 shooting of larry simonton. sfpd ois #11-008. shooting ""in policy.""",,cdd5fdaed2d043b304ae98bfcc07755c2c64683c285f527ec865b3cea134273d
+"minkel, thomas j","sfpd8,comm2,comm78,da21",firearm,"sfpd,comm,da",2011-12-14,1.0,sfpd,"december 14, 2011 shooting of unknown victim. sfpd ois #11-007. shooting ""in policy.""","december 14, 2011 shooting of unknown victim. sfpd ois #11-007. shooting ""in policy.""",9007c8a7acd0658c55364592442fa5a81af63afba7d9608f835162f25d3923ac
+"robison, michael",sfpd155,prejudice or discrimination,sfpd,2011-11-18,907.0,sfpd,nan,nan,3e53dd43361388f1281dd96f25003a2d063f979894e2c40172d3dc733c35584c
+"hayes, christina y",sfpd71,gbi,sfpd,2011-11-11,,,nan,,287d5a111337e658d09eb5a58fdf603956e752d1292a7fe8c0edc8560ea29cc0
+"nazzal, joshua m.",sfpd71,gbi,sfpd,2011-11-11,2116.0,sfpd,nan,nan,be4d3a410ef984c37de76319562f642ae3b3a6a35f3b53378bc5c53d80611eeb
+"porta, joseph j",sfpd71,gbi,sfpd,2011-11-11,209.0,sfpd,nan,nan,805d054154394d8eb69fe5f241bfb83024f111d28d5ce934ed4e65c2a5b12d1e
+"byrne, derek","comm124,sfpd328",prejudice or discrimination,"comm,sfpd",2011-10-27,nan,sfpd,nan,nan,14c9bb7b71a51bbb28a09c7a1efe9c43ae2442956f9d05deb666549f5322735e
+"daugherty, rain 0","comm126,sfpd315",prejudice or discrimination,"comm,sfpd",2011-10-26,1203.0,sfpd,nan,nan,7bcb9c801b6883010f67e6edec69f28139a019a7dd6e9deef5ecf6e94fc4bc50
+"doherty, sean","sfpd158,comm123",prejudice or discrimination,"sfpd,comm",2011-10-19,1419.0,sfpd,nan,nan,a0677bfc729790310b95d9df9beba6d8dd2d5d86855a8bb8bc7b3c60a3461cea
+"heppler, william j","sfpd7,sfpd10,da20,comm84",firearm,"sfpd,da,comm",2011-10-03,1726.0,sfpd,"october 3, 2011 shooting of unknown victim. sfpd ois #11-006. shooting ""in policy.""","october 3, 2011 shooting of unknown victim. sfpd ois #11-006. shooting ""in policy.""",b30882eb96e5cba8b1f793e29b3e87bb74b09dc483a04757d2d45c2b1eb3035d
+"moran, michael","sfpd6,sfpd28,sfpd36,comm66,da19",firearm,"sfpd,comm,da",2011-09-17,,,"september 17, 2011 shooting of jesus octavio paretes rodriguez. sfpd ois #11-005. shooting ""in policy.""",,371f4ea359c358ded8b2a5073cc9f58dc77a4892115116a88d9a96fdf6a302b3
+"jones, ryan","sfpd6,sfpd28,sfpd36,comm66,da19",firearm,"sfpd,comm,da",2011-09-17,569.0,sfpd,"september 17, 2011 shooting of jesus octavio paretes rodriguez. sfpd ois #11-005. shooting ""in policy.""","september 17, 2011 shooting of jesus octavio paretes rodriguez. sfpd ois #11-005. shooting ""in policy.""",f054a6a13c11770d4440d686b65ab053d6517df484549f016bb38a81c54b131d
+"burrows, reese",comm130,unlawful search/arrest,comm,2011-09-05,,,nan,,b077de3751e5d43ac55c02e8ca049c3084dbb543531d4c5b37a4729427557465
+"ha, viet q",sfpd210,gbi,sfpd,2011-08-04,2280.0,sfpd,nan,nan,b6ce6c5bf4524b0de5fda16275502179af19c9384652a3706f271b1440f65131
+"samson, orit a",sfpd210,gbi,sfpd,2011-08-04,403.0,sfpd,nan,nan,96b682814173dfc931ac759c0b9c5528a672687d9a5e9e58f9783484c80dfdd2
+"shepard, mari e",sfpd210,gbi,sfpd,2011-08-04,1068.0,sfpd,nan,nan,3ec9260262de26ca7ed3364d0341584f6ab44ffd8ff584a5b8aa748dba9a55e4
+"smith, courtney",sfpd210,gbi,sfpd,2011-08-04,,,nan,,5a1fbc6ff085607b493b31eb7982b10cf03d4f318a42e2f9654e5a1b881416ae
+"young, michael s",sfpd210,gbi,sfpd,2011-08-04,1034.0,sfpd,nan,nan,4de6ec3cb67040d7d9e66a860c5e4918411834f5a4e6d9fa52995c24db441bd9
+"bernal, gerald m",sfpd320,gbi,sfpd,2011-07-30,2060.0,sfpd,nan,nan,96b25c0de5c187a1325f31638baf20b316a4b97be339844f815d26b264ccc0a9
+"lewis, candiece l",sfpd320,gbi,sfpd,2011-07-30,1365.0,sfpd,nan,nan,4f1f03d82573ad754a27f059172c720150f26185335b1e0c0a7e0c6bfc6836e3
+"minioza, glen paul",sfpd320,gbi,sfpd,2011-07-30,2410.0,sfpd,nan,nan,21b5af326d35b97509363a59e16c5f150626b9e8b6fc91dc8a5d8e179cadc9cd
+"goff, david a",sfpd189,gbi,sfpd,2011-07-27,,,nan,,8139ffa5ef89e0f5c401aefa79067adb70fcd2de062c22d4712aec72d4ee667a
+"sullivan, matthew p",sfpd189,gbi,sfpd,2011-07-27,2484.0,sfpd,nan,nan,29c7cfb4b0c56f9301c796131784b47b893146bcd20f892fa9e0bea4c1da4c44
+"hastings, richard","da18,sfpd104",firearm,"da,sfpd",2011-07-16,nan,sfpd,"july 16, 2011 shooting of kenneth harding jr. shooting ""in policy.""","july 16, 2011 shooting of kenneth harding jr. shooting ""in policy.""",f3fc40839cce95403d29df695c2330d35ca32a444efb77485eee713d9f8d47d3
+"lopez, matthew","da18,sfpd104",firearm,"da,sfpd",2011-07-16,,,"july 16, 2011 shooting of kenneth harding jr. shooting ""in policy.""",,4a0988e08fe408c5e614b41c4a7f7c2ac0122b92e015d2ba436863b96d6b8aa9
+"crowell, james",da17,firearm,da,2011-07-03,nan,nan,"july 3, 2011 shooting of charles blair hill. shooting ""in policy.""","july 3, 2011 shooting of charles blair hill. shooting ""in policy.""",55b4670e80c9d9b99a210a2b6d6cdc77ba544967c366ddb3e534c72fc10718fe
+"lee, myron",da17,firearm,da,2011-07-03,nan,nan,"july 3, 2011 shooting of charles blair hill. shooting ""in policy.""","july 3, 2011 shooting of charles blair hill. shooting ""in policy.""",0f94563f3704790cf40887338a1c14bf81f99197d0b43b1ca8ef30edb976dff2
+"tursi, michael e","sfpd13,comm27",firearm,"sfpd,comm",2011-06-29,,,"june 29, 2011 shooting of unknown victim. sfpd ois #2011-0003. shooting ""in policy.""",,20ffe186163a0d562e823e090deb2a302721c54683336d758d629ddc52b0fdea
+"griffin, patrick t","sfpd13,comm27",firearm,"sfpd,comm",2011-06-29,,,"june 29, 2011 shooting of unknown victim. sfpd ois #2011-0003. shooting ""in policy.""",,f0b098f7e8320d2a596b5479347a38f807d9c642c3bae67ac30fdb8572887d47
+"ryan, scott f","sfpd1,comm65,da16",firearm,"sfpd,comm,da",2011-06-07,734.0,sfpd,"june 7, 2011 shooting of joshua smith. sfpd ois #11-002. shooting ""in policy.""","june 7, 2011 shooting of joshua smith. sfpd ois #11-002. shooting ""in policy.""",749a8a3bcf34401075036f4cbd19e88c402cce9e6f156ff2bd259cda273cd093
+"reyes, ruben e","sfpd1,comm65,da16",firearm,"sfpd,comm,da",2011-06-07,1954.0,sfpd,"june 7, 2011 shooting of joshua smith. sfpd ois #11-002. shooting ""in policy.""","june 7, 2011 shooting of joshua smith. sfpd ois #11-002. shooting ""in policy.""",e275ac4d1043df476af87fafe879de0f83a523fdc1b04757a4b6241565c23073
+"lieu, albert k","sfpd1,comm65,da16",firearm,"sfpd,comm,da",2011-06-07,1632.0,sfpd,"june 7, 2011 shooting of joshua smith. sfpd ois #11-002. shooting ""in policy.""","june 7, 2011 shooting of joshua smith. sfpd ois #11-002. shooting ""in policy.""",47b356b0010b4a1bd08af449a41288fb3a0af4e912812a5b54930266119166c2
+"lou, samuel",sheriff5,dishonesty,sheriff,2011-05-03,1812.0,sfsd,nan,nan,8f9ef8a5de9885d0eaaa85332bca9795389187722022aefaf4b9ea85dfc09777
+"pedroza, anthony s",sfpd236,gbi,sfpd,2011-04-22,4094.0,sfpd,nan,nan,9af1c1b82228066e207326baa44a88a1915b4b1f2a4af3c7e584c2dca299fd8d
+"bowers, kenyon c",sfpd196,gbi,sfpd,2023-01-30,202.0,sfpd,nan,nan,7fe9810c46157340a0d4bf8c522cbd7d3e0bad015f4071f1463dd6dd696b74fa
+"dennis, sean h",sfpd196,gbi,sfpd,2023-01-30,1015.0,sfpd,nan,nan,70818e64ebec8b1f82ed705f49672fee87a7f6f36af2e87c9600dd9a6a2bba5e
+"klier, edward",da15,firearm,da,2011-01-22,nan,nan,"january 22, 2011 shooting of unknown victim. shooting ""in policy.""","january 22, 2011 shooting of unknown victim. shooting ""in policy.""",83ec093e8026d9130eb2964091b8e1396ceec0e69c2ca590f92e71b316ac35fa
+"saw, terence","comm3,comm11,sfpd57,comm20",firearm,"comm,sfpd",2011-01-04,,,"january 4, 2011 shooting of unknown victim. sfpd ois #2011-0001. shooting ""in policy.""",,985e9aec5d2e42199328a9125be80d31c6899d418cc40f292677d5054d310ed2
+"mallinger, noah d","comm3,comm11,sfpd57,comm20",firearm,"comm,sfpd",2011-01-04,116.0,sfpd,"january 4, 2011 shooting of unknown victim. sfpd ois #2011-0001. shooting ""in policy.""","january 4, 2011 shooting of unknown victim. sfpd ois #2011-0001. shooting ""in policy.""",8a59720b03ad04ea7e73c93b9c3498a91e98639a6e4f685883199dcb40f5411b
+"ortiz, timothy a.","comm21,sfpd184",firearm,"comm,sfpd",2010-12-29,2265.0,sfpd,"december 29, 2010 shooting of unknown victim. sfpd ois #10-015. shooting ""in policy.""","december 29, 2010 shooting of unknown victim. sfpd ois #10-015. shooting ""in policy.""",8d94d74209b3973d73f900a02343a444c96de460885a4a2fb69d6d7711154e9b
+"wilson, austin leigh","comm21,sfpd184",firearm,"comm,sfpd",2010-12-29,20.0,sfpd,"december 29, 2010 shooting of unknown victim. sfpd ois #10-015. shooting ""in policy.""","december 29, 2010 shooting of unknown victim. sfpd ois #10-015. shooting ""in policy.""",834430428e29e4ca9b048f9bebc9c91dd4c92f652aaf369f19806a93b1f08848
+"payne, adrian c",sfpd195,gbi,sfpd,2010-12-12,,,nan,,be8c321af9cfe40f90a50befad0814fac8d07691f592f62d4c30c7b546ba5927
+"friedman, matthew s","sfpd48,comm58",firearm,"sfpd,comm",2010-12-10,,,"december 10, 2010 shooting of unknown victim. sfpd ois #10-014. shooting ""in policy.""",,ab1c03a6bcad0d93fb037db6d8dd329603c15d42a34ddf7c2e533db3450418f6
+"ruetti, paul l",dpa23,gbi,dpa,2010-12-08,,,nan,,468d4a9d9d4f0c3487eccb64bc769cd97781d57b7dbf07676a91b21c93cfc658
+"giles, christopher m",dpa23,gbi,dpa,2010-12-08,277.0,sfpd,nan,nan,a4539ea62b161faf27cb77f6d369f14630f9a3c5699e14c6683c70f8f0556c96
+"colclough iii, david b","comm8,comm14,sfpd79",firearm,comm,2010-11-12,,,"november 12, 2010 shooting of unknown victim. sfpd ois #2010-0013. shooting ""in policy.""",,ab3d179b8b1bdf77de135a3ed91ab01a2375d1a998e72d01219df0c4b78033d0
+"thompson, dack 0",dpa47,gbi,dpa,2010-10-26,,,nan,,9ae2e73b48c1434c57262b293fefc9068b5639da0b9a4fd45a1744cc31193e61
+"gritsch, stephen j",dpa47,gbi,dpa,2010-10-26,2284.0,sfpd,nan,nan,5437025a108c76a699472bcff6c59edb1ffc3e9cd925ba2edb25350d6c02824e
+"lee, stanley",dpa47,gbi,dpa,2010-10-26,1627.0,sfpd,nan,nan,782ccff45c46c66123d73affbb2d25340c4cea7557da1fae45e8ca3d9cf046d4
+"dejesus, luis p","sfpd58,comm57",firearm,"sfpd,comm",2010-09-30,,,"september 30, 2010 shooting of unknown victim. sfpd ois #10-010. shooting ""in policy.""",,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"ellis, michael b","sfpd58,comm57",firearm,"sfpd,comm",2010-09-30,,,"september 30, 2010 shooting of unknown victim. sfpd ois #10-010. shooting ""in policy.""",,00487f82dfedc1a33be9f8d8e1c3964dc8904c21189889d799dc33bf4ceb2543
+"johnson, david m","sfpd58,comm57",firearm,"sfpd,comm",2010-09-30,,,"september 30, 2010 shooting of unknown victim. sfpd ois #10-010. shooting ""in policy.""",,1b779a5e8e994cda3ef827d0ca74d845d470a9df727eaa3de639b9601ab6b607
+"masaghi, ali","sfpd58,comm57",firearm,"sfpd,comm",2010-09-30,nan,sfpd,"september 30, 2010 shooting of unknown victim. sfpd ois #10-010. shooting ""in policy.""","september 30, 2010 shooting of unknown victim. sfpd ois #10-010. shooting ""in policy.""",b395cf0f46e402a437718bead2b6c0eb41048165ba4d2fd4cc7bb0032681dae5
+"koltzoff, kimberly","dpa58,dpa60,sfpd175",firearm,sfpd,2010-09-26,nan,sfpd,"september 26, 2010 shooting of michael calvin lee. sfpd ois 10-009. shooting ""in policy.""","september 26, 2010 shooting of michael calvin lee. sfpd ois 10-009. shooting ""in policy.""",944d9aa88ce37a37c7861082f29672d86c1a1370cf69bd2d8381c01f4bb72240
+"montero, michael j",dpa44,gbi,dpa,2010-09-10,1409.0,sfpd,nan,nan,164c47273e0cd7ba12c7af121cb471b62bbd50ea60277417fa82e6b8d032be93
+"lew, calvin k",dpa44,gbi,dpa,2010-09-10,1777.0,sfpd,nan,nan,73c44d3b8880891c337866afc979eb2f040c8796cfd0c612c9d8a0d308308206
+"doherty, ryan p","comm63,da14",firearm,"comm,da",2010-08-28,,,"august 28, 2010 shooting of marcus tyson. sfpd ois #2010-0007. shooting ""in policy.""",,c7e851ecee56ae260c7730e0cda6e5c74654d4025e9ebcc371ea1888f729de8c
+"healy, kevin e",sfpd291,unlawful search/arrest,sfpd,2010-08-19,579.0,sfpd,nan,nan,109c49ea43e7ea164fbae9bbdfa96747fbde938cd7f1b608de5519049ca27de7
+"hayes, christina y","sfpd61,comm61",firearm,"sfpd,comm",2010-07-23,,,"july 23, 2010 shooting of unknown victim. sfpd ois #10-006. shooting ""in policy.""",,287d5a111337e658d09eb5a58fdf603956e752d1292a7fe8c0edc8560ea29cc0
+"newman, john","da13,sfpd172",firearm,da,2010-07-03,1481.0,sfpd,"july 3, 2010 shooting of rudy mejia. sfpd ois #10-005. shooting ""in policy.""","july 3, 2010 shooting of rudy mejia. sfpd ois #10-005. shooting ""in policy.""",4571533e46ed9a5c01f0ccfc208ff807f4e557d40f18efa98c5ec12b8e0cfb33
+"kasper, jon m","da13,sfpd172",firearm,da,2010-07-03,,,"july 3, 2010 shooting of rudy mejia. sfpd ois #10-005. shooting ""in policy.""",,26a3e8c31f6564afeb94a84f4898752180ae4540887500aed2ac451704f8ddea
+"ferrando, nicholas j",sfpd263,gbi,sfpd,2010-07-01,910.0,sfpd,nan,nan,e27bbef5d0a5fefa92ef7d162d4c5daa947853e20c15054fb652031f46f1a433
+"lyons, kevin p",sfpd263,gbi,sfpd,2010-07-01,,,nan,,5045f406a8894050e5680435d153327f9c0c2316cb99b6fb79086f968643f7f4
+"lyons, meighan a",sfpd263,gbi,sfpd,2010-07-01,2438.0,sfpd,nan,nan,2b3b5755535eae5cf609b6fb612fbac027dbe1de31558a1cc4b4bca42ad21001
+"gardiner, brendan",sfpd278,gbi,sfpd,2010-06-21,nan,nan,nan,nan,a34e75a258166cbc5b06483ba20fa5639462d7e55fc4bbf031fee1382728b1cb
+"hom, stephen",sfpd278,gbi,sfpd,2010-06-21,1523.0,sfpd,nan,nan,a995dca429ba3cf90d9d403a5db36a07a7d869896d2e797d88715eb3878fb282
+"margreiter, mark d.",sfpd278,gbi,sfpd,2010-06-21,2356.0,sfpd,nan,nan,452a321ec1833f6c23ca55f02a94707f015cb04f29651c1d111ec1fd2945978e
+"stansbury, brian g",sfpd278,gbi,sfpd,2010-06-21,2387.0,sfpd,nan,nan,47d888e10fb5f6914793b3d54cad3c211831e433100336536b6badd5026c89c8
+"suguitan, roderick",sfpd278,gbi,sfpd,2010-06-21,,,nan,,21bb6312f6f0c908abb4dea67e531e59870cb384d06119d3ed40ad470ed3140c
+"kumli, joshua",sfpd207,gbi,sfpd,2010-06-16,,,nan,,b630c647f7509d3f02d2b83ca029f31685272d6d8b40c9b08e87d6b1f87ce198
+"lopez, sergio r",sfpd207,gbi,sfpd,2010-06-16,4111.0,sfpd,nan,nan,91f8fb1ac3d78ca53cd6997e3a1313368d0c44176ed69649a66c7cde58a624bf
+"mcdonnell, dion j",sfpd207,gbi,sfpd,2010-06-16,1963.0,sfpd,nan,nan,d1ce0642ecdf3967ca0c0170ebcd4ad307c75dfd1a3575c2da0a5f802cc51d2f
+"parker, barry g",sfpd207,gbi,sfpd,2010-06-16,462.0,sfpd,nan,nan,3dc447cfcac791d6f4c77b5d0b6fe014e7f78dc9ddfdb33642336b6ba8380537
+"davila, ramon c",dpa92,gbi,dpa,2010-06-14,2194.0,sfpd,nan,nan,e92ec0be8646a7d68696f01d53e6fa7a344a324c7a161ae369411637281b663c
+"nevin, robert f",dpa92,gbi,dpa,2010-06-14,189.0,sfpd,nan,nan,9af0771e2e5d26b0d0fb3310e858cdd75e726df6be316385ac8bff07caf7fc23
+"hayes, christina y",sfpd110,gbi,sfpd,2010-05-31,,,nan,,287d5a111337e658d09eb5a58fdf603956e752d1292a7fe8c0edc8560ea29cc0
+"dejesus, luis p",sfpd174,gbi,sfpd,2010-05-26,,,nan,,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"doherty, ryan p",sfpd174,gbi,sfpd,2010-05-26,,,nan,,c7e851ecee56ae260c7730e0cda6e5c74654d4025e9ebcc371ea1888f729de8c
+"ochoa, eduard j",sfpd174,gbi,sfpd,2010-05-26,,,nan,,cd94b27d29a9b8d3c4ede7dde9a55ebbf9026b6a45761f77ee8377e9d03ce68f
+"dejesus, luis p","sfpd53,comm56",firearm,"sfpd,comm",2010-04-21,,,"april 21, 2010 shooting of unknown victim. sfpd ois #10-004. shooting ""in policy.""",,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"ellis, michael b","sfpd53,comm56",firearm,"sfpd,comm",2010-04-21,,,"april 21, 2010 shooting of unknown victim. sfpd ois #10-004. shooting ""in policy.""",,00487f82dfedc1a33be9f8d8e1c3964dc8904c21189889d799dc33bf4ceb2543
+"hart, john m","sfpd53,comm56",firearm,"sfpd,comm",2010-04-21,596.0,sfpd,"april 21, 2010 shooting of unknown victim. sfpd ois #10-004. shooting ""in policy.""","april 21, 2010 shooting of unknown victim. sfpd ois #10-004. shooting ""in policy.""",3fbeca05647fad2a4c307a684c4382c230fbbd5212c98b3e3f23cd02ee1c3875
+"doherty, ryan p","sfpd53,comm56",firearm,"sfpd,comm",2010-04-21,,,"april 21, 2010 shooting of unknown victim. sfpd ois #10-004. shooting ""in policy.""",,c7e851ecee56ae260c7730e0cda6e5c74654d4025e9ebcc371ea1888f729de8c
+"campos, chad",comm60,firearm,comm,2010-04-12,,,"april 12, 2010 shooting of unknown victim. sfpd ois #2010-0003. shooting ""not in policy.""",,77a607841226e07274d06b2a8db2fb13f663ba746e255058d2895efd1182ff90
+"eatia, adam",sfpd267,gbi,sfpd,2010-04-07,226.0,sfpd,nan,nan,40124725273e64033d4b46ef74f08d5eec27110ac4e6701ea471aba0d89f7506
+"moriyama, gary j","dpa33,dpa49,comm128",gbi,"dpa,comm",2010-01-30,,,nan,,bea70fe864b03cb57275bc645c73237b4a8ab105afafcb9905d3c9162b3117c1
+"discenza, domenico a","dpa33,dpa49,comm128",gbi,"dpa,comm",2010-01-30,,,nan,,9801b979b5a4f38bf92453f722a6b501cebf58d790845e566c6bc7cb4eae8726
+,sfpd286,excessive force,sfpd,2010-01-30,,,nan,,6b281b37b512da3628813ff5a2d05c990521c104b498bfd7125b425a73ae37ba
+"suguitan, roderick","sfpd51,comm54",firearm,"sfpd,comm",2010-01-23,,,"january 23, 2010 shooting of edward lemarr smith. sfpd ois #10-001. shooting ""in policy.""",,21bb6312f6f0c908abb4dea67e531e59870cb384d06119d3ed40ad470ed3140c
+"o'connor, timothy d",sfpd82,gbi,sfpd,2010-01-03,436.0,sfpd,nan,nan,c3840abb089dd569eff5e2616b261f98a001d8c27a04b58334b700f3d70ffed0
+"guin jr, elbert l",sfpd312,prejudice or discrimination,sfpd,2009-12-08,,,nan,,d2e840f349cf96cc85ea41f25061804ffde92ea51118210c37e7a3ba253a9508
+"byrne, kevin a",sfpd198,gbi,sfpd,2009-11-26,,,nan,,3f1eb3d4a92c296180be5c5e49e471aaf5a3ed778c2f5f8364f4fdbb494caaed
+"lalor, martin",sfpd198,gbi,sfpd,2009-11-26,,,nan,,1af83f7fcca33a2f382e87d430b83121dd33f71dbabd3c40e7784b122b3b496c
+"guin jr, elbert l",sfpd310,prejudice or discrimination,sfpd,2009-11-04,,,nan,,d2e840f349cf96cc85ea41f25061804ffde92ea51118210c37e7a3ba253a9508
+"esparza, alberto",comm85,firearm,comm,2009-10-04,4150.0,sfpd,"october 4, 2009 shooting. sfpd ois #09-005. shooting ""not in policy / training failure.""","october 4, 2009 shooting. sfpd ois #09-005. shooting ""not in policy / training failure.""",3d951ea728f6a003a4a4e5068efc1def7bf8699564ff59c696d1c017a01f5be3
+"reboli, eric f",dpa40,gbi,dpa,2009-09-20,,,nan,,b632a18b88ecda7463607a7cd38c6bce1e44cac67dfbcc837d7f90fd1011e386
+"casey, john",sheriff9,gbi,sheriff,2009-09-07,339.0,sfsd,nan,nan,9cb61aee7211469b8f6f02ce00b6101628e4b080ce215d06d39cac533a28ccf8
+"wong, matthew",sheriff9,gbi,sheriff,2009-09-07,1360.0,sfsd,nan,nan,9cf538ecbc90fc10cacd877e01296bdd6cea1cf08c846230bf556106925dc770
+"macksoud, kevin",sheriff9,gbi,sheriff,2009-09-07,1698.0,sfsd,nan,nan,8b176e66a4ac0484f992025e0dbde4bbd8e86fa55625c7fa18f1572570906889
+"song, melvin",sheriff9,gbi,sheriff,2009-09-07,1269.0,sfsd,nan,nan,d946e90c2535335ef2207c868044fb8d0640e43e67067edd6eaa91f8c8218159
+"smith al-ghani, tonyette",sheriff9,gbi,sheriff,2009-09-07,1576.0,sfsd,nan,nan,13755d88423eec3633e081a57680c413d44bbfbdf8a206b4bdd2676cc8484021
+"gutierrez, edward",sheriff9,gbi,sheriff,2009-09-07,1928.0,sfsd,nan,nan,e1d8de6bbfedad7ac5a9b823821bfda0cb8facf0e0cd2403898deaf7948fa53f
+"guitron, juan",sheriff9,gbi,sheriff,2009-09-07,1894.0,sfsd,nan,nan,a06510319ac61669862528af52d69403a2fc754b82b7f6afa5bee37c96300c66
+"white, daniel",sheriff9,gbi,sheriff,2009-09-07,2115.0,sfsd,nan,nan,df5be22db71fbf1cbcc84d7f11c41250916320ee32d90b71a2a152efacaeb559
+"lomba, kenneth",sheriff9,gbi,sheriff,2009-09-07,2074.0,sfsd,nan,nan,efdd8c0270fdea98b8c17865198b3864ea94e4bb8359e3c6d4592ea107e33895
+"hermosura, julian m",comm53,firearm,comm,2009-09-05,1998.0,sfpd,"september 5, 2009 shooting of unknown victim. sfpd ois #09-004. shooting ""in policy.""","september 5, 2009 shooting of unknown victim. sfpd ois #09-004. shooting ""in policy.""",a3658eb51132f7aa330f932bae2fd2804aff328ca8dae8858e954b75bcfdf38b
+"bragagnolo, john c",sfpd108,gbi,sfpd,2009-08-29,,,nan,,adae51cfe0c106f57db6698068f4f15e4aed3bd6e01e1c611404f5a7dfd64111
+"may, daniel",sfpd167,firearm,sfpd,2009-08-25,,,nan,,995ef269d37de397ac3c2f36e54b1559afc2853339fdc8568ca473026e75ad6d
+"wolf, michael",sfpd228,gbi,sfpd,2009-08-15,,,nan,,e9b16153f9c2a98ef06023995f1f9f68ecfcef99abe751d8b1f21f65babc73cd
+"cotter, christopher j",sfpd226,gbi,sfpd,2009-06-02,,,nan,,c82708de692ef24964c7b12f3348d978d608f06880b253d901921b1852bdd7ec
+"mendiola, joseph d",sfpd226,gbi,sfpd,2009-06-02,1975.0,sfpd,nan,nan,3bd237af70bb22ec80ed50e50f80dab5aa4f07ace4f860add0270f1bce98767b
+"daza, dustin l",sfpd224,gbi,sfpd,2009-05-18,1475.0,sfpd,nan,nan,7554de8bbe70483bb603c2973dc05f3fc7feed47ca1928bf9fa2b6d7543734b7
+"liang, derrick",sfpd224,gbi,sfpd,2009-05-18,,,nan,,d8144fcf8168adc3c2ac5eb2c507dbb69e1f71cc4a464e32c0e3db784094e54c
+"chan, simon k",sfpd140,gbi,sfpd,2009-05-04,180.0,sfpd,nan,nan,2042b5cb0dcbb0aa64789fe8cb4827474b4ec1de2120f0822d3bc67e01dd3478
+"bragagnolo, john c",sfpd111,gbi,sfpd,2009-04-29,,,nan,,adae51cfe0c106f57db6698068f4f15e4aed3bd6e01e1c611404f5a7dfd64111
+"christ, samuel a",sfpd111,gbi,sfpd,2009-04-29,,,nan,,8c688a69d16a10af6d8d51b299aec3dab0622d372e8b57bdbea58d4589117f6d
+"rosaia, daniel p",sfpd111,gbi,sfpd,2009-04-29,,,nan,,15256023ab1af00de99575c51b7b8930c1d9e0e783b08e6043a6c54f8478782d
+"bernard, nathan e","sfpd177,sfpd180,comm141",unlawful search/arrest,"sfpd,comm",2009-03-14,,,nan,,fd6ba92c0b1e454e5520d8a09404cfe6f51b9c137006607e824a5c07bcf15876
+"linares, ernesto a","sfpd177,sfpd180,comm141",unlawful search/arrest,"sfpd,comm",2009-03-14,1560.0,sfpd,nan,nan,46cd37f39ca5fad59ca8bb770c6e4c267fe37f67c57d1a190766eea11c6301fa
+"schwab, noel",sfpd131,gbi,sfpd,nat,,,nan,,a8374efd0d7074c8d903ff8ea624f7bd9e3cbd2065579fc4a944cf1c43d01920
+"lozano, angel g",sfpd81,gbi,sfpd,2009-01-30,554.0,sfpd,nan,nan,fefeb2122a859c5a8a2412b2711698c42a34b1be15329b88deb59c05f3d05cc9
+"contreras, walter d","comm51,sfpd171",firearm,comm,2009-01-03,1082.0,sfpd,"january 3, 2009 shooting of unknown victim. sfpd ois #09-001. shooting ""in policy.""","january 3, 2009 shooting of unknown victim. sfpd ois #09-001. shooting ""in policy.""",50fb0404fa26751517985654c6bc379924dbd00256b3a7d4ed9f9ce69fc63710
+"khan, zahid a","comm51,sfpd171",firearm,comm,2009-01-03,1730.0,sfpd,"january 3, 2009 shooting of unknown victim. sfpd ois #09-001. shooting ""in policy.""","january 3, 2009 shooting of unknown victim. sfpd ois #09-001. shooting ""in policy.""",de9224979bfcaed02535596b6c27227fc54cfce57fc50ea3153afd23dddd8f21
+"lam, vien t",dpa50,gbi,dpa,2008-12-31,2003.0,sfpd,nan,nan,3a7c002b9297c8a88726fe1bdb7a5860719c7330934f1abf6464486e773015cc
+"lim, oliver n",dpa50,gbi,dpa,2008-12-31,,,nan,,2c84b086e01c76c404b95885fe7f4e31b8c22421a44043f9e6985fd26d9add29
+"sullivan, matt d",dpa50,gbi,dpa,2008-12-31,1761.0,sfpd,nan,nan,309be7ec3b612f9eca1bea681520101f3398106cc577dd5f498b4d33d9fa506b
+"caplan, michael",comm82,firearm,comm,2008-12-24,nan,sfpd,"december 24, 2008 shooting. sfpd oid 2008-0011. shooting ""in policy.""","december 24, 2008 shooting. sfpd oid 2008-0011. shooting ""in policy.""",74423a26d9d58912a22d4938295adb046ad3fbb06092eea9081ffaffb954dbea
+"coleman, kevin",sfpd103,gbi,sfpd,2008-11-14,1859.0,sfpd,nan,nan,057d9454585fe1b78eec82984228be35c9b6bb93752d9eff0ed3d6bc3929c885
+"froines, andrew r",sfpd103,gbi,sfpd,2008-11-14,2050.0,sfpd,nan,nan,8a6d9cc2adf2e824d8b3e9730cc5ceb37f44f4cbb262fa68a8a4c46ce0cf6ded
+"richardson, marcus w",sfpd103,gbi,sfpd,2008-11-14,680.0,sfpd,nan,nan,1f48bebeff32e2bf658ea0366f6537268708ea8b4b72c23fe7b92ba9e1be98d7
+"toomey, william k",sfpd103,gbi,sfpd,2008-11-14,,,nan,,8fe042962553559a360255b90f6324e8701f1c22c48d71cacb287a8908637d7b
+"etzey, duane",sfpd225,gbi,sfpd,2008-11-04,nan,nan,nan,nan,2d0b158e0442149f5ef0c7493dc2a6e708accf1f8d97f9a1c654fa93f17062c2
+"pak, gregory m",comm17,firearm,comm,2008-09-22,,,"september 22, 2008 shooting of unknown victim. sfpd ois #2008-0008. shooting ""in policy.""",,48fe0d723e59237fb76f0e9e98a6bfa5580ff154cef290de1d5a4df92b16b3d6
+"kawaguchi, michael a",sfpd223,gbi,sfpd,2008-08-23,,,nan,,3161aa48c98c7edb658e8affdb7600549e6bd2935329ba1b60bf4301ac25a4e0
+"trujillo, robert j",sfpd223,gbi,sfpd,2008-08-23,928.0,sfpd,nan,nan,41c83edd8e933f0955f822cbbd38906d3ed2cfbe3aec161d3b42eff2725af18e
+"holder, kathrine e",comm38,firearm,comm,2008-08-07,1619.0,sfpd,"august 7, 2008 shooting of unknown. sfpd ois #2008-003. shooting ""in policy.""","august 7, 2008 shooting of unknown. sfpd ois #2008-003. shooting ""in policy.""",6cd560dc0e58d5c98027d2fe67c6fbf006c694931bd4903c026ac3bdb10a3381
+"reynolds, kim",comm38,firearm,comm,2008-08-07,nan,sfpd,"august 7, 2008 shooting of unknown. sfpd ois #2008-003. shooting ""in policy.""","august 7, 2008 shooting of unknown. sfpd ois #2008-003. shooting ""in policy.""",599e7502a214dc546dd0b95e88fe554c6435beba737b70032b6747f22bec4d19
+"gallagher, jason j",sfpd74,sexual assault,sfpd,2008-08-04,,,nan,,c0234ab0ec0b19a1658b9d17b48ecb156fc44098d2443c5e88503cc03acf335f
+"toomey, william k",sfpd95,gbi,sfpd,2008-08-02,,,nan,,8fe042962553559a360255b90f6324e8701f1c22c48d71cacb287a8908637d7b
+"hinds, joshua d",sfpd124,gbi,sfpd,2008-07-24,,,nan,,8e362924b85aa0debc6cc52741e2f819f557c412a5e874368bca631a7eeda5f3
+"lyons, kevin p",sfpd261,gbi,sfpd,2008-06-08,,,nan,,5045f406a8894050e5680435d153327f9c0c2316cb99b6fb79086f968643f7f4
+,nan,firearm,comm,2008-03-08,,,"march 8, 2008 shooting of unknown victim. sfpd ois #2008-0003. shooting not ""in policy.""",,6b281b37b512da3628813ff5a2d05c990521c104b498bfd7125b425a73ae37ba
+"morgado, paulo m","sfpd78,dpa38,dpa39,dpa45,sfpd134,dpa95",dishonesty,"sfpd,dpa",2008-03-01,4201.0,sfpd,nan,nan,a7ddbab42b50285a5a74862d14bec1943f86107a94c237f88bf0fb06668b8bf0
+"olson, joshua s","comm37,sfpd77",firearm,"comm,sfpd",2008-01-27,,,"january 27, 2008 shooting of unknown victim. sfpd ois #2008-0001. shooting ""in policy.""",,d73a4455860c86ff134295747a60ee78662e94e22c9dbf0712bb1c70ac57c28b
+"garrity, james","dpa51,dpa53",firearm,dpa,2007-10-30,,,nan,,47f1def9dc7bf1fcf5b2d62099982cbd488b272bcd1345ab203652c42643dd5a
+"brophy, timothy f.","dpa51,dpa53",firearm,dpa,2007-10-30,2112.0,sfpd,nan,nan,1b166d88ea1af9afa89115f713df04095c1e2275ef960e81a5bf11504ee018fb
+"ryan, shaughn p",dpa35,gbi,dpa,2007-07-25,,,nan,,78b355f05caa91333be0d39173691a4b60f51e338342cf3c0842efed8b42f6ca
+"rodriguez, david e",sfpd206,gbi,sfpd,2007-07-22,,,nan,,1c163f5c3ec6a0d433656a86fb680aa7e8c02c2156ee7b7cb0f28c66ecc02ed9
+"im,  mark y",sfpd201,gbi,sfpd,2007-06-28,,,nan,,a40445eec55fc567878830bdbf0d9d7fc37ce9b2b44916a7898ad1688e90c5c7
+"shavers, michael a","sfpd67,comm83",firearm,"sfpd,comm",2007-06-10,,,"june 10, 2007 shooting of unknown victim. sfpd oid #07-009. shooting ""in policy.""",,9d70ed0b2dfc1bc4706b63a8b8c26bc7c8e3901fd303493957418e8a27faf41b
+"garrett, anthony l",dpa52,gbi,sfpd,2007-06-01,1213.0,sfpd,nan,nan,c5db891c862f7ad5d07f2368fb542743e6e78a403470647798c1a880d671ec02
+"mroz, matthew j.",dpa52,gbi,sfpd,2007-06-01,,,nan,,cf7421b96c7e29b125a6d2c1e98d40297c7949c5bf335d1d634c23f1d3a1d46b
+"martinez, michele a",dpa52,gbi,sfpd,2007-06-01,1208.0,sfpd,nan,nan,7193a0d0f9a1be4a49f9dc465f04586dfe04b24019ea4205c4699e1e77b7b58c
+"spears, michelle a",dpa52,gbi,sfpd,2007-06-01,4152.0,sfpd,nan,nan,38cc9365d1ffcedf04eeb57f62922417072bb23bf4e09260211504103e8ab7a1
+"juarez, martha m",dpa52,gbi,sfpd,2007-06-01,1800.0,sfpd,nan,nan,ca619cb7366ea5e7836553f58fa1822ca571d3056841e0956409388e96b6805c
+"mceachern, michael g",dpa52,gbi,sfpd,2007-06-01,,,nan,,8ea2774a2ab1c01e908fe0dd6f24ce48ef11f3f567c0a4412b5e86d725687c93
+"edison, kevin a",dpa52,gbi,sfpd,2007-06-01,674.0,sfpd,nan,nan,741ea7dd31dd66d516c273a95899ac9b470d8ef4b5c24c3c1b230d1ccb981da9
+"im,  mark y",dpa52,gbi,sfpd,2007-06-01,,,nan,,a40445eec55fc567878830bdbf0d9d7fc37ce9b2b44916a7898ad1688e90c5c7
+"tom, siu n",dpa52,gbi,sfpd,2007-06-01,4186.0,sfpd,nan,nan,fb22200e63acfb3b007a4c22a26c030c5ae9811440b48fbfb845fa605406007f
+"yee, henry b",sfpd199,gbi,sfpd,2007-05-25,,,nan,,c3a992e6a975c3faf41352adf69a8d8b183c383fc65f26813c4c70f810d50f41
+"cravalho, dennis","dpa87,sfpd164",firearm,"dpa,sfpd",2007-05-19,1783.0,sfpd,nan,nan,3d2cd24b4c156a6a618d55cb3c54120512ffe263732805fd8e2766ef37e521d0
+"macdonald, monica e","sfpd33,comm36",firearm,sfpd,2007-03-07,1267.0,sfpd,"march 7, 2007 shooting of unknown victim. sfpd ois #2007-002. shooting ""in policy.""","march 7, 2007 shooting of unknown victim. sfpd ois #2007-002. shooting ""in policy.""",ec92ddf436af348434819e18cb9739ce8c6039635622e786c6c13954658ecbfa
+"salazar, joseph m","sfpd33,comm36",firearm,sfpd,2007-03-07,,,"march 7, 2007 shooting of unknown victim. sfpd ois #2007-002. shooting ""in policy.""",,2804bfdfa52f86efd67bfa6816788a68271a08bb332c5db318cef57e2d99c990
+"latus, gregory e",sfpd194,gbi,sfpd,2007-02-09,72.0,sfpd,nan,nan,829c850a61b3d9e23bb5bfef2b9f659f9d0444c04aa6f2b5247f775f327a5f81
+"pagtanac, benjamin n","dpa1,sfpd192",gbi,"dpa,sfpd",2007-02-07,4235.0,sfpd,nan,nan,246a6ca6bc874593bb23745bc06bba569271b99ebc9967b50d42b11e2acdc5d2
+"perez, eric j","dpa1,sfpd192",gbi,"dpa,sfpd",2007-02-07,660.0,sfpd,nan,nan,131751cf9a8e556a9bf4a1f3c50d413b065cd18ded175ff3a57718af8cfd2478
+"barcena, oscar c","dpa1,sfpd192",gbi,"dpa,sfpd",2007-02-07,,,nan,,9c5fa0685e4731212423b31f1ba17936a42278ab2f646a64bab0b55a52781cf8
+"discenza, domenico a",comm81,firearm,comm,2007-01-31,,,"january 31, 2007 shooting. sfpd oid 2007-0003.",,9801b979b5a4f38bf92453f722a6b501cebf58d790845e566c6bc7cb4eae8726
+"buhagiar, gregory m","comm35,sfpd68",firearm,comm,2007-01-26,,,"january 26, 2007 shooting of unknown victim. sfpd ois #2007-0001. shooting ""in policy.""",,273b7f38c263f4435e9489f6ce04fdf61c2fa7b6347bb6896907360375b47063
+"chiang, eric","comm35,sfpd68",firearm,comm,2007-01-26,4198.0,sfpd,"january 26, 2007 shooting of unknown victim. sfpd ois #2007-0001. shooting ""in policy.""","january 26, 2007 shooting of unknown victim. sfpd ois #2007-0001. shooting ""in policy.""",6929885d0a475377c3972122222f6395cbb174a7470a0814d883a5e8cac3953c
+"tack, john m",comm48,firearm,comm,nat,1758.0,sfpd,2007 shooting of unknown victim. sfpd ois #2007-0010.,2007 shooting of unknown victim. sfpd ois #2007-0010.,42556956abf36db7f7b3997a2536743f7e670b20fa9f7305dc0ca978f246cb15
+"scott, reginald l",comm23,firearm,comm,nat,,,2007 shooting of unknown victim. sfpd ois #2007-0005.,,21bdf3e07654c6e93300878d3b438f7b96dedd9750a51c54e6b91c6b3f482c57
+"garrity, james",comm25,firearm,comm,nat,,,2007 shooting of unknown victim. sfpd ois #2007-0015.,,47f1def9dc7bf1fcf5b2d62099982cbd488b272bcd1345ab203652c42643dd5a
+"brophy, timothy s.",comm25,firearm,comm,nat,nan,sfpd,2007 shooting of unknown victim. sfpd ois #2007-0015.,2007 shooting of unknown victim. sfpd ois #2007-0015.,a43aaa5d087debbe4246bcb632414bb26528e885ab45cd675e1d66adfc95a70d
+"gotelli, gregg",comm52,firearm,comm,nat,nan,sfpd,2007 shooting of unknown victim. sfpd ois #2007-0014.,2007 shooting of unknown victim. sfpd ois #2007-0014.,d79abc243302680d5d24facd49a24db502c38d07479d1e21d00dbd475f1a0d90
+"scott, reginald l",comm22,firearm,comm,nat,,,2007 shooting of unknown victim. sfpd ois #2007-0012. officer reinstated.,,21bdf3e07654c6e93300878d3b438f7b96dedd9750a51c54e6b91c6b3f482c57
+"kasper, jon m",dpa12,gbi,dpa,2006-12-28,,,nan,,26a3e8c31f6564afeb94a84f4898752180ae4540887500aed2ac451704f8ddea
+"guardado, jose a","comm32,sfpd183",firearm,"comm,sfpd",2006-12-22,395.0,sfpd,"december 22, 2006 shooting of unknown victim. sfpd ois #06-008. shooting ""in policy.""","december 22, 2006 shooting of unknown victim. sfpd ois #06-008. shooting ""in policy.""",c287d4ee78e2e4d9b8ec10bdd8edbcfffb26bdbbeaf19c129466661fcd7496a2
+"hampton, stephen j","comm31,sfpd47",firearm,"sfpd,comm",2006-09-17,1793.0,sfpd,"september 17, 2006 shooting of unknown victim. sfpd ois #06-007. shooting ""in policy.""","september 17, 2006 shooting of unknown victim. sfpd ois #06-007. shooting ""in policy.""",b6162c80462b6fd0ac6fedbb76ae6d2ffcca6199910d47b226e671f6d45aa504
+"fowler, fabian","sfpd45,comm33",firearm,"sfpd,comm",2006-08-27,1798.0,sfpd,"august, 27, 2006 shooting of unknown victim. sfpd ois #06-006. shooting ""in policy.""","august, 27, 2006 shooting of unknown victim. sfpd ois #06-006. shooting ""in policy.""",6c02cda0e85543ea6b63e55d79c1e8de8fd0d272611bfeebf7fa1f0549fdc873
+"cole, matthew","dpa55,dpa56",gbi,dpa,nat,,,nan,,84f0b0ae85d8ce3216084571737f395dd4b67d65f3c018acd54a2484d089b5d5
+"mccormick, patrick m","dpa55,dpa56",gbi,dpa,nat,4167.0,sfpd,nan,nan,48f231ac527123052383be4344432ca27947e577990f31f38b135a0e3971d96d
+"o'connor, david g","dpa55,dpa56",gbi,dpa,nat,,,nan,,52b493ce437a6af0b643d9890a92231510405b722fa6ef27f5a8f5e181a28c7a
+"robinson, jason s","dpa55,dpa56",gbi,dpa,nat,,,nan,,d4816ab1053206a01ea901a7dc77742463fa078ce4c5fadca10b769c42ae0e15
+"salazar, joseph m","dpa55,dpa56",gbi,dpa,nat,,,nan,,2804bfdfa52f86efd67bfa6816788a68271a08bb332c5db318cef57e2d99c990
+"madrid, arthur w","dpa55,dpa56",gbi,dpa,nat,4143.0,sfpd,nan,nan,b3b4f3a067745eb4d4440a71851e785bfae534429bc1de3a35127e83d0c8ad6a
+"alexander, michael d","comm144,sfpd317",unlawful search/arrest,"comm,sfpd",2006-07-06,1337.0,sfpd,nan,nan,97db965814e1e0f472aa5eff07d201cde3f1e078949512a94c9824ae0ca583d4
+"arquero, gerard p","comm30,sfpd204",firearm,"comm,sfpd",2006-06-24,1958.0,sfpd,"june 24, 2006 shooting of unknown victim. sfpd ois #2006-0005. shooting ""in policy.""","june 24, 2006 shooting of unknown victim. sfpd ois #2006-0005. shooting ""in policy.""",cfe6053b9057b2f0789149d7122b30a2fba6dd8e14315438a2267f9678b2912d
+"hyun, jamie j","comm30,sfpd204",firearm,"comm,sfpd",2006-06-24,811.0,sfpd,"june 24, 2006 shooting of unknown victim. sfpd ois #2006-0005. shooting ""in policy.""","june 24, 2006 shooting of unknown victim. sfpd ois #2006-0005. shooting ""in policy.""",35923a8d2f77ffc3af53f59378673e1985bb39f3c8b6a8fdb037701adc5b656a
+"alvis, michelle","comm29,sfpd257",firearm,"comm,sfpd",2006-06-06,nan,sfpd,"june 6, 2006 shooting of unknown victim. sfpd ois #006-04.","june 6, 2006 shooting of unknown victim. sfpd ois #006-04.",1b4a9ac596fa600b921a51fce38942821051bb9d0d068e6d98f38bef60585334
+"keesor, john r","comm29,sfpd257",firearm,"comm,sfpd",2006-06-06,,,"june 6, 2006 shooting of unknown victim. sfpd ois #006-04.",,8c479ee64f899c6350e3883e80ac4e1a0af6bae539d0df7785ec55ad45f11290
+"neu, scott",sheriff6,gbi,sheriff,2006-05-26,1823.0,sfsd,nan,nan,f170a593482b151a7182e5cd7100c11028bda0191ada035afdf0fd314f2e3838
+"cole, matthew",sfpd270,firearm,sfpd,2006-05-12,,,nan,,84f0b0ae85d8ce3216084571737f395dd4b67d65f3c018acd54a2484d089b5d5
+"haggett, john",sfpd270,firearm,sfpd,2006-05-12,,,nan,,a6360d6a6711e2fed394ae553fe295aaa31c5dda54e96bad201d09124935ddae
+"street, adam h",sfpd270,firearm,sfpd,2006-05-12,,,nan,,3fe1738e8f53c695aeeddf276c71674e08e22c1dde598850fb6025e3b3bfbb75
+"yee, henry b",sfpd270,firearm,sfpd,2006-05-12,,,nan,,c3a992e6a975c3faf41352adf69a8d8b183c383fc65f26813c4c70f810d50f41
+"fewer, john",comm142,unlawful search/arrest,comm,2006-04-28,nan,sfpd,nan,nan,b0e986d196aaedc9dbec09c7790006343c747206835461c8580c34a7cfd96c8a
+"alcaraz, gabriel",sfpd191,gbi,sfpd,nat,,,nan,,cdd5fdaed2d043b304ae98bfcc07755c2c64683c285f527ec865b3cea134273d
+"zachos, constantine j","sfpd17,dpa73",firearm,"sfpd,dpa",2006-04-22,,,"april 22, 2006 shooting of unknown victim. sfpd ois #004-06. shooting ""in policy.""",,87e7fffa0531b4e1221fe1616fcbc1a78c0a16c33d4dfc6bccad823fbf613e7b
+"griffin, patrick t","sfpd17,dpa73",firearm,"sfpd,dpa",2006-04-22,,,"april 22, 2006 shooting of unknown victim. sfpd ois #004-06. shooting ""in policy.""",,f0b098f7e8320d2a596b5479347a38f807d9c642c3bae67ac30fdb8572887d47
+"dempsky, julius t",comm28,firearm,comm,2006-04-03,471.0,sfpd,"april 3, 2006 shooting of unknown victim. sfpd ois #002-06. shooting ""in policy.""","april 3, 2006 shooting of unknown victim. sfpd ois #002-06. shooting ""in policy.""",cfb8cdce4ce30df43a6d77292e2ef6efaf6337dfdebe7d18293aa0b5eba54dcf
+"dilag, roel v",comm28,firearm,comm,2006-04-03,173.0,sfpd,"april 3, 2006 shooting of unknown victim. sfpd ois #002-06. shooting ""in policy.""","april 3, 2006 shooting of unknown victim. sfpd ois #002-06. shooting ""in policy.""",b2b1d1612b1a13e48e48be9e8842306a0f97ff9423c8671e19251c164a44eecc
+"o'connor, david g",comm28,firearm,comm,2006-04-03,,,"april 3, 2006 shooting of unknown victim. sfpd ois #002-06. shooting ""in policy.""",,52b493ce437a6af0b643d9890a92231510405b722fa6ef27f5a8f5e181a28c7a
+"silver, daniel b",dpa14,firearm,dpa,2006-01-18,,,january 18. 2006 shooting of unknown victim. dpa case number 0068-06.,,4af6f5fac71c82933fa69a47e95d4785f57e16ae0e69af3b3651f2df82786d50
+"benzinger, stephen d",sfpd222,gbi,sfpd,2006-01-12,,,nan,,3fba78c77077191eacef5abff04f4dfe042795937b9251d7a1e84dbf5968f6c7
+"campos, chad",comm59,firearm,comm,nat,,,2006 shooting of unknown victim. sfpd ois #2006-0001.,,77a607841226e07274d06b2a8db2fb13f663ba746e255058d2895efd1182ff90
+"silver, daniel b",comm59,firearm,comm,nat,,,2006 shooting of unknown victim. sfpd ois #2006-0001.,,4af6f5fac71c82933fa69a47e95d4785f57e16ae0e69af3b3651f2df82786d50
+"griffin, patrick t",comm26,firearm,comm,nat,,,"2006 shooting of unknown victim. sfpd ois #2006-0003. shooting ""in policy.""",,f0b098f7e8320d2a596b5479347a38f807d9c642c3bae67ac30fdb8572887d47
+"zachos, constantine j",comm26,firearm,comm,nat,,,"2006 shooting of unknown victim. sfpd ois #2006-0003. shooting ""in policy.""",,87e7fffa0531b4e1221fe1616fcbc1a78c0a16c33d4dfc6bccad823fbf613e7b
+"kawaguchi, michael a",comm74,firearm,comm,nat,,,2006 shooting of unknown victim. sfpd ois #2006-007.,,3161aa48c98c7edb658e8affdb7600549e6bd2935329ba1b60bf4301ac25a4e0
+"bucy, stephen r",comm74,firearm,comm,nat,410.0,sfpd,2006 shooting of unknown victim. sfpd ois #2006-007.,2006 shooting of unknown victim. sfpd ois #2006-007.,211ae88d6b60eaa745901b36b2050e87d1146394871d424214f51c67391171a8
+"carrasco, troy m",sfpd22,firearm,sfpd,2005-12-13,,,"december 13, 2005 shooting of unknown victim. sfpd ois #2005-0015. shooting ""in policy.""",,739b521a6e9b4e521fb1133f37f0bd83acc394d7494592d62d0bc286a4f97437
+"cohen, andrew","comm135,sfpd279,sfpd289",prejudice or discrimination,"comm,sfpd",2005-12-06,nan,sfpd,nan,nan,6e78fd7ab5ee0ffca9c35190f4cd8a8ad0cde129e65c810a0184055e0ae5cc7c
+"harmston, clayton a","comm135,sfpd279,sfpd289",prejudice or discrimination,"comm,sfpd",2005-12-06,,,nan,,974e05469f27893c32b56b0db65b921f32e747b90f29a7063ac012715e3f0b40
+"parry, david p","comm135,sfpd279,sfpd289",prejudice or discrimination,"comm,sfpd",2005-12-06,,,nan,,157644b87b0ef2fb009a51e471422dee27e7a67f9bac85eebb95a98953b02fde
+"deleon, noel p",comm106,firearm,comm,2005-11-22,565.0,sfpd,"november 22, 2005 shooting of unknown victim. sfpd ois 05-007. shooting ""in policy.""","november 22, 2005 shooting of unknown victim. sfpd ois 05-007. shooting ""in policy.""",8cde32b1d9790e95d702cd47f241153dbeeec8460c30c7aee2a5cd9b53f58edc
+"meehan, andrew a",comm105,firearm,comm,2005-09-09,109.0,sfpd,"september 9, 2005 shooting of unknown victim. sfpd ois #05-06. shooting ""in policy.""","september 9, 2005 shooting of unknown victim. sfpd ois #05-06. shooting ""in policy.""",8e3ebabefe3c1ba86b2c29695d74a2885a42c674fc1683a9a429cc51bf22876b
+"newbeck, gerald b",comm105,firearm,comm,2005-09-09,1691.0,sfpd,"september 9, 2005 shooting of unknown victim. sfpd ois #05-06. shooting ""in policy.""","september 9, 2005 shooting of unknown victim. sfpd ois #05-06. shooting ""in policy.""",f9f49420c697177d00e8e36acd039926fdfbffa21bde79494472b90c35b1ce78
+"schaffer, brian e","sfpd39,comm102",firearm,"sfpd,comm",2005-09-02,,,"september 2, 2005 shooting of unknown victim. sfpd ois #05-005. shooting ""in policy.""",,7bba622b539b1f999b1c2aec1ef60b889b577c4447d6cdc1bc1138c87944eb96
+"buelow donovan iv, timothy j",comm140,unlawful search/arrest,comm,2005-08-27,107.0,sfpd,nan,nan,c6ec0fac49aee89731f1e0ca85938264d1814983a8b92ab37638318736a29a24
+"harmston, clayton a",comm136,prejudice or discrimination,comm,2005-08-18,,,nan,,974e05469f27893c32b56b0db65b921f32e747b90f29a7063ac012715e3f0b40
+"parry, david p",comm136,prejudice or discrimination,comm,2005-08-18,,,nan,,157644b87b0ef2fb009a51e471422dee27e7a67f9bac85eebb95a98953b02fde
+"dejesus, luis p",dpa25,gbi,dpa,2005-06-03,,,nan,,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"benzinger, stephen d",dpa25,gbi,dpa,2005-06-03,,,nan,,3fba78c77077191eacef5abff04f4dfe042795937b9251d7a1e84dbf5968f6c7
+"dejesus, luis p",dpa5,gbi,dpa,2005-03-10,,,nan,,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"bragagnolo, john c","comm113,sfpd308",unlawful search/arrest,"comm,sfpd",2005-02-10,,,nan,,adae51cfe0c106f57db6698068f4f15e4aed3bd6e01e1c611404f5a7dfd64111
+"damonte, christopher p",sfpd123,gbi,sfpd,2005-01-23,,,nan,,f78a3901b37aa381dea695ef88b55cc346cb63a1bb5194677b3daed5c8a7f6e6
+"muselman, chris m",dpa9,firearm,dpa,2005-01-11,1711.0,sfpd,"january 11, 2005 shooting of unknown victim. dpa case number 126-05.","january 11, 2005 shooting of unknown victim. dpa case number 126-05.",fb6fab0873aa64140a71daf92df5f592d91472b7cf594d4e099aabe6bb1fa4c0
+"mceachern, michael g",dpa9,firearm,dpa,2005-01-11,,,"january 11, 2005 shooting of unknown victim. dpa case number 126-05.",,8ea2774a2ab1c01e908fe0dd6f24ce48ef11f3f567c0a4412b5e86d725687c93
+"manning, daniel a",dpa9,firearm,dpa,2005-01-11,1076.0,sfpd,"january 11, 2005 shooting of unknown victim. dpa case number 126-05.","january 11, 2005 shooting of unknown victim. dpa case number 126-05.",ad1b2eaa891f4c9a1ae54b142c4f6dc2c707dd2a96f38200b015155b953d9c8c
+"labanowski, kevin g",dpa9,firearm,dpa,2005-01-11,984.0,sfpd,"january 11, 2005 shooting of unknown victim. dpa case number 126-05.","january 11, 2005 shooting of unknown victim. dpa case number 126-05.",78b1cef10fc1e2541959ceded02c1d5b6d95b0badc5452b4a53840185cb5d079
+"zapponi, patrick m","comm101,sfpd322",firearm,"comm,sfpd",2004-11-22,735.0,sfpd,"november 22, 2004 shooting of unknown victim. sfpd ois #010-04. shooting ""in policy.""","november 22, 2004 shooting of unknown victim. sfpd ois #010-04. shooting ""in policy.""",9ffd4e891f6be3a0ecf48287e92aaa60d30cb60c740443c9202e277e023263e0
+"dejesus, luis p",dpa8,gbi,dpa,2004-11-03,,,nan,,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"olson, joshua s",dpa8,gbi,dpa,2004-11-03,,,nan,,d73a4455860c86ff134295747a60ee78662e94e22c9dbf0712bb1c70ac57c28b
+"benzinger, stephen d",dpa8,gbi,dpa,2004-11-03,,,nan,,3fba78c77077191eacef5abff04f4dfe042795937b9251d7a1e84dbf5968f6c7
+"bradford, brent d",dpa8,gbi,dpa,2004-11-03,4199.0,sfpd,nan,nan,a9503f135c01632c46a8e968d02201b614bc873014c96e4ec4e79da02d816f66
+"perez, george d",comm100,firearm,comm,2004-10-14,739.0,sfpd,"october 14, 2004 shooting of unknown victim. sfpd ois #008-04. shooting ""in policy.""","october 14, 2004 shooting of unknown victim. sfpd ois #008-04. shooting ""in policy.""",32c20a3b8f3a093ebec56f574a87029a0870cd4d615b84cae11aaa820d67ce64
+"defina, mario",comm148,excessive force,comm,2004-07-23,nan,sfpd,nan,nan,84177c072b4666c388d4ab2d7890b3bd1a91087b36952da27d7351b464d48809
+"cota, mark a",dpa46,gbi,dpa,2004-07-18,,,nan,,2c1731d8a1d3807ba26b7374731e8b5ebdd44928f08961157e8fa1e21d230834
+"poggio, leonard f",dpa46,gbi,dpa,2004-07-18,391.0,sfpd,nan,nan,3ba08e2507847eda8739db6b1b41b992212ef75bb88f5b41d081178d9bad568f
+"knoble, kevin j","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,297.0,sfpd,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",80fe2bc086cea93979afb81e1c5e6ca63f7b174c55058dc1f7b234a7d2765282
+"kumli, joshua","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,,,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",,b630c647f7509d3f02d2b83ca029f31685272d6d8b40c9b08e87d6b1f87ce198
+"burke, john f","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,,,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",,386a4a1a428bfa8413a50473472d3febf69164b295723342b86af6257c101587
+"christ, samuel a","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,,,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",,8c688a69d16a10af6d8d51b299aec3dab0622d372e8b57bdbea58d4589117f6d
+"gala, moses r","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,899.0,sfpd,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",c512bc620cb924667d119198dc539669fd7e4afe46d91547b518cff69f64dd06
+"greenwood, john","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,nan,sfpd,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",aa9aa8fc789d870ac0e022a7f48317c079ce9fc7fd85c85fd09e608d71cf2f8a
+"jones, wendell a","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,947.0,sfpd,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",19c42f63ceb7e526e5baf34d50787601b207f13f9ff6cd1692b0198cd633fe27
+"morrow, sylvia p","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,1270.0,sfpd,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",45ea78fa1e6b220525524b45905be12f8968ccb9df142254674a9fb60ac4cc87
+"simone, daniel j","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,487.0,sfpd,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",5dba08b94092fa3ae4d742475749d1fefee83b7d8003213f6e0d10284267dc4a
+"smith, thomas j","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,2072.0,sfpd,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",e10caf7cc8aa2221a003f17fd9998b897d5d3be2a1f4b909d482d7dc87ff6ee1
+"alves, richard","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,nan,nan,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",e8571718c050e4aa67f7103f95889ce6d0921e19b7e6ae281ded8fa718c4fcba
+"bisordi, john","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,nan,nan,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",6172abec7277289829a5969867750c326aeee1fd4ee7f373ac2671dc5c7b4933
+"gamble, mark","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,nan,nan,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",e0e754c2bc3182776816f3c4fc2c2b440e9ac2f556453fee52f9e5c18e4697f0
+"newland, thomas","comm24,sfpd326",firearm,"comm,sfpd",2004-06-29,nan,nan,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""","june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",7f39476df8927a11298d0595f66a3c76eb1ee914379a638cb7e488d3ed6b9b18
+"rosen, daniel",sheriff8,firearm,sheriff,2004-06-23,1219.0,sfsd,"june 23, 2004 shooting of unknown victim.","june 23, 2004 shooting of unknown victim.",ca9235839445a9fdb2fabc1cc84a6b0a50fdf5e317655f29f46a6389787514bb
+"cabrera, rafael",sheriff8,firearm,sheriff,2004-06-23,1218.0,sfsd,"june 23, 2004 shooting of unknown victim.","june 23, 2004 shooting of unknown victim.",50b6ea71647dc00bc8146ca214b649aa75f6d8632ebf3dac893e4d9095652004
+"bragagnolo, john c",sfpd277,firearm,sfpd,2004-06-09,,,nan,,adae51cfe0c106f57db6698068f4f15e4aed3bd6e01e1c611404f5a7dfd64111
+"trail, james p",comm104,firearm,comm,2004-04-27,,,"april 27, 2004 shooting of unknown victim. sfpd ois 004-04. shooting ""not in policy.""",,4a1eb15fe0cff309a0c23577641bb14f73a5647a17fc70edb36fcf8bdd333d0c
+"rossi, william",comm138,prejudice or discrimination,comm,2004-04-25,nan,sfpd,nan,nan,ff19b3280186d9f8417e843e8743440937267b6f41620626d7f4ce0ba6f3883e
+"may, daniel",sfpd100,firearm,sfpd,2004-03-30,,,"march 20, 2004 shooting. sfpd ois #04-002 (002-04). shooting ""in policy.""",,995ef269d37de397ac3c2f36e54b1559afc2853339fdc8568ca473026e75ad6d
+"kasper, jon m",dpa13,gbi,dpa,2004-02-20,,,nan,,26a3e8c31f6564afeb94a84f4898752180ae4540887500aed2ac451704f8ddea
+"ferrando, john",sfpd66,firearm,sfpd,2003-11-18,,,"november 18, 2003 shooting of unknown victim. sfpd ois #03-003.",,1195614d15b83dccbf1a873a12344041063c9004bf85e12c1457aa21bb9618d2
+"maxwell, michael",comm150,dishonesty,comm,2003-11-03,nan,nan,nan,nan,ceed5f8b1709ca4eae35393985cf0cb49fd511bfc04b60fef7129808b4b8475d
+"correa, patricia",sfpd170,firearm,sfpd,2003-08-11,nan,nan,nan,nan,5356402d7a8cda44c8db3e6f1f7c868ab6ab1497ca197395a8df64d3cb9f1f0b
+"jackson, patricia","sfpd285,comm149",dishonesty,"sfpd,comm",2003-07-01,nan,nan,nan,nan,bdc56202f19245266e19d2a6ea1f0fe8929d524f5f407454fe7cee5b14f80914
+"pak, gregory m","comm18,sfpd86",firearm,"comm,sfpd",2003-02-19,,,"february 19, 2003 shooting of unknown victim. sfpd ois #03-001. shooting ""in policy.""",,48fe0d723e59237fb76f0e9e98a6bfa5580ff154cef290de1d5a4df92b16b3d6
+"scott, reginald l","comm18,sfpd86",firearm,"comm,sfpd",2003-02-19,,,"february 19, 2003 shooting of unknown victim. sfpd ois #03-001. shooting ""in policy.""",,21bdf3e07654c6e93300878d3b438f7b96dedd9750a51c54e6b91c6b3f482c57
+"lozada, paul","dpa69,sfpd132",firearm,"dpa,sfpd",2003-01-23,,,nan,,cd5fe222931a04f0a0c53d83202c108d69f10f243beb5cf0e68b88f05a954e35
+"aloise, jeffrey t",sfpd290,excessive force,sfpd,2002-12-01,,,nan,,f2255073dfb6d4c81ca27b91c5e4956669b68678624054172a8a4f114d179871
+"discenza, domenico a",sfpd165,firearm,sfpd,2002-11-16,,,nan,,9801b979b5a4f38bf92453f722a6b501cebf58d790845e566c6bc7cb4eae8726
+"doherty jr, paul f",sfpd165,firearm,sfpd,2002-11-16,57.0,sfpd,nan,nan,1294b9266284a1a78c3e3c9d42d58e058f795134e2513ee9df2ccac8481833f4
+"tong, jonathan s",sfpd165,firearm,sfpd,2002-11-16,1786.0,sfpd,nan,nan,2f415ffaaa03f01a69db13f71a395455d34a453141dfa75f1e150121bb3fca63
+"vargas, reynaldo",comm145,unlawful search/arrest,comm,2002-10-20,933.0,sfpd,nan,nan,dabe85c40661ae5e48ebecaa1c3163d214c053dafac38ec30be45c75043dced1
+"celis, michael",sfpd166,firearm,sfpd,2002-10-08,,,nan,,82a80eb9135f1ebdcc56628e599a65cce9a658fd68725ca84c37359f9c18663e
+"chui, daniel w",sfpd298,excessive force,sfpd,2002-09-18,840.0,sfpd,nan,nan,284cd02f557043357b2eaad85eeea91185c542a8f955859ff688409e4e890f11
+"vintero, eric",sfpd50,firearm,sfpd,2002-06-14,700.0,sfpd,"june 14, 2002 shooting of robert ruffin. sfpd ois #02-007. shooting ""in policy.""","june 14, 2002 shooting of robert ruffin. sfpd ois #02-007. shooting ""in policy.""",b97483a576f04ea0d6147025012937c73eff2582952f3c44b97eb0b3b873cc1f
+"schaffer, brian e",comm103,firearm,comm,2002-05-16,,,"may 16, 2002 shooting of unknown victim. sfpd ois 006-02. shooting ""in policy.""",,7bba622b539b1f999b1c2aec1ef60b889b577c4447d6cdc1bc1138c87944eb96
+"trail, james p",comm103,firearm,comm,2002-05-16,,,"may 16, 2002 shooting of unknown victim. sfpd ois 006-02. shooting ""in policy.""",,4a1eb15fe0cff309a0c23577641bb14f73a5647a17fc70edb36fcf8bdd333d0c
+"murphy, michael",sfpd62,firearm,sfpd,2002-03-15,nan,sfpd,"march 15, 2002 shooting of richard earl tims. sfpd ois #02-005. shooting ""in policy.""","march 15, 2002 shooting of richard earl tims. sfpd ois #02-005. shooting ""in policy.""",023d06b8f1de20e9af571ac6e3ad870f9e6792695c3af6cd9833211c15bf066e
+"alvarez, melonee",sfpd62,firearm,sfpd,2002-03-15,,,"march 15, 2002 shooting of richard earl tims. sfpd ois #02-005. shooting ""in policy.""",,230216f345d447f89d70d6a0dd1963949b94f4747142188309bb1da0e8456b3b
+"pedrini, christopher j",sfpd62,firearm,sfpd,2002-03-15,1204.0,sfpd,"march 15, 2002 shooting of richard earl tims. sfpd ois #02-005. shooting ""in policy.""","march 15, 2002 shooting of richard earl tims. sfpd ois #02-005. shooting ""in policy.""",c87536db173bc5dac56358e5c046ada8009fea5a47e38aa6b5df2dbc9fdfd2ae
+"jean, michelle l",sfpd62,firearm,sfpd,2002-03-15,935.0,sfpd,"march 15, 2002 shooting of richard earl tims. sfpd ois #02-005. shooting ""in policy.""","march 15, 2002 shooting of richard earl tims. sfpd ois #02-005. shooting ""in policy.""",96c0f0fad88e65a1ca2321dbef2266e53a1cd43b0ba9436dc3539ade12910f93
+"baldovino, rommel c",sfpd62,firearm,sfpd,2002-03-15,2074.0,sfpd,"march 15, 2002 shooting of richard earl tims. sfpd ois #02-005. shooting ""in policy.""","march 15, 2002 shooting of richard earl tims. sfpd ois #02-005. shooting ""in policy.""",0f8b38089a9c1de0abe5201e32ceceacdbc12a935d2caad0d1476b0607095b8d
+"lalor, martin",sfpd59,firearm,sfpd,2002-02-27,,,"february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""",,1af83f7fcca33a2f382e87d430b83121dd33f71dbabd3c40e7784b122b3b496c
+"halloran, martin",sfpd59,firearm,sfpd,2002-02-27,nan,sfpd,"february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""","february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""",5127a6ef758f26df056dca06bba98bf0206e9d44563faa6cf18d821360919412
+"boes, tracy c",sfpd59,firearm,sfpd,2002-02-27,1470.0,sfpd,"february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""","february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""",d05e7213da681654c8be11fc8229732f3af0e6243b60d7843f8489e506413127
+"fabbri, carl p",sfpd59,firearm,sfpd,2002-02-27,,,"february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""",,70f6290325be952218f29018697d11609e5924fb150b95b9009c6805458b36fd
+"etcheber, vincent",sfpd59,firearm,sfpd,2002-02-27,1821.0,sfpd,"february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""","february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""",fa91320e40f0da9ceb8dd2e8851266b520129702df9dfeee05ffdbcfdacd4909
+"nastari, david d",sfpd59,firearm,sfpd,2002-02-27,1766.0,sfpd,"february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""","february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""",98514ee949e2705dd07d61482c0cb1e01230561816d78c821262be29a0332e1f
+"edison jr, kirk r",sfpd59,firearm,sfpd,2002-02-27,523.0,sfpd,"february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""","february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""",168d0274a0ceedf675f21f431d087bf002c37f62356e03a283123d7b0f0ab449
+"lee, steven y",sfpd20,firearm,sfpd,2002-02-02,,,nan,,1c253fc26b307aba33049fdd7ddd994ecc45daae3b1ea3f7b33335703e217923
+"curiel, daniel",comm138,prejudice or discrimination,comm,2002-01-31,nan,sfpd,nan,nan,8114bdda67fe4dc5c51b11120bc492d982c8da9305472d1ab291c3c28bf3428d
+"samiere, thomas",sfpd283,sexual assault,sfpd,2002-01-24,nan,nan,nan,nan,9163d7ec482fb9135c94964c012a546bacafb81d2570f9ff6b5f845f25758484
+"freeman-rodriguez, angela",sfpd43,firearm,sfpd,2001-11-01,1624.0,sfpd,"november 1, 2001 shooting of randall lee smith. sfpd ois #003-01. shooting ""in policy.""","november 1, 2001 shooting of randall lee smith. sfpd ois #003-01. shooting ""in policy.""",dfb7660f998006c4b2bed4e065c448d9b175a05e86a7b48b3a6e1f07b9fbef39
+"wolf, michael",sfpd43,firearm,sfpd,2001-11-01,,,"november 1, 2001 shooting of randall lee smith. sfpd ois #003-01. shooting ""in policy.""",,e9b16153f9c2a98ef06023995f1f9f68ecfcef99abe751d8b1f21f65babc73cd
+"barker, laurence",comm134,dishonesty,comm,2001-10-04,nan,sfpd,nan,nan,16aa9b4829ec6fc3de16aa2993fda08dbc9d335d559f98acfd841e290baad39c
+"zerga, james",comm151,dishonesty,comm,2001-09-13,nan,nan,nan,nan,cf11e574c10d1811a381340f01863a43e1d10d0f86cfe3360a6b24e94c520aa8
+"hunt, edward h",sfpd219,gbi,sfpd,2001-06-29,186.0,sfpd,nan,nan,4edfaaff0d19e4e7cff52295c3b4d03b903a0f222b0bfdc6dafb08d3a3830dae
+"dejesus, luis p","comm55,sfpd116",firearm,"comm,sfpd",2001-06-24,,,"june 24, 2001 shooting of unknown victim. sfpd ois #01-002. shooting ""in policy.""",,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"garbayo, joseph l",sfpd55,firearm,sfpd,2001-06-13,1004.0,sfpd,"june 13, 2001 shooting of idris stelley. sfpd ois #01-001. shooting ""in policy.""","june 13, 2001 shooting of idris stelley. sfpd ois #01-001. shooting ""in policy.""",b16d7806023628212524eb39d31dc00e1c210ac1167d26c24349c6992f1338b5
+"sawyer, georgia a",sfpd55,firearm,sfpd,2001-06-13,1565.0,sfpd,"june 13, 2001 shooting of idris stelley. sfpd ois #01-001. shooting ""in policy.""","june 13, 2001 shooting of idris stelley. sfpd ois #01-001. shooting ""in policy.""",cf742c132625e5a5f739497c9d508548991a142991a820c568858258bb7de88c
+"razzak, arshad",sfpd55,firearm,sfpd,2001-06-13,nan,sfpd,"june 13, 2001 shooting of idris stelley. sfpd ois #01-001. shooting ""in policy.""","june 13, 2001 shooting of idris stelley. sfpd ois #01-001. shooting ""in policy.""",1147962cb4d8afdb01ffe4489f3ab789bf93c652b731bc9f936da41825a7bfa6
+"walsh, thomas j",sfpd55,firearm,sfpd,2001-06-13,1581.0,sfpd,"june 13, 2001 shooting of idris stelley. sfpd ois #01-001. shooting ""in policy.""","june 13, 2001 shooting of idris stelley. sfpd ois #01-001. shooting ""in policy.""",83d3a918ce7676719b70843443916088c25d69818dabf5b20aaa861691bcd3fa
+"salazar, joseph m",dpa99,excessive force,dpa,2001-03-15,,,nan,,2804bfdfa52f86efd67bfa6816788a68271a08bb332c5db318cef57e2d99c990
+"koenig, kenneth j",dpa34,gbi,dpa,2001-01-19,1266.0,sfpd,nan,nan,c7c087090071da2d34edd96537f3f3dec344a047e30b60dbfb53438ae312d624
+"jonas, stephen d",dpa34,gbi,dpa,2001-01-19,79.0,sfpd,nan,nan,441aafeecc4ac6629e6f65ceba2d8e273dc859b3698b8dfa24d265cd44ab68ee
+"ryan, shaughn p",dpa34,gbi,dpa,2001-01-19,,,nan,,78b355f05caa91333be0d39173691a4b60f51e338342cf3c0842efed8b42f6ca
+"dejesus, luis p",dpa34,gbi,dpa,2001-01-19,,,nan,,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"furminger, ian",dpa37,gbi,dpa,2000-10-04,,,nan,,8f683934cdc4605529a4dc95211a41d21a6e62353d8766a8540524109421b913
+"sawyer, jason c",dpa37,gbi,dpa,2000-10-04,,,nan,,39c8068affdf3a259470446e1ca5bc283d546fb9cf278c341e56d173a98d3c4b
+"najarro, elmer",dpa37,gbi,dpa,2000-10-04,nan,sfpd,nan,nan,317c60655a88d3420f29b1666f19344e1bbf4edb06ee6c5146f117209fa5963c
+"dejesus, luis p",dpa19,gbi,dpa,2000-08-21,,,nan,,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"aherne, james d",dpa19,gbi,dpa,2000-08-21,1095.0,sfpd,nan,nan,dd2149ec558e01ad199fcfa11d744a08e667086490bd6b21e447abf2afc50248
+"paine, timothy d",dpa19,gbi,dpa,2000-08-21,763.0,sfpd,nan,nan,97c49c140d89586838353c4c81c30d918ce7db629376c3cef83922dfa5f5633d
+"fowlie, timothy f",dpa19,gbi,dpa,2000-08-21,150.0,sfpd,nan,nan,60e2163b030860af16a6dca982e42f018436dd7e85fc9664e0552986834b09ee
+"fitzgerald, timothy",comm137,prejudice or discrimination,comm,2000-07-13,,,nan,,59fbf828c2cc3193d3f401020b23f5779739bcbc43f2b5756c1ce0acd1e85fca
+"mcmillan, robert t.",dpa62,unlawful search/arrest,dpa,2000-05-12,1700.0,sfpd,nan,nan,78a42e2918f3859f2ccfcd960febcb1e7c9a384605a522e13936417ca59528f9
+"philpott, michael d",dpa62,unlawful search/arrest,dpa,2000-05-12,65.0,sfpd,nan,nan,7bd38b43fd4f0aede6c35a1753a037e36603fba4e0f534b72e2cd7c2327f8305
+"fitzgerald, timothy",comm143,unlawful search/arrest,comm,2000-03-14,,,nan,,59fbf828c2cc3193d3f401020b23f5779739bcbc43f2b5756c1ce0acd1e85fca
+"ng, julian w",sfpd271,firearm,sfpd,2000-03-02,338.0,sfpd,nan,nan,cb1346353aaf1b4b632ca467c4a8684922ac8010023914257cb3c3145319a9f1
+"dejesus, luis p",dpa16,gbi,dpa,2000-02-04,,,nan,,c15f1d9b123fa074593c65490d56d7d3427a68e02579eed275977e71dfcb5837
+"lozada, paul",sfpd129,firearm,sfpd,1999-12-21,,,nan,,cd5fe222931a04f0a0c53d83202c108d69f10f243beb5cf0e68b88f05a954e35
+"salazar, joseph m",sfpd163,firearm,sfpd,2022-10-07,,,nan,,2804bfdfa52f86efd67bfa6816788a68271a08bb332c5db318cef57e2d99c990
+"fegan, jacob w",sfpd259,firearm,sfpd,1999-10-02,1380.0,sfpd,nan,nan,aa29d25f1d4dba8cbb14af31d614011145cec36f06d0e06637de1d21670ce13a
+"castro, adriano e",sfpd259,firearm,sfpd,1999-10-02,845.0,sfpd,nan,nan,37bd0153cfd89ded332c8708612cd4ee71c2e7a2eb51562c07ba070182fbdbdb
+"furminger, ian","sfpd5,sfpd12,dpa57",firearm,"sfpd,dpa",1998-10-06,,,"october 6, 1998 shooting of john smart. spfd ois #98-012. shooting ""in policy.""",,8f683934cdc4605529a4dc95211a41d21a6e62353d8766a8540524109421b913
+"sawyer, jason c","sfpd5,sfpd12,dpa57",firearm,"sfpd,dpa",1998-10-06,,,"october 6, 1998 shooting of john smart. spfd ois #98-012. shooting ""in policy.""",,39c8068affdf3a259470446e1ca5bc283d546fb9cf278c341e56d173a98d3c4b
+"conley, william j",dpa15,gbi,dpa,1998-10-04,2192.0,sfpd,nan,nan,015105b9b90c4372ba80a7e108431833995dbbce1429f22850b7a5e6a0966ee4
+"burke, john f",dpa15,gbi,dpa,1998-10-04,,,nan,,386a4a1a428bfa8413a50473472d3febf69164b295723342b86af6257c101587
+"morley, michael",dpa15,gbi,dpa,1998-10-04,2237.0,sfpd,nan,nan,e0cba546a92933539da2a1937eb6af97a53391c3c96541fedf3ced4b3e55ebb9
+"hagan, francis j",dpa15,gbi,dpa,1998-10-04,1280.0,sfpd,nan,nan,beb6886378be8cb0ef8b1ffb62c2669e164971515341c4dff0347db1b3f08176
+"redd, steven",dpa15,gbi,dpa,1998-10-04,1730.0,sfpd,nan,nan,6ebb6ee6d6eeea03d2684647ade0f24c0f9d99415b7c5f1093c5a2278fc77beb
+"jefferson, jason d",sfpd168,firearm,sfpd,1998-05-29,806.0,sfpd,nan,nan,38465a44ebdde8ac299bfdc3cd1036cab3f866d39f7128d3a117492ea7db2261
+"meixner, dennis",sfpd168,firearm,sfpd,1998-05-29,nan,nan,nan,nan,86e51b52f4c4121d062a9b94137d599314bb6fca8432714a1f3b9f2285fd11a9
+"morrow, leonard c",sfpd168,firearm,sfpd,1998-05-29,,,nan,,564a4ddb3b16b97a3c0a4f61cdb1e765f973288b9880fdef50ed795a2cc9327f
+"breslin, gregory","dpa91,dpa94",gbi,dpa,1998-05-13,nan,nan,nan,nan,64b200e67ee8803c0a7e07d94499654da1b209081a049b2a83ffbdd8da10ebc6
+"moran, michael","dpa91,dpa94",gbi,dpa,1998-05-13,,,nan,,371f4ea359c358ded8b2a5073cc9f58dc77a4892115116a88d9a96fdf6a302b3
+"cherniss, jason a",sfpd268,firearm,sfpd,1998-04-03,,,nan,,e355c50294d10c4399ada4aee68c379d72a3d065c69b2337c03f80cf093c5594
+"ferrando, john",sfpd268,firearm,sfpd,1998-04-03,,,nan,,1195614d15b83dccbf1a873a12344041063c9004bf85e12c1457aa21bb9618d2
+"cesari, patrick",sfpd299,excessive force,sfpd,1998-02-18,nan,sfpd,nan,nan,00daea9d213aac40e206e8ba2e50be1b36da11f3e511c384d1848491b165e1a0
+"gilbert, william",sfpd109,firearm,sfpd,1998-02-15,nan,sfpd,nan,nan,554baea561e38d375c413b58f4b8216b2a74b454b160c7cc7cef600779039440
+"marcic, dean m",sfpd106,firearm,sfpd,1998-02-12,1085.0,sfpd,nan,nan,7eac6588e91fdd473ab78a3d9be253bfd77d47a70ed84f6548b59514e004438f
+"sullivan, mark",sfpd117,firearm,sfpd,1998-01-16,nan,sfpd,nan,nan,04278bbf23be0528104ee4fec48ca586c1eb3e6928b9ea658331db9b7d032e8f
+"ma, peter",comm133,dishonesty,comm,1997-12-31,nan,sfpd,nan,nan,c08f4792818e4b1d6bbd877aecb0343c79ac326df863e5d468e56b56e160c36d
+"salazar, joseph m",sfpd119,firearm,sfpd,nat,,,nan,,2804bfdfa52f86efd67bfa6816788a68271a08bb332c5db318cef57e2d99c990
+"cota, mark a",sfpd118,firearm,sfpd,1997-11-24,,,nan,,2c1731d8a1d3807ba26b7374731e8b5ebdd44928f08961157e8fa1e21d230834
+"ryan, shaughn p",sfpd35,firearm,sfpd,1997-11-09,,,"november 9, 1997 shooting of unknown victim. sfpd ois #97-006. shooting ""in policy.""",,78b355f05caa91333be0d39173691a4b60f51e338342cf3c0842efed8b42f6ca
+"bacolot, stevie r",sfpd300,excessive force,sfpd,1997-10-24,,,nan,,9a27ce25b9a4aabcbdcaff5e0d3f9f2efc3f28fcfea18a0af16bf11818313ebb
+"greenman, chris",sfpd300,excessive force,sfpd,1997-10-24,,,nan,,0674e4daa491b44398bef96327d270d389f370a62fee91981ffe6eb51261c75e
+"greenman, chris",comm155,dishonesty,comm,1997-10-24,,,nan,,0674e4daa491b44398bef96327d270d389f370a62fee91981ffe6eb51261c75e
+"mendieta, raul a",sfpd142,firearm,sfpd,1997-10-22,808.0,sfpd,nan,nan,c9028ec74b6361e52947abfed675f1493bcfd0e4c67c86541dad74a8c4702743
+"jamison, michael",sfpd143,firearm,sfpd,1997-10-03,nan,sfpd,nan,nan,a27785acceb2b6f4d851e55eb198361863b1b127648f1cc6e544e58dd9180872
+"gonzalez, edgar a","comm147,sfpd269",excessive force,"comm,sfpd",1997-05-11,687.0,sfpd,nan,nan,ea28e55b91415a92095ee64254214791c997797207c5a6a269d6600db63c1ab3
+"sawyer, jason c",dpa36,gbi,dpa,1997-04-27,,,nan,,39c8068affdf3a259470446e1ca5bc283d546fb9cf278c341e56d173a98d3c4b
+"recinos, carlos",dpa36,gbi,dpa,1997-04-27,nan,sfpd,nan,nan,bef7faea65b1e666a6f68cd8f8ab684d9e37ea779209e4c0bf4bf14c30b7838d
+"morrow, leonard c",sfpd146,firearm,sfpd,1997-03-08,,,nan,,564a4ddb3b16b97a3c0a4f61cdb1e765f973288b9880fdef50ed795a2cc9327f
+"cherniss, jason a",sfpd156,excessive force,sfpd,1997-02-12,,,nan,,e355c50294d10c4399ada4aee68c379d72a3d065c69b2337c03f80cf093c5594
+"ryan, stephen p.",dpa32,gbi,dpa,1997-01-21,nan,sfpd,nan,nan,47d400ec186207c13c5b3b5dfeedee00b97e80b7f31f1f9c94d8ac8eaabb17cb
+"sawyer, jason c",dpa32,gbi,dpa,1997-01-21,,,nan,,39c8068affdf3a259470446e1ca5bc283d546fb9cf278c341e56d173a98d3c4b
+"obrochta, mark f",dpa32,gbi,dpa,1997-01-21,1200.0,sfpd,nan,nan,cf460c5fe71185fbfeb32aaed19d0d65f00353f429211247c055cc9e79be759b
+"bacolot, stevie r",dpa32,gbi,dpa,1997-01-21,,,nan,,9a27ce25b9a4aabcbdcaff5e0d3f9f2efc3f28fcfea18a0af16bf11818313ebb
+"o'leary, matthew g",sfpd161,firearm,sfpd,1996-10-26,973.0,sfpd,nan,nan,c1487c082c0ba9314d993c0dc497370e6542cc655116f0507a1f8da183b7055c
+"lee, steven y",sfpd304,excessive force,sfpd,1996-10-12,,,nan,,1c253fc26b307aba33049fdd7ddd994ecc45daae3b1ea3f7b33335703e217923
+"courtney, troy j",sfpd144,firearm,sfpd,1996-10-03,1648.0,sfpd,nan,nan,11ffd920cbc61c8f35713836990eaf9a2e07529bb73a4f2b0e116cf425d50a3d
+"cardenas, alec",sfpd151,firearm,sfpd,1996-08-01,nan,sfpd,nan,nan,d41f5632a8cb14c525763fce45493a3f0515c47491631c51d60895457686dfaf
+"herman, david",sfpd105,firearm,sfpd,1996-06-23,nan,sfpd,nan,nan,9d879689ff0e5bdc3b28b7f826208866f3bf6b5e3268ad49f90e9b779cb1015a
+"corry, bernard",sfpd145,firearm,sfpd,1996-05-28,nan,sfpd,nan,nan,c305c8940a749f93878ae26c540964ba89d6120632c2885dc5b35e56f8536181
+"wright, david",sfpd145,firearm,sfpd,1996-05-28,nan,sfpd,nan,nan,d7e8c45f719b3725a46daf51657f4ae5c5daf6e314b4d03dda1e1a0c25b2a226
+"lewis, john",sfpd149,firearm,sfpd,1996-05-21,nan,sfpd,nan,nan,ef4793d867a4df42f896bcf741633a14392725943b4f5eaca99a7669a64ea17f
+"caracciolo, eric p",dpa41,gbi,dpa,1996-05-13,832.0,sfpd,nan,nan,f20247485967b8b315d124089f61d1fc03d52fb9c8376fee554080fa610b3e4b
+"schaffer, brian e",dpa41,gbi,dpa,1996-05-13,,,nan,,7bba622b539b1f999b1c2aec1ef60b889b577c4447d6cdc1bc1138c87944eb96
+"miller, james",sfpd107,firearm,sfpd,1996-04-15,nan,sfpd,nan,nan,c3569de47116a74927b7772f805c4c8e8d999a16f593028a5c4f55a43bf7bcf2
+"jackson, van",sfpd115,firearm,sfpd,1996-02-02,nan,sfpd,nan,nan,80253c0f0077ffb1fd151b8298355926d3763745653d93cc5b980e93c764ee2f
+"bosshard, stephen",sfpd178,firearm,sfpd,1995-10-12,nan,nan,nan,nan,aa7100faf42f7a0c2cf056736cf274c5acd540596380a35a1c091e94176045a8
+"washington, jessie",dpa76,gbi,dpa,1995-09-06,nan,sfpd,nan,nan,ce454f5aa33d872ad2e166571838b587149f5c0549c86141db6394b2b7e72788
+"lozada, paul",sfpd130,firearm,sfpd,1995-05-21,,,nan,,cd5fe222931a04f0a0c53d83202c108d69f10f243beb5cf0e68b88f05a954e35
+"balinton, nash",sfpd130,firearm,sfpd,1995-05-21,nan,sfpd,nan,nan,f48508f441362c547edafea856cd164bc5c7afe204ee1b3f3a426416f65feb55
+"fee, philip a","sfpd318,comm154",dishonesty,"sfpd,comm",1995-02-01,1843.0,sfpd,nan,nan,dd51971b96c663afbfd51b74b6613b5e0d2785b976e690a1600991848185fec7
+"tennant, woodrow",comm152,dishonesty,comm,1994-08-19,nan,nan,nan,nan,2a8fe49a67d61bfb8444c55c3cf855919def7a6c94421592115d86109c792125
+"tso, kelvin k",sfpd314,prejudice or discrimination,sfpd,1994-06-22,,,nan,,2e90a8559696c2c06502b5d5c375510190b868c570daa7ed31a550d53d6817fb
+"amigo, guillermo",sfpd193,dishonesty,sfpd,1994-06-06,nan,sfpd,nan,nan,36494b8fada385f0addacda88e9d15cb68ff62b790d7a7c1530393251dab809d
+"yoshi, eugene",comm153,dishonesty,comm,1993-08-24,nan,nan,nan,nan,2305a5e50379dcd7ebcd7b28ff62b9acb2307ca4b9fff8c4909c8a8a336f7afb
+"tso, kelvin k",sfpd313,prejudice or discrimination,sfpd,1993-04-23,,,nan,,2e90a8559696c2c06502b5d5c375510190b868c570daa7ed31a550d53d6817fb
+"fukunaga, candice","comm131,sfpd284",dishonesty,"comm,sfpd",1990-09-06,nan,sfpd,nan,nan,aba12b53cba77083547bc4a137f0b18990c1cc1321a40c02278e428c8dc63138
+"penrose, paul",comm132,dishonesty,comm,1990-06-26,nan,sfpd,nan,nan,6f0a4224387219ec95d04f0480d003be5ebe4943f5794d16f08abae7c8740d5d
+"browne, edward",sfpd253,gbi,sfpd,1990-06-16,nan,nan,nan,nan,fe0d30717d5133efb0fb2dc13aed911c4474ec2a9906096ef8c2aae8b1c895d4
+"lewis, james",sfpd253,gbi,sfpd,1990-06-16,nan,nan,nan,nan,97d81eb6c0b8cdaba7d3336d89d463a67c451019f11975d77bce02e79ed13600
+"palada, michael",sfpd253,gbi,sfpd,1990-06-16,nan,nan,nan,nan,9953688af0eb88deab8a4a842706a35cbc203c31fc3c22272bcb4c2be4182ca7
+"cordes, joseph",sfpd75,sexual assault,sfpd,1990-03-30,nan,sfpd,nan,nan,197fc8c6df700ec1fef945d2da5fed105926b86175c3838b30cd5529c8c6af0d
+"burton, phillip","dpa82,dpa86",gbi,sfpd,1989-09-12,,,nan,,4fa6b1c86fcc3ab2602c33fd9334e02713224c5531b58ce222e92966bf52a62b
+"cranston, f","dpa81,dpa85",gbi,dpa,1988-06-10,7.0,sf institutional police,nan,nan,fbe4a8da3a1af13a39382df251b720c69240df85d3f28ba7806c31a7662809ca
+"jones, a","dpa81,dpa85",gbi,dpa,1988-06-10,48.0,sf institutional police,nan,nan,364373801fdddef52ab1ee2f9b481b0516909ac8f545a9aed2da8b03a54434b0
+"burton, phillip","dpa81,dpa85",gbi,dpa,1988-06-10,,,nan,,4fa6b1c86fcc3ab2602c33fd9334e02713224c5531b58ce222e92966bf52a62b
+"smith, billy","dpa80,dpa84",gbi,dpa,1987-12-12,202.0,sfpd,nan,nan,2481e3e8c0609849a82029b1afbef8a1390da6d12c39bdce294d2c1130fbbc27
+"burton, phillip","dpa80,dpa84",gbi,dpa,1987-12-12,,,nan,,4fa6b1c86fcc3ab2602c33fd9334e02713224c5531b58ce222e92966bf52a62b
+"abrahamsen, thomas",,,,,619.0,sfpd,,nan,a931e81292ac18f47a2c11764bb1a8cb68a04b3b736da22d6364376a66204c64
+"aceret, richard",,,,,nan,sfpd,,nan,3af2faa7d1bf1f66dd50c6d607b1bba493a64289a8ddf914d3072175afb9c838
+"acevedo, james",,,,,nan,sfpd,,nan,ffe46bdc036283768729d9be5f21f1d522dfdfdcc510fcdea94ec5b46b90da5b
+"alcaraz, gabriel",,,,,590.0,sfpd,,"december 16, 2011 shooting of larry simonton. sfpd ois #11-008. shooting ""in policy.""",1d8b8f24734e41ade3d78e652394cd2b57204db4c197e43c9b077253e2ed3694
+"aleman, arnaldo a",,,,,778.0,sfpd,,nan,4573a204c30cd2985a06fd4724dc2821a4c0e6dbebce4a129f632f0a13885718
+"aloise, jeffrey t",,,,,1303.0,sfpd,,"november 11, 2015, shooting of javier lopez gracia. sfpd ois #15-009. shooting ""in policy.""",a6685e09ce0cd5f2f4855501f91183885d285349928939713374aadf05679cb7
+"alvarez, melonee",,,,,nan,sfpd,,"march 15, 2002 shooting of richard earl tims. sfpd ois #02-005. shooting ""in policy.""",a8a31506d5bf957cd82ff08bac5b9554166063b59486fb812c414422ecbf7367
+"andraychak, michael a",,,,,457.0,sfpd,,nan,b515d8dce9a14eebe952140e2b36592ee252ed3e8d203b3a31f5ed60fe1721a4
+"araujo, richard j",,,,,444.0,sfpd,,nan,8862449140c96ddd43a505969439e5b513ef0aaeede0ae4186fa9c816c4a4eed
+"arrebollo, victor",,,,,nan,sfpd,,nan,78e1c283dd7cbb3a0562b24bacfd241274e46dda09414c32775d22b8a5256362
+"artiga, nelson a",,,,,1417.0,sfpd,,nan,b6adde5a305230415deef5b75e955fd7a8afd7374c13e962c8f6e376eeeaa419
+"asare, kwadwo",,,,,399.0,sfpd,,nan,bca01b85a67f1373c5847063c62eb6b8cb0b3fc17ad78b905daf572b1a8ca73f
+"aylworth, joel evan",,,,,480.0,sfpd,,nan,142778e35e33f4452aa4d07db48aaca9cf703a880a6952ba5aa7df4091b43c21
+"bacolot, stevie r",,,,,1077.0,sfpd,,nan,b05a7797c5c2a8102229a075ea4e4e77688510b98c9d97fc3696d48480a9da08
+"balinton, egnacio",,,,,nan,sfpd,,nan,d58f04e9a808098097690acc0273f937a7fb01dda0b35eecd2a288ffa2fade1b
+"banta, ronald e",,,,,2251.0,sfpd,,nan,01ef8c5fdfc347860015c70104428b5368a48fb05fce1ad234dce39e9c48960b
+"barcena, oscar c",,,,,1715.0,sfpd,,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",76e626c39830e3c36a98bc263d72ffd0c5a2c90a44c9e90e269b0a668281de09
+"barr, kierstie b.",,,,,129.0,sfpd,,nan,dbe8da44225a6a9d952d378ba00df71da4ec2730e39f8c32384a41549c7e62e6
+"barry, jeffrey",,,,,nan,sfpd,,nan,0865d5137c8c8378fa6693623e0aa971ec8de81c31396338c5101c49c5c94d43
+"barsetti, dominic",,,,,nan,sfsd,,nan,828d1336f75ab1d388b1b89e684f267bf46f4c96ee6d2167de87880addf38404
+"basurto, hector",,,,,1484.0,sfpd,,nan,19dd49e46ead07d7a62aca6c2b5a8431ceb573cb182da559a5f9d9e4848473c7
+"beazley, raymond",,,,,356.0,sfpd,,nan,11be65375a53cc21084bd3a5d8c548efa3e40b11d9573fbcfbef1faa2cbed5ca
+"benzinger, stephen d",,,,,356.0,sfpd,,nan,de722f09880c517dbbd27a6eec511eb279efcba18477bcdad17b12675cdfd755
+"bernard, nathan e",,,,,244.0,sfpd,,nan,8d1ae6bd9b1edf8489d630c8575925841611f6bcb6759518a05b42d2e41e6dfe
+"bertrand, larry l",,,,,414.0,sfpd,,nan,f71f419a91d3328527a63652488b30d3688d4bc4a9b794a39af714b8ac157b7d
+"biggs, scott b",,,,,1760.0,sfpd,,nan,460ec7c0340e3edf25eb516bd2edc12e610e496f2ca96644d53361a07bafac25
+"bloom, barry",,,,,nan,sfsd,,nan,54c479512219482f1640fb64f064899e6cbbf2884c23ca63b7a5ca89cbb6694d
+"bodisco, richard b",,,,,883.0,sfpd,,nan,6e710f8b405e13fd7b09b858e28b54b352ac7d5df834e6fb41b90a13b4b90538
+"bohanan, robert",,,,,883.0,sfpd,,nan,ac58c0313f3ff7bf5337f839c4fe37415e4f58671a5d018b186147092a5e8fb8
+"bolte, mike",,,,,1972.0,sfpd,,nan,528fcc55eae715f858b15289afd90dab4258aea4222ec62fb6abe56dc3d3977f
+"bragagnolo, john c",,,,,941.0,sfpd,,nan,2cdf329a01d610342ed3cb93cd7b45357060d70deeb1af1c56bf1deac23ff102
+"brandt, david m",,,,,218.0,sfpd,,nan,9a92b5186e0610dc2fe242644d059155db0673cc8af0b022343ef459ae65c91a
+"broberg, leonard",,,,,1450.0,sfpd,,nan,164d1ace580479bdac5638e273ee1a2d919732620951beaae372d8730b770c0b
+"buckley, nicholas c",,,,,1537.0,sfpd,,nan,9e78c247a03285bb8b328c8618c8dd9c4b2f97a8cd7c7212ff4586ebddbde3e6
+"buckley, nicholas matthew",,,,,528.0,sfpd,,nan,29cd6d6ed717dcaec07e791719e831f95e19669670e181f899e3c99089ff4cc1
+"buhagiar, gregory m",,,,,1277.0,sfpd,,"february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020, january 26, 2007 shooting of unknown victim. sfpd ois #2007-0001. shooting ""in policy.""",f29e5af9966b79bbe739af12fd97ada75d288f7680ab5ceebf0647be99ae1fc9
+"burke, john f",,,,,2240.0,sfpd,,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",4c08857fc5c6b424063ff962b98cb166c14442f016ec50fae3b9d6689af177f6
+"burrows, reese",,,,,nan,sfpd,,nan,46c69f61589603b1757e920dfdc57da4260372ef8f27e55cd4dcf9973e1561f2
+"burton, phillip",,,,,1836.0,sfpd,,nan,f17fcb2f5325bc99ca4092b92bcdbb0b9965ad7fe9596b23b2db203dbf55b29f
+"byrne, kevin a",,,,,4218.0,sfpd,,"october 27, 2013 shooting of unknown victim. sfpd ois #13-008. shooting ""in policy.""",5840485d23516a34d1278b993d9a072419b77cdc5e90433997142afbda2c248f
+"cabillo, joshua nathan",,,,,1014.0,sfpd,,nan,53cb116a5da50ccc6b5522089d659348d654bab4c4c669e3bbc903e14af05330
+"calkin, donald",,,,,nan,sfpd,,nan,6a8792bd5661088229824a7ca9d7bac1a95f4ff65e4c2ddcfe73baf11423be77
+"caltagirone, gaetano",,,,,872.0,sfpd,,nan,ae1a3738a9fd8927a256dcd3b09d92223650fe294c07800d23e4e68248352f12
+"camilosa, jeffrey araullo",,,,,4244.0,sfpd,,"november 11, 2015, shooting of javier lopez gracia. sfpd ois #15-009. shooting ""in policy.""",7ae65b17c870007c2c6181b5c2087b5210a7f24a2b12d3a2c856ec38c641acd5
+"campos, chad",,,,,nan,sfpd,,"2006 shooting of unknown victim. sfpd ois #2006-0001. , april 12, 2010 shooting of unknown victim. sfpd ois #2010-0003. shooting ""not in policy.""",6475d1ed5300cc408c32ad5d0f45ca96e217d595e6401f48c17aa07378411b37
+"carrasco, antonio",,,,,nan,sfpd,,nan,074a14b4bf21c872c8e27e9bcea7ccb457a7390a042e3bb19bdeed707435ce68
+"carrasco, troy m",,,,,1599.0,sfpd,,"december 13, 2005 shooting of unknown victim. sfpd ois #2005-0015. shooting ""in policy.""",93b32837c87a8f223fa51ebd8efe73282e0f5cf8c6a93fcd928e21a75289da43
+"carroll, corbyn m",,,,,987.0,sfpd,,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",770858c987d5b43fe3f0904fe4a98b5a364a1bb6cb28aa494b9c63c6304e7cfb
+"casey, daniel robert",,,,,4139.0,sfpd,,nan,c3caa9114affaa26c89c3d444c7c92363f285f809e880f208577176271d3af03
+"cashman, kevin",,,,,nan,sfpd,,nan,9b4f4bfa7d0ef9dc14013b36d5b129e6dd3aa2994e9c4ef4cb64d4e402ae3f34
+"casillas, antonio",,,,,nan,sfpd,,nan,3a9ab207bd386e1903a61ef64ef90274205bb5deb712fd1cbb1f1a7e4ecbb3db
+"cassanego, louis",,,,,nan,sfpd,,nan,4ea3745a62d0aeb24e66b571988dd09a236ed7bc5de631c388634aa81beecdac
+"celis, michael",,,,,nan,sfpd,,nan,b57f6a063d9f72b33dd05e81b1d87a5a8da00a63a6cb4f3397aad98568420375
+"cha, kenneth",,,,,1206.0,sfpd,,"may 3, 2017 shooting of nicholas flusche. sfpd ois #17-003. shooting ""in policy."", january 6, 2017 shooting of sean moore. sfpd ois #17-001. investigation open as of june 2020.",c3af180b29a980116e9190f69831b2385ecdd2853899236164f185d06a268ff1
+"chacon, marina",,,,,638.0,sfpd,,nan,0f8db04895d15c2f949d1600f34ffad6f3ca3327884593d0c5bd24b011d178cd
+"chan, lawrence t",,,,,1484.0,sfpd,,nan,d7932b5b02a1b91e1186a825daafaee43df7707863c7aa8c7e69a5368fb711d4
+"chantal, michael r",,,,,4055.0,sfpd,,nan,72662da30c30c23c8d58a4d446b669bec643d16949c902ad3fcf6ca2ba05a983
+"cheng, david lawrence",,,,,2080.0,sfpd,,nan,e21a19dff59eac0e818c294ccb4c94aeb07c0ebadb53c4424fce329411b92915
+"cherniss, jason a",,,,,387.0,sfpd,,nan,3eb04f89a1ce3a0d670403925b9f3cb758570d015fef03f4d42a8947d42f01f7
+"chew, nathan l",,,,,2088.0,sfpd,,"march 21, 2014 shooting of alex nieto. sfpd ois #14-004. dpa case number 0179-14. shooting ""in policy."", october 14, 2016 shooting of nicolas mcwherter. sfpd ois #2016-0003. shooting ""in policy.""",ec2fbda1dedc335723b1e6cf210bd54f126d9e326addb46030bcb976be06c939
+"christ, samuel a",,,,,501.0,sfpd,,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",96e8a9f5f95d33f635b3c951eb85f5f17275586e21e0ffc6812a5c7756a065c0
+"cleary, thomas",,,,,nan,sfpd,,nan,50dbfbfbbd3093a0b9c91d588c1a6b730768de8b8690c2a4af8462989aa5316d
+"clifford, andrew p",,,,,2388.0,sfpd,,nan,145248e85e8bdcd83092e9b9139a3761794e5ca7cd9bc6bbcdd1c4665eedf95e
+"coggan, william",,,,,nan,sfpd,,nan,d048fe84ea1309dcbd4075e9cfc3ad98fafba055d2bd482dbfc3a7e82ff41743
+"colclough iii, david b",,,,,1353.0,sfpd,,"november 12, 2010 shooting of unknown victim. sfpd ois #2010-0013. shooting ""in policy.""",19c623eefbe4e1cde54903e653222d3c2857439a20a8528a42fda5dc83eec6c2
+"cole, davin l",,,,,850.0,sfpd,,nan,89343bc2710b566e1de7d841765c9edee1dce676cb4a69f6bc833a98d6a0411b
+"cole, elizabeth r.",,,,,1268.0,sfpd,,nan,95644a3e2f30c3eee6f025a5ca1692d0801348428d9a8bd8eb434d64c64c5a35
+"cole, matthew",,,,,nan,sfpd,,2006 shooting of unknown victim. sfpd ois #2006-0003.,581948bea59873498288e6caa741d372680a8ee62aa0c9336028693870bbe7cc
+"coleman, stephen m",,,,,4184.0,sfpd,,nan,e72de2fdd7ac0c3913e22eedfd64b1e0c5b4171e24cfe440f8104cef43957932
+"collins, anton",,,,,nan,sfpd,,nan,77644cf1ffe2acbc4dc53734407efd5994dfff3d437af9654e8a80344a1fcb9e
+"connolly, michael p",,,,,2129.0,sfpd,,nan,0a093a284133e50ffbdf7efa9e532e6b87e1d7a9bc19430a33e86202f84c6f20
+"corrales, gregory",,,,,nan,sfpd,,nan,635b4a0b4e138d817c36f8289b196b4429dd56671c125c23ebba6c737434de42
+"cota, mark a",,,,,1335.0,sfpd,,nan,87ddfd64746c3c691c252b06c1f2a5f3a89d226512965d68bb9d65d176c28c79
+"cotter, christopher j",,,,,1364.0,sfpd,,"september 25, 2014 shooting of giovany contreras-sandoval. sfpd ois #14-005. shooting ""in policy."", february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020",0250bdd5e88628f0f99f57fbe4bcaf0862651ad321c2f08acde4e9f2e094d369
+"cowhig, aaron m",,,,,2084.0,sfpd,,"april 17, 2013 shooting of dale stuart wilkerson. sfpd ois #13-006. shooting ""in policy.""",5e7fc42373aef907c39901cc5f72740559d4caf6d9c4cca5a745b5536f8b521b
+"coyne, dominic j.",,,,,696.0,sfpd,,nan,715bef2e241fd2277b2a2277c4bfbcccb0ef1b80478ae67913c810c92e21ee74
+"cremen, laura n.",,,,,623.0,sfpd,,nan,b39be30d60f9d5aebedc537f29d786ed5fda16551eec0b96839a1a21491f1b76
+"crenshaw, kitt",,,,,nan,sfpd,,nan,1dbba545cbca72bcd92d89ab596e7179011d421674a304e75445726c7f4603dc
+"crosby, ryan r",,,,,4164.0,sfpd,,nan,b4a468f7d2fc6c387c89cfed44d110f1264bfb75fd4241175c28a60ff7812e5b
+"cunnie, john patrick",,,,,2324.0,sfpd,,nan,45406311ce36c76c21813868038e383a819404dbcb7aa0e6ba3b6dd42b3612a7
+"d'amico, maureen",,,,,nan,sfpd,,nan,a95ad71750215201d9521cc59eb9c17243b84da497f4c399858b6e8652778063
+"dacre, peter",,,,,nan,sfpd,,nan,c38507e605421ae6abf653ada4293fe0199365822106f6a8befa7e1e58feb4ba
+"daggs, murray p",,,,,1650.0,sfpd,,nan,ebbbc83801febf3ba5d0765fdb7b8fac1543a426459118e4854e8719e1579b94
+"damonte, christopher p",,,,,967.0,sfpd,,nan,8893550d6fda5454e1b2fcd18c47c42076fd8972591827164f6d550511c5aa02
+"daugherty, ryan d",,,,,123.0,sfpd,,"april 7, 2013 shooting of fredi ulisis martinez. sfpd ois #13-005. shooting ""in policy.""",b858d3e4ab5a97d01057ffac0eac6b249d1ef610f738c428de065908a5929387
+"de leon garcia, danny bosbely",,,,,1825.0,sfpd,,nan,e3cfd9383824dce629a3fd615552581c2a6b7d2f115a681fdbbb81976f8408a8
+"dear, roland b",,,,,855.0,sfpd,,nan,575b7e3d8a8d37d4d05f2e11339f3075185b2a86789c3bf92f3568ee6e073835
+"dedet, daniel",,,,,nan,sfpd,,nan,6c4820db53f4404c9cb7261564624b111970fd93c1fd8970e48cb4a819873dc2
+"dejesus, luis p",,,,,247.0,sfpd,,"april 21, 2010 shooting of unknown victim. sfpd ois #10-004. shooting ""in policy."", september 30, 2010 shooting of unknown victim. sfpd ois #10-010. shooting ""in policy."", june 24, 2001 shooting of unknown victim. sfpd ois #01-002. shooting ""in policy.""",0093f08eddf28023f4cdb2dc3549cca50c6743bfa9a3ae3ac5ad6aa56d1710a5
+"diaz pumay, ricardo m",,,,,1308.0,sfpd,,nan,768a0fbf98071b5a26fa825ddea7c056e5786430f5fff7e268fc7490b64d9856
+"dimapasoc, ferdinand",,,,,nan,sfpd,,nan,070a92d39c67249844ac91f4f472952b7ecd32c63e82e60b3760a5f8a73003f6
+"discenza, domenico a",,,,,485.0,sfpd,,"january 31, 2007 shooting. sfpd oid 2007-0003.",0f6f26757c9081127cedfc03747aa2a27629014241636de96a3669abec6ae14c
+"doherty, ryan p",,,,,1022.0,sfpd,,"july 20, 2013 shooting at carlos miranda. sfpd ois #13-007. shooting ""in policy."", april 21, 2010 shooting of unknown victim. sfpd ois #10-004. shooting ""in policy."", august 28, 2010 shooting of marcus tyson. sfpd ois #2010-0007. shooting ""in policy.""",282c0272bb7beec56f90ce68c2729de2371ec4ac5d649fbe31ae82fcd023e249
+"donati, maria t",,,,,1403.0,sfpd,,nan,7e8c206daaa2a9fa14e7adc965589aaeac6c8304259e979275a90df15ecf5ddb
+"dorantes, jennifer k",,,,,559.0,sfpd,,nan,d398a31d5a72804c050366d6fd1630fc67ff8779a1bc52da038eb025448eef2c
+"droz, lindsay a'",,,,,1238.0,sfpd,,nan,381df74c5f1ca6d59f19286e230a421b905f0217ca7e27b35bb2099474696c5d
+"dudley, james",,,,,nan,sfpd,,nan,efd007a8f428cb25fdb41433117c0fb379ad3d82455a4101f98b8a0300ac0507
+"dunnigan, mary",,,,,nan,sfpd,,nan,e6bce67e0c9337682e7f92d7c8a6d7801dad996f3c5b36d14c1bc9c8dfe9bd0f
+"eastlund, eric g.",,,,,1318.0,sfpd,,"may 19, 2016 shooting of jessica williams. sfpd ois #16-002. dpa case number 0252-16. officer was suspended for 40 days.",0b54e91fdd4eea5e1b1228d2b53985f7b2a5acfd3b43da58ed3c9736bbaa9b65
+"elias, raul e",,,,,593.0,sfpd,,nan,e99ccba7d7da6663cd30b97e4b77cab2cda2461f1b5d7534f725ad7b3970e5cd
+"elieff, william j",,,,,24.0,sfpd,,nan,194d6f0f3e26a3bb8d7f2b06f450503b2a3cf4b8a1cdd2a8056964485cfdd620
+"ellis, michael b",,,,,1994.0,sfpd,,"april 21, 2010 shooting of unknown victim. sfpd ois #10-004. shooting ""in policy."", september 30, 2010 shooting of unknown victim. sfpd ois #10-010. shooting ""in policy.""",248b63d1738e291f869dfb0ff44296ac9a1b17def05488f11a021a97237f3b9e
+"elmore, britt d",,,,,1408.0,sfpd,,nan,f41ee5060fb25f74fb94a3af69e869838fd4911ac16fe980ee8c53c99421a1ee
+"elrod, ryan c",,,,,2056.0,sfpd,,nan,02a7c1b1d8098a3f1e8f83c651d301a76e4dc34eca0f937d2a3f41270786afbf
+"enea, joshua p",,,,,2260.0,sfpd,,nan,5f29c91a82684eaef8ec065b02f3298d75ff91763652d6ac4f9b6734144802fb
+"ernst,  richard a",,,,,1681.0,sfpd,,nan,9cb02c21a59777f97336aa142ea8464ca004ef033e36340c2630eb06b036b7fa
+"espinoza, daniel n",,,,,1188.0,sfpd,,nan,66170e5b4004529e369fc43d23f6aed3c1af36b7ba135dca450db6e208a38f29
+"espiritu, jonathan",,,,,nan,sfpd,,nan,8fcf8e774aae60706599e78b920ae0f4d05c6cfa143aac4b49516177ef77041c
+"fabbri, carl p",,,,,1815.0,sfpd,,"february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""",7254ef7e8c3ad69b3c5e8a6cf6244b60dc67f6c69a054307d602a2b7bde48d16
+"fagundes, gary",,,,,nan,sfpd,,nan,89e02957939f92177b981b8f42bb8d738d41a5424605d39f408cfb3ed9753edb
+"faye, patrick t.",,,,,1379.0,sfpd,,nan,a8663c00fd7693ff37970db5bc7e32b4ac33e1c5fa76926ec03f19b146405dab
+"fergus, john c",,,,,1943.0,sfpd,,"june 9, 2018 shooting of oliver jose barcenas. sfpd ois #17-005. officer was reinstated.",c416d100eeb43c2673b894a139e0181a760a12cf89cbedffb5347f40d0676be3
+"ferrando, ernie",,,,,nan,sfpd,,nan,ad37cebfadf323bbfe43a0c0a1c738988da29fd78903a7d3208584a32938e88c
+"ferrando, john",,,,,nan,sfpd,,"november 18, 2003 shooting of unknown victim. sfpd ois #03-003.",622cb925f066b1b91a6807249b7fa30e6e6feb54ed84a60c68880aa4e30ddcad
+"fitzgerald, timothy",,,,,nan,sfpd,,nan,f0f26aab38b5bcbe36646f2d8c822940ad0f48c9e54aa1ea7a7b7e1547b45840
+"friedman, matthew s",,,,,2048.0,sfpd,,"december 10, 2010 shooting of unknown victim. sfpd ois #10-014. shooting ""in policy.""",7399de354848e403c6de319b4eb5c1612a4660d5ff0713c53f130b095bbfb349
+"furminger, ian",,,,,1297.0,sfpd,,"october 6, 1998 shooting of john smart. spfd ois #98-012. shooting ""in policy.""",a55bd8ffcefa27c53f796bb0f2b431bfe200235be5f20dee64f7c0c7c1fc4900
+"gabriel, gene p",,,,,1145.0,sfpd,,nan,953f921ffc8e2a22e0553f97e4e94c9783af87ceaa4983f14445d0d3802e634c
+"gaines, scott h -",,,,,1037.0,sfpd,,nan,9274620ce0b3f9b9248e99067f907ecdd464ce623a396c7dabd4dbb20fb4c2a0
+"galande, christina c",,,,,1660.0,sfpd,,nan,2409b54eda1e19602dafdc37bca0c03075259d76e69ca533b070ca007d061817
+"gallagher, jason j",,,,,1422.0,sfpd,,nan,ed1e63a522b5366e2e745dc72074dbccb219533d66c2b11f50943e2791080190
+"galvez, jason j",,,,,299.0,sfpd,,nan,18d978f9cac4e71c23289ed1eacc08c73b9fd98f6065e87cd5e16298770d413d
+"garrity, james",,,,,nan,sfpd,,2007 shooting of unknown victim. sfpd ois #2007-0015.,abd33f4f18f51514a1704e691fc406c04c1a51536b80c490202a5ad423f466fa
+gary moriyama,,,,,nan,nan,,nan,d9c673718e66c945cfa9d3a8b3b72593ca73905cc5af56183ace9bf7be617a46
+"gin, wallace",,,,,nan,sfpd,,nan,a262b4a6456ea576b886eb07c8a10d5acf38927fc62f6859ae36b435f99ca2cc
+"glenn, robert m",,,,,2283.0,sfpd,,nan,2f1a846d3b298cc64a39ba7273cf682d4aabe0c658130f1fa8633f2a630b3463
+"godfrey, mary",,,,,nan,sfpd,,"july 18, 2012 shooting of pralith praloumg. sfpd ois #12-003. shooting ""in policy."", march 29, 2014 shooting. sfpd oid #14-0004. shooting ""not in policy.""",501be26999a0b6cdf8b795e5fb771195cb3f131244ddae1bc9343fbc645e5bc8
+"goff, david a",,,,,1465.0,sfpd,,"october 7, 2014 shooting of oshaine evans. sfpd ois #14-006. shooting ""in policy.""",b7612de06064394a4799eb4b88f879b362477ac1db96302bb0fb8a7f7cf83aa8
+"gomez, alexis n.",,,,,2230.0,sfpd,,nan,380c8eb8610b8718fd1e2d0d236a645c06c2cefdef2525f2af4d1eae4c7ed4ce
+"grant, percy",,,,,nan,sfsd,,nan,37fcd6516cb89e37a32322eb8cc9d7b33b875a6dbdfc97a100b39cdbaeff2930
+"greenman, chris",,,,,nan,nan,,nan,0674e4daa491b44398bef96327d270d389f370a62fee91981ffe6eb51261c75e
+"grey, john n",,,,,1017.0,sfpd,,nan,8e377846b72ef2bb4a75fdf5390bbf6a0df8c13fa4189a2fe1f345468b9ac6d8
+"griffin, glennon r.",,,,,1502.0,sfpd,,"february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020",031d2e70aa3b6c9e221a96d73b9777a65f3d712ab6ee77ad2a40e9e2ec5e8a20
+"griffin, patrick t",,,,,1835.0,sfpd,,"april 22, 2006 shooting of unknown victim. sfpd ois #004-06. shooting ""in policy."", june 29, 2011 shooting of unknown victim. sfpd ois #2011-0003. shooting ""in policy."", 2006 shooting of unknown victim. sfpd ois #2006-0003. shooting ""in policy."", june 29, 2012 shoting of roselyndo sicat. shooting ""in policy.""",78e08c369e0bbbdb4ce79085592e50610927dacea57539a95944bcb4847df4bc
+"griffin, sean k",,,,,1834.0,sfpd,,nan,1f4ee6b75569099b6fc9b1e585f5ad6283915601e0d2745ac3e5316d4e798831
+"guerrero, ricardo",,,,,1162.0,sfpd,,nan,c4593de86f53992c8e056c5e07858230410a75c894b5aa7670f13544921203fa
+"guin jr, elbert l",,,,,1816.0,sfpd,,nan,1a81234d23453e9fe8a4c2ecc5cf57fac9f1c6f16eb671cab67482f3c4f4a492
+"gunn, terrell d",,,,,993.0,sfpd,,nan,6705bcfed6c854c3934c0c78b92eafba025e96e0f4c630d31b10100557a62f08
+"habib, mohammed",,,,,nan,sfpd,,nan,3c2ad14d7136b261c950c2783238615b63fbab46e69d904ebf7aae0a81bb6128
+"haggett, john",,,,,nan,sfpd,,2006 shooting of unknown victim. sfpd ois #2006-0003.,24789baa7e04f48c09118d5568bf5c7ad1e3120e156b723162fa0155607c64f2
+"hansen, gared d",,,,,2095.0,sfpd,,nan,230d40fec99c8598de4a1fea3f33040b4d733eaea9487f8dc725c9ccba91bf24
+"harmston, clayton a",,,,,693.0,sfpd,,nan,20f9a4eac05829c5e08bdc1f31a0a9711bb4e7e4b7938e8b99b00c83a9eb3e26
+"harrington, sean",,,,,nan,chp,,nan,40081062c9a3c51b475f163290b1f3e809018ba140ee307c7f13419a66dc7844
+"harvey iii, thomas d .",,,,,1995.0,sfpd,,nan,896eef810c6df22b5e36c58d76bb70a4e59896b1ef8605e550186d87426d57bf
+"harvey, thomas",,,,,nan,nan,,nan,9a378bfe96fb15f7f556c2b6dc112b3f8323ace36eb7b408e9f03b34987b707d
+"hayes, christina y",,,,,449.0,sfpd,,"july 23, 2010 shooting of unknown victim. sfpd ois #10-006. shooting ""in policy.""",5a0128cdb555897912ed70e6fe116f5b3047baa0fb774945da2ffd218a02c329
+"hayes, sterling christopher",,,,,1116.0,sfpd,,"december 7, 2019 shooting of jamaica hampton. sfpd ois #19-003. shooting ""in policy.""",25095e658af0183148d7936c29649ede5d584d293755a936172d073b042d1229
+"hazelwood, robert",,,,,nan,chp,,nan,8c7f45eb1a67f98a9c256e6982951f3fc69318f4d9eb4f1949ae99b58262138e
+"hernandez, jason i",,,,,1608.0,sfpd,,nan,c7a1b5dafe9b51cbbbe8a6a046237f5ee3cd3ec1d8037c3955c05332fd48c73b
+"herrera, michael daniel",,,,,1853.0,sfpd,,nan,8094e7c2027589042959ce9a766260843bdd0b461d90088a91f24bcce923080f
+"hinds, joshua d",,,,,1153.0,sfpd,,"may 9, 2012 shooting of dennis hughes. sfpd ois #12-001. shooting ""in policy.""",b57f2d12ba9f8af6c825e7e3e65ae13394db0c5e25c0fb0ccd26699966d0a62a
+"holder, anthony j",,,,,1873.0,sfpd,,nan,ba924322797c853e432ef0f4412b2aea4d279a56bbbc9c5ade9bf8c05327ea09
+"hui, gregory",,,,,nan,sfpd,,nan,c27e346dbcf944b8dd075ea015e46b70efe7add36a6ec187938fd09ddf7b6fe5
+"hung, samson",,,,,359.0,sfpd,,nan,b9e9db370b490852b65ae247c31d308f6c94ab369c7a7d399f470037d5357495
+"hutchings, mark j",,,,,904.0,sfpd,,nan,745d4381be6bc72bf807855eb244344a53dff3f2030d37fe2fe7c9a0ce4978fd
+"im,  mark y",,,,,2096.0,sfpd,,nan,48b41c16f7d9cfc05c374f8524a1c7fddc51aa00591c618e2874d6e15dad2f28
+"ishida, john matthew",,,,,2035.0,sfpd,,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",f6b094d3a643689cb4d72b9a22c60992c1b227e287a0ede1314eeaee72e26cad
+"johnson, david m",,,,,1002.0,sfpd,,"november 6, 2014 shooting of jason seymour. sfpd ois #14-007. shooting ""in policy."", september 30, 2010 shooting of unknown victim. sfpd ois #10-010. shooting ""in policy.""",f8f0d7b5a2def6556db7d92712c821c81e90cfbac0692259daf6f46df0717746
+"johnson, michael",,,,,nan,sfpd,,nan,1f48eb131431f77a045f0199fb7a0af5077f4237866c2d8a3c7801f678055769
+"jones, darius t",,,,,931.0,sfpd,,nan,95d66318281b88d3785b7ed537c1e8a9d2402fc427dc48ecb806bfb6d2efb99a
+"kasper, jon m",,,,,68.0,sfpd,,"july 3, 2010 shooting of rudy mejia. sfpd ois #10-005. shooting ""in policy.""",4d97c2921c529502298f16d1d6f9dc18d0e09b01f1ab8b399000195022e11bdd
+"kawaguchi, michael a",,,,,4089.0,sfpd,,2006 shooting of unknown victim. sfpd ois #2006-007.,a81e195abd0e7f420ab253f4f2ecf4b985ae53121470354bda2415ad7ac578f8
+"keesor, john r",,,,,1506.0,sfpd,,"june 6, 2006 shooting of unknown victim. sfpd ois #006-04.",dc33334bfe187285190435d92af24057e62e957e6ff784bcccbeb8e2d2e39c90
+"kennedy, patrick t",,,,,1535.0,sfpd,,nan,cb2425dd857e588a4525c1ed8d45bbf7fa7c7dd7e818adf339dd3c6066abd46c
+"khmarskiy, pavel",,,,,1382.0,sfpd,,nan,eb4ff409c0d2213cbc033c17d1cf7af3be81b239e8d238681afc001e8726e165
+"khuu, diane",,,,,358.0,sfpd,,nan,6d4a42d18771ff88ed99b5bad40a8b9f757f9bd6916026f2f057a39f8294b64f
+"kneuker, brian w.",,,,,2334.0,sfpd,,nan,b19f9d23f9a4f5c5f960bed1f99ef4852aed3ab35210c2abc81f50d5df029910
+"kosta, christopher b",,,,,1878.0,sfpd,,nan,63a81f2cf55afdad691e3dce6ae4f93b82b4f091ec43eaef80b01153de07178c
+"kumli, joshua",,,,,4013.0,sfpd,,"june 29, 2004 shooting of unknown victim. sfpd ois #04-006. shooting ""in policy.""",832f9ed1e2d505647e603c11d27ff292217c760e9f9c068dcb9a8e4885c34c58
+"lalor, martin",,,,,nan,sfpd,,"february 27, 2002 shooting of ramon sapp. sfpd ois #004-02. shooting ""in policy.""",d1ee946aa5f57c06afe51b790a41a681e8f1ac354985270e244e490e8ad25b2c
+"landi, antonio s.",,,,,1746.0,sfpd,,nan,24d60044b2a445d9890470462daaeff6c5042eb1e2e1aec6590cabfe497f2aba
+"landi, steven",,,,,nan,sfpd,,nan,d3269bc071cd36c6569d8a8f566e7a6e5a08691c4e7628f4baf5caffd43b3d48
+"lara jr, juan antonio",,,,,1582.0,sfpd,,nan,dd23fbce710a21b20807f732699226c83f765ed00e4c61ee712734c9dbf36add
+"lara, kevin t",,,,,367.0,sfpd,,nan,e5a3b425a8ed160cb3571e2f792f6e789a35de00040c482195a408b46d3a601c
+"lee, mark j",,,,,1983.0,sfpd,,nan,4d4708fa6446aadd7f9aa2b366bc065c4233c62ebc4bb0e73e03006ba23cdd60
+"lee, steven y",,,,,1057.0,sfpd,,nan,f34a7f25208b522396f14025a74a70c4174acf772fb2aa48e3eec096abec28c3
+"lee, thomas j",,,,,1838.0,sfpd,,nan,32e282b94168f24470619be8f96d372f490dcb169b5755842183b61a781e45ef
+"lentz, alexander nicholas",,,,,2338.0,sfpd,,nan,8e04003aeae51fbeea0434a004df6ae6d14a00abdeacbe79f2e043c0ca2dce94
+"leong, christopher n",,,,,513.0,sfpd,,nan,ae417929fe89bb80c37165618b5c54fa558078e1f8186395904d7b51c1735281
+"liang, derrick",,,,,1889.0,sfpd,,nan,ac78728c61143908f7584810e779c23d2638857a6ea99d3209ba507b19d3ab86
+"lim, oliver n",,,,,2001.0,sfpd,,nan,60ad31dc8b62420ebccb954e7eeb3f8f1fa74ddc5a6780119c2335fbf100e465
+"lopez, matthew",,,,,nan,sfpd,,"july 16, 2011 shooting of kenneth harding jr. shooting ""in policy.""",9e960de20adde1b5b58e3faff0595d089f52ee36f01daafcd7694bcbba5d654b
+"lovrin, thomas",,,,,nan,sfpd,,nan,7f4e48dab575e132f5ef1e1c592ff975863189b9ab21e26ec547886fc8840d55
+"lozada, paul",,,,,nan,sfpd,,nan,91113cd772d448a1befc7098657b1d6d21b1705ade406bcfee85dfcd3a6e0326
+"lyons, kevin p",,,,,4048.0,sfpd,,nan,88dea76b7735819fae19c84614fd3e24ca7d94fdf02af2cc208e0050b9078b9f
+"macdonald, kenneth r",,,,,787.0,sfpd,,nan,dc4fbff3aecd8f069e10afd00199ee5838e447e92ccde08b09edeafeef2f9fd4
+"maher, erik p",,,,,1513.0,sfpd,,nan,01fa5984c9c8e8352892813c1a15e28f694f23a6805b5186a8af108667a2ca47
+"marquez, marcial a",,,,,232.0,sfpd,,nan,5be62cad05f9057a5374f980e6be81f68a2823f8e4f68ac2e4ae67626bff6761
+"martinez, cuauhtemoc sz",,,,,1023.0,sfpd,,nan,cf994a8b8464b4a5bf0700b5b4247b8b72ed58401b23cd92cddbeea64f6d4d99
+"martinez, julie",,,,,nan,sfsd,,nan,db60419bbaabc9fd3549280c706a73f72386ba62405475bf87a4aba6de5141b7
+"may, daniel",,,,,nan,sfpd,,"march 20, 2004 shooting. sfpd ois #04-002 (002-04). shooting ""in policy.""",fc85bc3aa94adbb9909f24303d7d2687b06f59209bb2fd4775b365b1cdc8b7c5
+"mccall, justin d",,,,,nan,sfpd,,nan,68d1b35846517d779914906bab56ecc9195c0ce013aa70e38aa02537360ab353
+"mccarter-ribakoff, hava",,,,,4187.0,sfpd,,nan,deb4c2533bb263f2c705f1d70f4f823fad0adddd16097ef0c4a6e6434b49d7d4
+"mccray, tracy a",,,,,4076.0,sfpd,,nan,c4c3615b8abb1b969d144c8051e571254ece269d39b1d13033a74acecc199634
+"mceachern, michael g",,,,,83.0,sfpd,,"january 11, 2005 shooting of unknown victim. dpa case number 126-05.",896627d815b676ffaa9c38d35e6c8f7ff97af42811fd1f06e00dc178e4e0aeab
+"misaghi, ali",,,,,2396.0,sfpd,,nan,48a4e57e7d04848a167b78a6e1db1e23cb542912fccf97cdf7e800a742718ab1
+"molina, mario a",,,,,1586.0,sfpd,,nan,8ab52e39272ef183fbe234a68b0d3f7b303ecfaf3dcc1ebdd562d64e3b416c47
+"montoya, anthony m",,,,,1522.0,sfpd,,nan,d8095595b3cdc20aed170fb230ca8393448fb5939697f527eca86b8ec47ab3e4
+"moran, michael",,,,,1347.0,sfpd,,"september 17, 2011 shooting of jesus octavio paretes rodriguez. sfpd ois #11-005. shooting ""in policy.""",78d902b2ceef2dddc5b3fc59343f102d676ce6a4f33e4fc75c93cf8aa7471a95
+"moriyama, gary j",,,,,1791.0,sfpd,,nan,57d5a4e80c9c5696ab6eeeb685fd42b67a6038e5882a7809ec979644084550cc
+"morrow, leonard c",,,,,1196.0,sfpd,,nan,ac21eed0488ec8fe55e46e6d7fc2e4202632575c6946cc8d98f5c23d38d8a5e4
+"mroz, matthew j.",,,,,1679.0,sfpd,,nan,d8a589bb4a9036286f021e024a69a44f9e3d861a3192a4fff99b54eb4dcb9ee6
+"nagai, nicholas h.",,,,,2017.0,sfpd,,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",f4bc478383ab7a4a7af7dcdb387af247d9936b1f5c61972761c6abe494154d51
+"navarro, shaun a",,,,,1435.0,sfpd,,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",d43aa6c1268bec76831c096eefaf8e9259d125050d473635a93c1787b26400f1
+"neal, gregory f",,,,,1278.0,sfpd,,nan,0b65a18a0156947aed137293a352aae2293b995be77dc12f5059ebc806d16585
+"neary, sean c",,,,,1291.0,sfpd,,nan,210ffe86ea967a35d681ee9cba818830ce564c6c92e2881135bd89d28206f63b
+"nguyen, phong q.",,,,,859.0,sfpd,,nan,0cadf8f757dbbfdfa04204d34a3e32a64b35ba50e487d32100c148780ec63343
+"o'brien, daniel p",,,,,1427.0,sfpd,,nan,c20a38dcc2a6e6e9a7fafd25905420c31b1619d7075b8055d3bc90ff8b9ee1d9
+"o'connor, david g",,,,,313.0,sfpd,,"april 3, 2006 shooting of unknown victim. sfpd ois #002-06. shooting ""in policy.""",97573b181840c28d221e68e0acdd0664a118893878e57d820e7a0b93fdd3d5e4
+"o'keeffe, jesse c.",,,,,426.0,sfpd,,nan,6edee2abc6d27597d20e4d20be1a492da409ebeef13206b64ba22b43b6f3c661
+"ochoa, eduard j",,,,,1317.0,sfpd,,"november 6, 2014 shooting of jason seymour. sfpd ois #14-007. shooting ""in policy.""",e9b5f50677216aebbc528b0fd2eb1e518bce25784696ba39c799f75a64d82757
+"olson, joshua s",,,,,4051.0,sfpd,,"january 27, 2008 shooting of unknown victim. sfpd ois #2008-0001. shooting ""in policy.""",8cca6f9d3834207e90608afd6f46736393c555a46992de387c7cd19d03d327b9
+"pai jr, john j",,,,,4169.0,sfpd,,nan,1c2cbb9fb8e90b14f4c2b6e48abf00da5dbe921542de19e82dcc04b0e49cec6c
+"paige, john",,,,,nan,sfpd,,nan,eb0be4eec43ee36e0bce6757812a7d55a381e8d93c1e30d209219ff1be021c88
+"pak, gregory m",,,,,1554.0,sfpd,,"september 22, 2008 shooting of unknown victim. sfpd ois #2008-0008. shooting ""in policy."", february 19, 2003 shooting of unknown victim. sfpd ois #03-001. shooting ""in policy.""",64364856b7685ad0be7507be4e886e66d6d36751b018fb1f723eda9c18e8ab78
+"pandolfi, james t",,,,,699.0,sfpd,,nan,bb7ab9109617343ace455a3e2fda301696b49ef593f6fa9d55c636ea04f788f4
+"parkin, nicholas r.",,,,,1033.0,sfpd,,nan,e9f45972320c0c6a33f5e3af3589b99887345474c406b7c8d9bca024550944c1
+"parra, henry",,,,,nan,sfpd,,nan,ab42b5f4a7469c32ec7382f10d6f5b28d0f901a1063d03fc14860c0d8d34d53a
+"parra, matthew h",,,,,981.0,sfpd,,nan,5d694f7b088a12631a6f3711e44b7be5df4132312720659155c582c8750013d8
+"parry, david p",,,,,281.0,sfpd,,nan,cb97ddee6828fcb1166d07ac041b42fe6ac9149b102d907ef45607c846fcf959
+"paul, flint t",,,,,648.0,sfpd,,nan,56451847b5fc0854e1e446edfa32735afa2d61b76182d0daf99cda81cdd6cfba
+"payne, adrian c",,,,,2344.0,sfpd,,nan,821e1d4bb64ed91286248eff2ecbac63eacadf0f27173b3d9a1dc2aa81b80cb9
+"peagler, brian",,,,,nan,sfpd,,nan,ab14eb3e169332018f2a0e04118d59c8d063d9c1dc22bb0482c7b62586d6416d
+"peralta, michael v",,,,,2450.0,sfpd,,nan,20647a98698c5424bdcd787099c885d8209f6e16565cffdbf0175346bd7990a6
+"phillips, joshua t",,,,,1697.0,sfpd,,nan,57a256e7da62b8fac606a90713488d812cd3ccb48b3055508a331ca1dfb9d6db
+"phillips, scott r",,,,,1707.0,sfpd,,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",fac0bf8c24960563c7dfa61f69c2f8b10d247cefbbd522bbfc7ae47afbb41bb9
+"philpott, brian t",,,,,925.0,sfpd,,nan,1619e08117962683a97e9d49feed5473131d23db300b85b97ea6e2c55250f37f
+"plantinga, adam j",,,,,2367.0,sfpd,,nan,c0c82ba977d71d058e94cdadb90a3b19e7d580f8bf271209e7652aa77561c111
+"ponce deleon, rodger j",,,,,438.0,sfpd,,nan,7adfcb6009b807ed31efba5c907ac73be978be0c4fe7c9afc0a70f4c06acd33b
+"pratt, yvonne",,,,,nan,sfpd,,nan,81f0511841efc506ca13c7b8d2e56a0122a662f711511285a391e87cd6da2643
+"quema, michelle m.",,,,,2117.0,sfpd,,nan,bf28cb88c9210e1082f6d3414350603dc4c227166a5ff5c8b00804a1d24db593
+"quiocho, christopher p.",,,,,1424.0,sfpd,,nan,997af929e61a9b7637c4f7779567ea42a15a231287e36deee07c5072ab7e2868
+"rainsford, nicholas d",,,,,1011.0,sfpd,,nan,a09c3d07a1ce60d297e69b409653c564a5d661959c6e8af6a34f891a40b5b9ce
+"rallis, christos",,,,,238.0,sfpd,,nan,6276920ff73c5e6a1b01092798e59803bba3d6600131d9d93c6b38f613f02ff9
+"raymond, george p",,,,,1400.0,sfpd,,nan,e5e778cfcd9b7d8803eda26683e273b8fd239f8757629036e643785abfa4f212
+"reboli, eric f",,,,,1651.0,sfpd,,"february 26, 2015 shooting of amilcar perez-lopez. sfpd ois #15-003. dpa case number 0134-15. shooting ""in policy.""",d97924a8a62f84f27e08fbacf1212da2aa6e3d7d90abccc682147128586c2a1b
+"repetto, vincent",,,,,nan,sfpd,,nan,c96ea56277e23556b083b9ee1d4abbbb3d4385dde459bc153c58ae9b6283d282
+"reyes, damien",,,,,nan,sfpd,,nan,56d4cf52694c63d829b6801a828fa8941ca70b36910cb596580f8ec3dc824d9c
+"reyes, daniel",,,,,492.0,sfpd,,nan,dfffcf4d9534f00f04c6e1a7c5d0f8f0329178054b6460b47ddebed07b06df81
+"reyes, james j",,,,,195.0,sfpd,,nan,5a2727c75115070c56ef6cf7e0511fae6f85923caedb79073371971d69ed288b
+"reyes, joseph",,,,,nan,sfpd,,nan,580e71827f707849a7d33bb5f75c7a9fb6f996001c201cb50f79c9029996dd9a
+"richardson, peter d",,,,,1231.0,sfpd,,nan,7796d157f1663f432cac1ca2afa0570095f33b672ca0a6be27f9636e80ee93f5
+"rightmire, kevin j",,,,,1965.0,sfpd,,"march 5, 2013 shooting of eddie tilman. sfpd ois #13-002. shooting ""in policy.""",d0233a4d53f2fb476eb2bf099eb0cc83b2ebbee7423c727d7fc5eac02de72f33
+"robinson, eric john",,,,,2350.0,sfpd,,nan,2f7191868bfb5bfbc30f473e7901405c20308f5f5480f1000802c98801414c94
+"robinson, jason s",,,,,1850.0,sfpd,,"september 24, 2017 shooting of damien murray. sfpd ois #17-005. shooting ""in policy.""",ea5e01d119e9d6e4527ca896fcc6b280c1a38cf9d0161c17e23502d03cf77879
+"roche, cullen j",,,,,354.0,sfpd,,nan,fdc1b994ff3c518d9606ee03d924352ce6e4e5325cc42f2455053d86ce0f35f5
+"rodriguez, david e",,,,,156.0,sfpd,,nan,5ea9f890a52d17d936afae88282b6b4dc786874aa65ca607addba54ccab4658b
+"rodriguez, renaldo",,,,,nan,sfsd,,nan,ce7d78fa49268dfb1bd6c7c6ec0ab314c551b5dd5d870030cc26cd1be3b753a9
+"rosaia, daniel p",,,,,2376.0,sfpd,,nan,856b5c9f5aecc83c53fea73dcae16e2c93bbb97a742b2ec9943062287e8054b7
+"rotschi, michael p",,,,,1514.0,sfpd,,nan,3ba3392d4cbc0b39abd5d60785ee036259c4aa0927d9d5dc13f54c0b1b5b020d
+"ruetti, paul l",,,,,521.0,sfpd,,nan,622f0ea69d1a02a51506e2701788df56c7698d2a615a8c07ffcf5deedc5d9deb
+"ryan, colin w",,,,,1538.0,sfpd,,nan,abd7b1718280a337e96ef2db2404b0b03ba9403279d833c6028759ff6e7192a7
+"ryan, shaughn p",,,,,1756.0,sfpd,,"november 9, 1997 shooting of unknown victim. sfpd ois #97-006. shooting ""in policy.""",91350e3fc966d186089c30799ed00bd78ca77fafc28ec8b3d2783b71f338fbc3
+"salazar, joseph m",,,,,1142.0,sfpd,,"march 7, 2007 shooting of unknown victim. sfpd ois #2007-002. shooting ""in policy.""",40a9ef29168da9897803d2a4587164e8ea60b50ce1db14642e9300392a7399e2
+"sanchez, robert",,,,,7.0,sfpd,,nan,418ca21531f4673dd0e303e1c92fcae287fa8231126b74732c6a98c9b8d54d97
+"sanford, keith",,,,,nan,sfpd,,nan,b8508d02efc88c0a4fe7dfe2b755c4d96c60683fc593c5a57b669851532ea0f6
+"santana, bryan m",,,,,2097.0,sfpd,,"march 6, 2018 shooting of jesus adolfo delgado duarte. sfpd ois #18-002. dpa case number 0097-18.",3b1933aeabb5a008a86cfc156143ed2228ec75af1cd0f2d624de9c9fbe434e7d
+"santos, edward",,,,,nan,sfpd,,nan,bcb45a23cbc60ff40a5ee0eeb7d9ba82e4f27c4987864923dddc86508ffad226
+"saw, terence",,,,,622.0,sfpd,,"january 4, 2011 shooting of unknown victim. sfpd ois #2011-0001. shooting ""in policy.""",7af1757a07f0025c2ecf69836a0d13c310faab11e14f1f66b1d2061ef6dbc452
+"sawyer, jason c",,,,,1127.0,sfpd,,"october 6, 1998 shooting of john smart. spfd ois #98-012. shooting ""in policy."", march 21, 2014 shooting of alex nieto. sfpd ois #14-004. dpa case number 0179-14. shooting ""in policy.""",147b6d0944ab823a5e44d0e0ef6688bd07e2277eecd9755030865353ad1fb45d
+"schaffer, brian e",,,,,1749.0,sfpd,,"september 2, 2005 shooting of unknown victim. sfpd ois #05-005. shooting ""in policy."", may 16, 2002 shooting of unknown victim. sfpd ois 006-02. shooting ""in policy.""",8e610121205fcb1293ac9cb3d5c024e959df4985f6443e3ea6411187aaedd1c4
+"schaffer, christopher a",,,,,1181.0,sfpd,,nan,a9b8b7ead5d2f71cc494b2ab6289e442428d527fd2dc1532cada8c6387844522
+"schiff, frederick r",,,,,1969.0,sfpd,,nan,b37ebbcfa19e4ca29ab7b24dbc2da56235ddab487afdb8113cf7114dd40f46a5
+"schiff, richard henry",,,,,1968.0,sfpd,,"march 21, 2014 shooting of alex nieto. sfpd ois #14-004. dpa case number 0179-14. shooting ""in policy.""",4900e908a5a5e83a207c7f3567ec27203de09a85a188b70ac15bcf8041e2288b
+"schwab, noel",,,,,nan,sfpd,,nan,00b84a52669d9b97dfee84349299a2c874d34ce8175a852bcdd63ce68b021fff
+"scott, chief william",,,,,26.0,sfpd,,nan,b72138445b57a8db2d49327cefb4e0f5f3dd0b498da7fb220745ccd5acf02a4e
+"scott, reginald l",,,,,441.0,sfpd,,"february 19, 2003 shooting of unknown victim. sfpd ois #03-001. shooting ""in policy."", 2007 shooting of unknown victim. sfpd ois #2007-0012. officer reinstated., 2007 shooting of unknown victim. sfpd ois #2007-0005.",e6e2171ee56e4ec628124b59d821e068b27023716e8f8c385fcb81c1017fe876
+"serna, jesse",,,,,nan,nan,,nan,7929707f838a8053e644e01a48acca751837ddbf0d8a802ad8dbf7999a6511a3
+"serrano, manuel j",,,,,766.0,sfpd,,nan,f741c5bd8e35d5dacab509913432454673e47f1881df5b3b9684562c96ecbb51
+"servat, christopher m",,,,,285.0,sfpd,,nan,c5820b100aaab19690b42b2d142c63e2d0c37f9df011245d291dfe8fd25661b1
+"seto, winson a",,,,,2370.0,sfpd,,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",9cfe5082696e1e6cc2685512c76eb8dfec35cf8f8c2daf2c06296432b9d77a87
+"sevilla, lionel n '",,,,,1725.0,sfpd,,nan,ecaef8dd8ffbcbd09011c9727a125c232a9d381abbe43ff5e9a007778e4d719d
+"shavers, michael a",,,,,38.0,sfpd,,"june 10, 2007 shooting of unknown victim. sfpd oid #07-009. shooting ""in policy.""",775396f0367a2ad56323eaa5c1c2cac70c746c0d053fde71b891d3b34be54950
+"sien, kevin d",,,,,831.0,sfpd,,nan,553339be1fc2618aa28fe89b7542e409868e40e153266d23dba040b3124e59c9
+"silver, daniel b",,,,,4238.0,sfpd,,"january 18. 2006 shooting of unknown victim. dpa case number 0068-06., 2006 shooting of unknown victim. sfpd ois #2006-0001.",4ddd6f9e6dbccab99054e3c59e741ed8410780dfb8fe3307dab21cf2fda4371c
+"smalley, stephen e",,,,,1885.0,sfpd,,nan,66f598069a1cdc706b4fea6094ec0cfaff6089e7cbf9518ffde27d79af11a15c
+"smith, brandon p",,,,,952.0,sfpd,,nan,4e0e857e51b5bb3ffdde8ea67f3aec92deab0aba063bd7762c32d72a6905bdf4
+"smith, courtney",,,,,nan,sfpd,,nan,1995a803e45880d6142fc8906943ddc9019b346c8bd7bd53112264b071644057
+"smith, david",,,,,nan,sfpd,,nan,1227313cb01e92b7ef41d966a001c714425707eee6191cecd7957c82b8b6779f
+"solorzano, daniel c",,,,,2306.0,sfpd,,nan,eaa4f9825e6a6b3ad0126e310f99a482ab4ec091a947e7ad5a9323fed862c739
+"spagnoli, angelo",,,,,nan,sfpd,,nan,07c965b6a1b1d40f7af27a521fbece204552aa83585841accbc458f67a5132bd
+"srinivas, anthony s",,,,,1736.0,sfpd,,nan,77b1be4c8ccd0af54379d6a83fc2854436f66c501cedde2e8ec3077befc52f3c
+"starks, adriane m",,,,,2488.0,sfpd,,nan,58c093651eb99ed7cb9e7f4c2b12072c2a4bd4d78b46a4cb35fd8a379b69443a
+"stearns, steven d",,,,,1028.0,sfpd,,nan,87f461146693432a59153312405d3c3a712e3007091b3de564a359e28d108556
+"street, adam h",,,,,4246.0,sfpd,,2006 shooting of unknown victim. sfpd ois #2006-0003.,78155afb7f73add50291a9d9e74e1a19ebdfbfc04e1ba323d3816129d56820ed
+"stull, mark",,,,,nan,sfpd,,nan,776281fbc8cb0de10031aead3ba2bf6056ecae631716dd03f909707341125786
+"suguitan, roderick",,,,,1377.0,sfpd,,"january 23, 2010 shooting of edward lemarr smith. sfpd ois #10-001. shooting ""in policy.""",e84378f07286ad020d2e53447fbf6cf1d8e2aee57ef49de50acbf330f789b0c3
+"suhr, gregory",,,,,nan,sfpd,,nan,b76b58894530d41b019f467539dfc523349712e4e952c189dd5ff19231fd5a2e
+"sung, jeffery j",,,,,1258.0,sfpd,,nan,39fecdf246739c6ee76097da63c8ba54f68cc82f94e4ad225bb00cf84d1a2e97
+"t, carl",,,,,nan,sfpd,,nan,75095ba2f73ac8e90cfe0db556e03cd725d3c779d6d0bfb851941f9e3228bc3d
+"talusan, edric d",,,,,1114.0,sfpd,,"march 5, 2013 shooting of eddie tilman. sfpd ois #13-002. shooting ""in policy.""",86a2718e2d28345f7eb2a6f9b41b80b5738111cc87b581a55723da27b16a0db5
+"tayliong, daniel y",,,,,875.0,sfpd,,nan,6fbeb2971f8046fe4b9286a0b2b37a47a1e40942bb8c126e36d3c1d6ea893b80
+"taylor, andre r. -",,,,,2422.0,sfpd,,nan,7f2b30965bd18f00d244f2d29c5b65e223c32c16c6e63d6e3f2f2cf3e558aad4
+"thompson, dack 0",,,,,1292.0,sfpd,,"may 21, 2017 shooting at unknown suspect. sfpd ois #17-004. shooting ""in policy.""",dbb28f4bd532f01010905e19261c24597b0348736df31c4409aa066154357640
+"tiffe, craig m",,,,,1312.0,sfpd,,"february 26, 2015 shooting of amilcar perez-lopez. sfpd ois #15-003. dpa case number 0134-15. shooting ""in policy.""",091e2c0a08a2ca5c7687af2bb99c0f09332bfbb45e5330473d4e33a2d7bb4fba
+"tobin, patrick",,,,,nan,sfpd,,nan,cd1d8fb3f5821ef96dc2b9703824eecb053da18e1e764169873aeff0ba48b2c8
+"toomey, michael p",,,,,1870.0,sfpd,,nan,8e888a62f4d12b78297204ef67359a610596786d74b2b7c776854bcd2376bfc2
+"toomey, william k",,,,,1262.0,sfpd,,nan,3281e80710749f7ad9e632209d5c08797e36078391900ca8ac586cd03f45d68b
+"trail, james p",,,,,921.0,sfpd,,"may 16, 2002 shooting of unknown victim. sfpd ois 006-02. shooting ""in policy."", april 27, 2004 shooting of unknown victim. sfpd ois 004-04. shooting ""not in policy.""",ce3307f315cdc87835ebe3e61ebaec2bb169bb9489ef4270750dc7a99fa82338
+"traw, jennifer j",,,,,566.0,sfpd,,"december 2, 2015 shooting of mario woods. sfpd ois #15-010. dpa case number 0627-15. shooting ""in policy.""",beebf0caf53499745cb17258c3afb4aada25fdeb2db6599ed367295270de7dfb
+"tso, kelvin k",,,,,602.0,sfpd,,nan,2f4f42743d705e7f8f7940e1a350121e11b705c2cbdb679721bb29295d885232
+"tursi, michael e",,,,,997.0,sfpd,,"june 29, 2011 shooting of unknown victim. sfpd ois #2011-0003. shooting ""in policy."", march 17, 2015 shooting of alice brown. sfpd ois #15-004. in policy (use of firearm); not in policy (equipment), june 29, 2012 shoting of roselyndo sicat. shooting ""in policy.""",a38a5c19f47db3e15378f810eef11e477156dc8f85169cb2fac022a070959700
+"valle, claudia m",,,,,4358.0,sfpd,,nan,4e3cf9e90973cbc32413552df70792e33c1a4076a5551d24a4850ae59883258f
+"volk, justin",,,,,nan,medical examiner,,nan,569e11e2765dc7961116713b8cd943179e52fb35cda0c3480a549aaee6c1d9c6
+"wakayama, david i",,,,,2046.0,sfpd,,nan,c3c9f1d71c520bcd216833e9d88cfce9620eaf8654a76d6413a9954dc69f8fc7
+"washam, nathan",,,,,nan,bart,,nan,be650bef5376c6052f3512befa3af800b12c27fac0f575d6da6df4693236fe7f
+"whitfield, warrick c",,,,,379.0,sfpd,,nan,6a76fbbc264f29b1f5a4ed7af91eaf904b44606291d67fb9d4223d45f50cc2d1
+"whitney, erik d",,,,,4045.0,sfpd,,nan,f0d1fad39c5331cdd7f560fc6a6674f9f77393bd348e39a3262da4b3ece7b1c6
+"wibunsin, michael k",,,,,2052.0,sfpd,,nan,3959da6a27dce8392287a231009279dd64b5a74a403d11f9503c24fbe637cf53
+"williams, mark",,,,,nan,sfpd,,nan,d7b2449bbc42f022057f9bf5d2c374807aa81b15e78b1ff482de89ca25f710d0
+"willkom, robby w.",,,,,4172.0,sfpd,,"february 17, 2018 shooting of unknown victim. sfpd ois #18-001. investigation open as of june 2020",c018d8c989a829f2415fe4c4e7e4303218f349f99c8cc427c81be9af381336d3
+"wolf, michael",,,,,1568.0,sfpd,,"november 1, 2001 shooting of randall lee smith. sfpd ois #003-01. shooting ""in policy.""",2e048153ee36c5c68d097d3370935abdadedb5b72e25d820b71f3556f522306a
+"wong, louis w",,,,,1572.0,sfpd,,nan,cd8aa5854adeceb5d29a20e9f867af2338910312404122054fdbfe6851a316c7
+"yee, henry b",,,,,2193.0,sfpd,,2006 shooting of unknown victim. sfpd ois #2006-0003.,53613c754b1428b69961997f7a28bec74ed8d6415403e71703331d953660d32e
+"yick, richard a.g.",,,,,1032.0,sfpd,,nan,9ec38448af45d7d0aaba7f9495abc84a6b02a949fa6f72be5991c97dfb946310
+"yu, nelson",,,,,1010.0,sfpd,,nan,b02d0aa8767fd5ebd1ae6a291f0518c3e89960e2280e54ae9d01e5442f4605c8
+"yuen, sam w",,,,,380.0,sfpd,,nan,978e09f050c40085db34e900bffa05df269724009c3d22e618f96dbc52b2e51f
+"zachos, constantine j",,,,,1049.0,sfpd,,"april 22, 2006 shooting of unknown victim. sfpd ois #004-06. shooting ""in policy."", 2006 shooting of unknown victim. sfpd ois #2006-0003. shooting ""in policy.""",2391f429f575b13b7cef71afb5b95c18636c6cf09b1f167391ec34e6580639c2
+"zambrana, gabriella",,,,,1332.0,sfpd,,nan,5b1ed0aa1e7b20b84fffa04da318ff39df3c6c290fdc4c6335a7abb98997f96a
