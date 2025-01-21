@@ -76,6 +76,7 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
       // Create a map of incident_id to search matches
       const matches = new Map<string, SearchMatch[]>();
       
+      
       searchResults.forEach(result => {
         const doc = metadata?.find(m => m.sha1 === result.sha1);
         if (!doc) return;
@@ -190,6 +191,7 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
 
   const renderCase = (caseData: Case) => {
     const matches = textMatches.get(caseData.incident_id);
+    const uniqueOfficers = _.uniqBy(caseData.officers, 'uid');
 
     return (
       <Card 
@@ -214,7 +216,7 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
               </p>
               <div className="mt-2">
                 <p className="text-sm text-muted-foreground">
-                  {caseData.officers.length} Officer{caseData.officers.length !== 1 ? 's' : ''} Involved
+                  {uniqueOfficers.length} Officer{uniqueOfficers.length !== 1 ? 's' : ''} Involved
                 </p>
               </div>
               

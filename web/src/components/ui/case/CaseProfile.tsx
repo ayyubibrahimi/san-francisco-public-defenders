@@ -5,6 +5,7 @@ import { ScrollArea } from '@/components/ui/base/scroll-area';
 import { Badge } from '@/components/ui/base/badge';
 import { ArrowLeft, Shield, User } from 'lucide-react';
 import { Case } from '../../types/case';
+import _ from 'lodash';
 
 interface CaseProfileProps {
   case: Case | null;
@@ -37,6 +38,9 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
     );
   }
 
+  // Use lodash to get unique officers by uid
+  const uniqueOfficers = _.uniqBy(caseData.officers, 'uid');
+
   return (
     <div className="container max-w-5xl mx-auto py-8 px-4">
       <Button
@@ -68,7 +72,7 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
                 </div>
               </div>
               <Badge variant="secondary" className="text-base px-4 py-1">
-                {caseData.officers.length} Officer{caseData.officers.length !== 1 ? 's' : ''}
+                {uniqueOfficers.length} Officer{uniqueOfficers.length !== 1 ? 's' : ''}
               </Badge>
             </div>
           </CardContent>
@@ -95,7 +99,7 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
               <h2 className="text-xl font-semibold mb-4">Officers Involved</h2>
               <ScrollArea className="h-[300px]">
                 <div className="space-y-4">
-                  {caseData.officers.map((officer) => (
+                  {uniqueOfficers.map((officer) => (
                     <div
                       key={officer.uid}
                       className="p-4 rounded-lg bg-muted hover:bg-accent cursor-pointer"
