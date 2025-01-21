@@ -5,29 +5,6 @@ import { OfficerCard } from './OfficerCard';
 import { Officer, Incident, PostRecord } from '../../types/officer';
 import { createClient } from '@supabase/supabase-js';
 
-// Document metadata interface matching the schema
-interface DocumentMetadata {
-  sfpd_incident_id: string;
-  officer_name: string;
-  recieve_date: string;
-  incident_id: string;
-  incident_type: string;
-  source: string;
-  incident_date: string;
-  star_no: string;
-  officer_agency: string;
-  ois_details: string;
-  incident_details: string;
-  uid: string;
-  incident_description: string;
-  last_name: string;
-  suffix: string;
-  first_name: string;
-  middle_name: string;
-  agency_type: string;
-  post_uid: string;
-}
-
 interface OfficerListProps {
   onOfficerSelect: (officer: Officer) => void;
 }
@@ -38,29 +15,9 @@ export const OfficerList: React.FC<OfficerListProps> = ({ onOfficerSelect }) => 
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Convert DocumentMetadata to Incident type
-  const convertToIncident = (doc: DocumentMetadata): Incident => {
-    const starNo = doc.star_no ? parseInt(doc.star_no) : null;
-    
-    return {
-      incident_id: doc.incident_id,
-      incident_type: doc.incident_type,
-      incident_date: doc.incident_date,
-      source: doc.source,
-      officer_name: doc.officer_name,
-      star_no: isNaN(starNo as number) ? null : starNo,
-      officer_agency: doc.officer_agency,
-      uid: doc.uid,
-      post_uid: doc.post_uid || null,
-      ois_details: doc.ois_details,
-      incident_details: doc.incident_details
-    };
-  };
-
   useEffect(() => {
     const loadData = async () => {
       try {
-        console.log('Initializing Supabase client...');
         const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
         const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
         
@@ -69,89 +26,90 @@ export const OfficerList: React.FC<OfficerListProps> = ({ onOfficerSelect }) => 
         }
     
         const supabase = createClient(supabaseUrl, supabaseKey);
-        const pageSize = 1000;
-        let allDocuments: DocumentMetadata[] = [];
-        let hasMore = true;
-        let page = 0;
-    
-        while (hasMore) {
-          const { data: documents, error: fetchError } = await supabase
-            .from('document_metadata')
-            .select('*')
-            .range(page * pageSize, (page + 1) * pageSize - 1);
-    
-          if (fetchError) throw new Error(`Failed to fetch data: ${fetchError.message}`);
-          if (!documents || documents.length === 0) {
-            hasMore = false;
-            continue;
-          }
-    
-          allDocuments = [...allDocuments, ...documents];
-          hasMore = documents.length === pageSize;
-          page++;
+        
+        // 1. First fetch all documents
+        const { data: documents, error: docsError } = await supabase
+          .from('document_metadata')
+          .select('*');
+
+        if (docsError || !documents) {
+          throw new Error(docsError ? docsError.message : 'No documents returned');
         }
 
+        // 2. Collect post_uids that exist
         const postUids = new Set(
-          allDocuments
+          documents
             .map(doc => doc.post_uid)
             .filter(uid => uid != null)
         );
 
-        const { data: postRecords, error: postError } = await supabase
-          .from('post')
-          .select('*')
-          .in('post_uid', Array.from(postUids));
+        // 3. Fetch all post records for these post_uids
+        let postRecords: PostRecord[] = [];
+        if (postUids.size > 0) {
+          const { data: posts, error: postsError } = await supabase
+            .from('post')
+            .select('post_uid, agency_name, start_date, end_date')
+            .in('post_uid', Array.from(postUids));
 
-        if (postError) throw new Error(`Failed to fetch post data: ${postError.message}`);
-
-        const officerData = _.groupBy(allDocuments, 'uid');
-        
-        const processedOfficers: Officer[] = Object.entries(officerData).map(([uid, incidents]) => {
-          const firstIncident = incidents[0];
-          const officerPostRecords = (postRecords as PostRecord[] || []).filter(
-            post => post.post_uid === firstIncident.post_uid
-          );
-
-          const sortedPostRecords = _.orderBy(
-            officerPostRecords, 
-            ['start_date'], 
-            ['asc']
-          );
-
-          // Convert star_no to number
-          const starNo = firstIncident?.star_no ? parseInt(firstIncident.star_no) : null;
-
-          // Construct full name from components if available
-          let name = firstIncident?.officer_name;
-          if (!name && firstIncident) {
-            name = [
-              firstIncident.first_name,
-              firstIncident.middle_name,
-              firstIncident.last_name,
-              firstIncident.suffix
-            ].filter(Boolean).join(' ');
+          if (postsError) throw new Error(postsError.message);
+          if (posts) {
+            // Convert posts to PostRecord type, keeping all records
+            postRecords = posts.map(post => ({
+              post_uid: post.post_uid,
+              agency_name: post.agency_name,
+              start_date: post.start_date,
+              end_date: post.end_date,
+              officer_name: '' // We'll fill this in during officer processing
+            }));
           }
+        }
 
-          // Convert all incidents to proper Incident type
-          const convertedIncidents = incidents.map(convertToIncident);
+        // 4. Group documents by officer uid
+        const officerGroups = _.groupBy(documents, 'uid');
+        
+        // 5. Process each officer's data
+        const processedOfficers = Object.entries(officerGroups).map(([uid, incidents]) => {
+          // Get the officer's basic info from their first incident
+          const firstIncident = incidents[0];
+          
+          // Get all post records for this officer's incidents
+          const officerPostRecords = postRecords
+            .filter(post => incidents.some(inc => inc.post_uid === post.post_uid))
+            .map(post => ({
+              ...post,
+              officer_name: firstIncident.officer_name
+            }));
 
-          const officer: Officer = {
+          // Sort post records by date
+          const sortedPosts = _.orderBy(officerPostRecords, ['start_date'], ['desc']);
+
+          return {
             uid,
-            name: name || '',
-            starNo: isNaN(starNo as number) ? null : starNo,
-            agency: firstIncident?.officer_agency || 'SFPD',
+            name: firstIncident.officer_name || '',
+            starNo: firstIncident.star_no ? Number(firstIncident.star_no) : null,
+            agency: firstIncident.officer_agency || 'SFPD',
             incidentCount: incidents.length,
-            incidents: convertedIncidents,
-            postHistory: sortedPostRecords,
-            currentPost: sortedPostRecords.length > 0 ? 
-              sortedPostRecords[sortedPostRecords.length - 1] : null,
-            serviceStartDate: sortedPostRecords.length > 0 ? 
-              sortedPostRecords[0].start_date : null
+            incidents: incidents.map(inc => ({
+              incident_id: inc.incident_id,
+              incident_type: inc.incident_type,
+              incident_date: inc.incident_date,
+              source: inc.source,
+              officer_name: inc.officer_name,
+              star_no: inc.star_no ? Number(inc.star_no) : null,
+              officer_agency: inc.officer_agency,
+              uid: inc.uid,
+              post_uid: inc.post_uid,
+              ois_details: inc.ois_details,
+              incident_details: inc.incident_details,
+              incident_uid: inc.incident_id
+            })),
+            postHistory: sortedPosts,
+            currentPost: sortedPosts[0] || null,
+            serviceStartDate: sortedPosts.length > 0 ? 
+              _.minBy(sortedPosts, 'start_date')?.start_date || null : null
           };
-
-          return officer;
         });
-    
+
         setOfficers(processedOfficers);
         setLoading(false);
       } catch (error) {
@@ -194,4 +152,4 @@ export const OfficerList: React.FC<OfficerListProps> = ({ onOfficerSelect }) => 
       </div>
     </div>
   );
-}
+};
