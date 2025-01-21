@@ -25,9 +25,30 @@ export const OfficerCard: React.FC<OfficerCardProps> = ({ officer, onClick }) =>
         <h2 className="font-bold text-lg">{officer.name}</h2>
         {officer.starNo && <p className="text-sm text-gray-600">Star #{officer.starNo}</p>}
         <p className="text-sm text-gray-600">{officer.agency}</p>
-        <Badge className="mt-2" variant="secondary">
-          {uniqueIncidentCount} Incident{uniqueIncidentCount !== 1 ? 's' : ''}
-        </Badge>
+        
+        <div className="flex flex-wrap gap-2 mt-2">
+          <Badge variant="secondary">
+            {uniqueIncidentCount} Incident{uniqueIncidentCount !== 1 ? 's' : ''}
+          </Badge>
+          
+          {officer.postHistory?.length > 0 && (
+            <Badge variant="outline">
+              {officer.postHistory.length} Employment Record{officer.postHistory.length !== 1 ? 's' : ''}
+            </Badge>
+          )}
+        </div>
+
+        {officer.serviceStartDate && (
+          <p className="text-xs text-gray-500 mt-2">
+            Service Start: {new Date(officer.serviceStartDate).toLocaleDateString()}
+          </p>
+        )}
+        
+        {officer.currentPost && (
+          <p className="text-xs text-gray-500">
+            Current: {officer.currentPost.agency_name}
+          </p>
+        )}
       </CardContent>
     </Card>
   );

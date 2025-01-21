@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/base/button';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/base/tabs';
 import { ScrollArea } from '@/components/ui/base/scroll-area';
 import { Badge } from '@/components/ui/base/badge';
-import { ArrowLeft, Shield } from 'lucide-react';
-import { Officer } from '../../types/officer';
+import { ArrowLeft, Shield, Briefcase } from 'lucide-react';
+import { Officer, PostRecord } from '../../types/officer';
 import { IncidentCard } from './IncidentCard';
 import _ from 'lodash';
 
@@ -14,6 +14,31 @@ interface OfficerProfileProps {
   onBack: () => void;
   onCaseSelect: (incidentId: string) => void;
 }
+
+interface PostHistoryCardProps {
+  post: PostRecord;
+}
+
+const PostHistoryCard: React.FC<PostHistoryCardProps> = ({ post }) => {
+  const startDate = new Date(post.start_date).toLocaleDateString();
+  const endDate = post.end_date ? new Date(post.end_date).toLocaleDateString() : 'Present';
+  
+  return (
+    <div className="p-4 hover:bg-muted/50">
+      <div className="flex items-start gap-4">
+        <div className="p-2 bg-muted rounded-lg">
+          <Briefcase className="h-4 w-4 text-primary" />
+        </div>
+        <div className="flex-1">
+          <h3 className="font-medium">{post.agency_name}</h3>
+          <p className="text-sm text-muted-foreground">
+            {startDate} - {endDate}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export const OfficerProfile: React.FC<OfficerProfileProps> = ({ 
   officer, 
@@ -84,6 +109,12 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
                         <span>Star #{officer.starNo}</span>
                       </>
                     )}
+                    {officer.serviceStartDate && (
+                      <>
+                        <span>•</span>
+                        <span>Since {new Date(officer.serviceStartDate).getFullYear()}</span>
+                      </>
+                    )}
                   </div>
                 </div>
               </div>
@@ -91,6 +122,11 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
                 <Badge variant="secondary" className="text-base px-4 py-1">
                   {uniqueIncidents.length} Incident{uniqueIncidents.length !== 1 ? 's' : ''}
                 </Badge>
+                {officer.postHistory?.length > 0 && (
+                  <Badge variant="outline" className="text-base px-4 py-1">
+                    {officer.postHistory.length} Assignment{officer.postHistory.length !== 1 ? 's' : ''}
+                  </Badge>
+                )}
               </div>
             </div>
           </CardContent>
@@ -110,6 +146,14 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
                 {type}
               </TabsTrigger>
             ))}
+            {officer.postHistory?.length > 0 && (
+              <TabsTrigger 
+                value="employment"
+                className="flex-1 md:flex-none"
+              >
+                Employment History
+              </TabsTrigger>
+            )}
           </TabsList>
 
           <ScrollArea className="h-[600px] rounded-lg border bg-card">
@@ -140,6 +184,16 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
                 </div>
               </TabsContent>
             ))}
+
+            {officer.postHistory?.length > 0 && (
+              <TabsContent value="employment" className="m-0">
+                <div className="divide-y">
+                  {_.orderBy(officer.postHistory, ['start_date'], ['desc']).map((post, index) => (
+                    <PostHistoryCard key={index} post={post} />
+                  ))}
+                </div>
+              </TabsContent>
+            )}
           </ScrollArea>
         </Tabs>
       </div>

@@ -3,20 +3,28 @@
 import React, { useState } from 'react';
 import { Card, CardHeader } from '@/components/ui/base/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/base/tabs';
-import { Officer } from '../components/types/officer';
+import { Officer, PostRecord, Incident } from '../components/types/officer';
 import { Case } from '../components/types/case';
 import { OfficerList } from '../components/ui/officer/OfficerList';
 import { OfficerProfile } from '../components/ui/officer/OfficerProfile';
 import { CaseList } from '../components/ui/case/CaseList';
 import { CaseProfile } from '../components/ui/case/CaseProfile';
 import { createClient } from '@supabase/supabase-js';
+import _ from 'lodash';
+
+interface PostTableRow {
+  post_uid: string;
+  officer_name: string;
+  agency_name: string;
+  start_date: string;
+  end_date: string | null;
+}
 
 export default function App() {
   const [selectedOfficer, setSelectedOfficer] = useState<Officer | null>(null);
   const [selectedCase, setSelectedCase] = useState<Case | null>(null);
   const [activeView, setActiveView] = useState<'officers' | 'cases'>('officers');
 
-  // Helper function to initialize Supabase client
   const initSupabase = () => {
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
     const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -43,27 +51,67 @@ export default function App() {
       const supabase = initSupabase();
       
       // Fetch all document metadata for the officer
-      const { data: documents, error } = await supabase
+      const { data: documents, error: docError } = await supabase
         .from('document_metadata')
         .select('*')
         .eq('uid', uid);
 
-      if (error) throw error;
+      if (docError) throw docError;
       
       if (!documents || documents.length === 0) {
         console.error('No documents found for officer:', uid);
         return;
       }
 
+      // Fetch post data for the officer
+      const officerName = documents[0].officer_name;
+      const { data: postData, error: postError } = await supabase
+        .from('post')
+        .select('*')
+        .eq('officer_name', officerName);
+
+      if (postError) throw postError;
+
+      // Process post records
+      const postRecords: PostRecord[] = (postData || []).map((post: PostTableRow) => ({
+        post_uid: post.post_uid,
+        officer_name: post.officer_name,
+        agency_name: post.agency_name,
+        start_date: post.start_date,
+        end_date: post.end_date
+      }));
+
+      // Sort posts by date to find current post and start date
+      const sortedPosts = _.sortBy(postRecords, 'start_date').reverse();
+      const currentPost = sortedPosts.find(post => !post.end_date) || null;
+      const serviceStartDate = sortedPosts.length > 0 
+        ? _.minBy(sortedPosts, 'start_date')?.start_date || null 
+        : null;
+
       // Process the officer data
-      const incidents = documents;
       const officer: Officer = {
         uid,
-        name: incidents[0].officer_name,
-        starNo: incidents[0].star_no,
-        agency: incidents[0].officer_agency || 'SFPD',
-        incidentCount: incidents.length,
-        incidents: incidents
+        name: documents[0].officer_name,
+        starNo: documents[0].star_no ? Number(documents[0].star_no) : null,
+        agency: documents[0].officer_agency || 'SFPD',
+        incidentCount: documents.length,
+        incidents: documents.map(doc => ({
+          incident_id: doc.incident_id,
+          incident_type: doc.incident_type,
+          incident_date: doc.incident_date,
+          source: doc.source,
+          officer_name: doc.officer_name,
+          star_no: doc.star_no ? Number(doc.star_no) : null,
+          officer_agency: doc.officer_agency,
+          uid: doc.uid,
+          post_uid: doc.post_uid,
+          ois_details: doc.ois_details,
+          incident_details: doc.incident_details,
+          incident_uid: doc.incident_id
+        })),
+        postHistory: postRecords,
+        currentPost,
+        serviceStartDate
       };
 
       // Update the UI
@@ -80,7 +128,6 @@ export default function App() {
     try {
       const supabase = initSupabase();
       
-      // Fetch all document metadata for the incident
       const { data: documents, error } = await supabase
         .from('document_metadata')
         .select('*')
@@ -93,7 +140,6 @@ export default function App() {
         return;
       }
 
-      // Process the case data
       const caseData: Case = {
         incident_id: incidentId,
         incident_type: documents[0].incident_type,
@@ -104,18 +150,16 @@ export default function App() {
         officers: documents.map(doc => ({
           uid: doc.uid,
           name: doc.officer_name,
-          starNo: doc.star_no,
-          agency: doc.officer_agency
+          starNo: doc.star_no ? Number(doc.star_no) : null,
+          agency: doc.officer_agency || 'SFPD'
         }))
       };
 
-      // Update the UI
       setActiveView('cases');
       setSelectedOfficer(null);
       setSelectedCase(caseData);
     } catch (error) {
       console.error('Error fetching case data:', error);
-      // You might want to show an error message to the user here
     }
   };
 
