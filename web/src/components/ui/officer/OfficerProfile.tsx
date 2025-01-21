@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/base/badge';
 import { ArrowLeft, Shield } from 'lucide-react';
 import { Officer } from '../../types/officer';
 import { IncidentCard } from './IncidentCard';
+import _ from 'lodash';
 
 interface OfficerProfileProps {
   officer: Officer | null;
@@ -19,11 +20,20 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
   onBack,
   onCaseSelect
 }) => {
+  // Group incidents by incident_uid and take the first occurrence
+  const uniqueIncidents = React.useMemo(() => {
+    if (!officer) return [];
+    return _.map(
+      _.groupBy(officer.incidents, 'incident_uid'),
+      group => group[0]
+    );
+  }, [officer]);
+
   const uniqueIncidentTypes = React.useMemo(() => {
     if (!officer) return [];
-    const types = new Set(officer.incidents.map(incident => incident.incident_type));
+    const types = new Set(uniqueIncidents.map(incident => incident.incident_type));
     return Array.from(types).filter(Boolean).sort();
-  }, [officer]); // Changed dependency to just 'officer' since it includes everything we need
+  }, [uniqueIncidents]);
 
   if (!officer) {
     return (
@@ -79,7 +89,7 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
               </div>
               <div className="flex items-center gap-2">
                 <Badge variant="secondary" className="text-base px-4 py-1">
-                  {officer.incidents.length} Incident{officer.incidents.length !== 1 ? 's' : ''}
+                  {uniqueIncidents.length} Incident{uniqueIncidents.length !== 1 ? 's' : ''}
                 </Badge>
               </div>
             </div>
@@ -105,9 +115,9 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
           <ScrollArea className="h-[600px] rounded-lg border bg-card">
             <TabsContent value="all" className="m-0">
               <div className="divide-y">
-                {officer.incidents.map((incident, index) => (
+                {uniqueIncidents.map((incident, index) => (
                   <IncidentCard 
-                    key={incident.incident_id || index} 
+                    key={incident.incident_uid || index} 
                     incident={incident}
                     onCaseSelect={onCaseSelect}
                   />
@@ -118,11 +128,11 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
             {uniqueIncidentTypes.map(type => (
               <TabsContent key={type} value={type} className="m-0">
                 <div className="divide-y">
-                  {officer.incidents
+                  {uniqueIncidents
                     .filter(incident => incident.incident_type === type)
                     .map((incident, index) => (
                       <IncidentCard 
-                        key={incident.incident_id || index} 
+                        key={incident.incident_uid || index} 
                         incident={incident}
                         onCaseSelect={onCaseSelect}
                       />
