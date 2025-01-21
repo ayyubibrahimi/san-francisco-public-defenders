@@ -18,7 +18,6 @@ export const OfficerList: React.FC<OfficerListProps> = ({ onOfficerSelect }) => 
   useEffect(() => {
     const loadData = async () => {
       try {
-        // Initialize Supabase client
         console.log('Initializing Supabase client...');
         const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
         const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -29,68 +28,65 @@ export const OfficerList: React.FC<OfficerListProps> = ({ onOfficerSelect }) => 
         if (!supabaseUrl || !supabaseKey) {
           throw new Error('Supabase credentials are not configured');
         }
-
+    
         const supabase = createClient(supabaseUrl, supabaseKey);
-
-        // Test connection with a simple query
-        console.log('Testing Supabase connection...');
-        const { data: testData, error: testError } = await supabase
-          .from('document_metadata')
-          .select('officer_name')
-          .limit(1);
-
-        if (testError) {
-          console.error('Connection test error:', testError);
-          throw new Error(`Supabase connection test failed: ${testError.message}`);
+        const pageSize = 1000;
+        let allDocuments = [];
+        let hasMore = true;
+        let page = 0;
+    
+        console.log('Fetching document metadata in chunks...');
+        while (hasMore) {
+          const { data: documents, error: fetchError } = await supabase
+            .from('document_metadata')
+            .select('*')
+            .range(page * pageSize, (page + 1) * pageSize - 1);
+    
+          if (fetchError) {
+            console.error('Data fetch error:', fetchError);
+            throw new Error(`Failed to fetch data: ${fetchError.message}`);
+          }
+    
+          if (!documents || documents.length === 0) {
+            hasMore = false;
+            continue;
+          }
+    
+          allDocuments = [...allDocuments, ...documents];
+          console.log(`Fetched chunk ${page + 1}: ${documents.length} records`);
+          
+          hasMore = documents.length === pageSize;
+          page++;
         }
-
-        console.log('Connection test result:', testData);
-
-        // If connection test passes, fetch all data
-        console.log('Fetching all document metadata...');
-        const { data: documents, error: fetchError } = await supabase
-          .from('document_metadata')
-          .select(`
-            sfpd_incident_id,
-            officer_name,
-            incident_id,
-            incident_type,
-            source,
-            incident_date,
-            star_no,
-            officer_agency,
-            ois_details,
-            incident_details,
+    
+        console.log(`Total documents found: ${allDocuments.length}`);
+        
+        // Add logging for unique UIDs in raw data
+        const uniqueUids = new Set(allDocuments.map(doc => doc.uid));
+        console.log(`Raw data has ${uniqueUids.size} unique UIDs`);
+    
+        // Log before grouping
+        console.log('Starting groupBy operation...');
+        const officerData = _.groupBy(allDocuments, 'uid');
+        console.log(`After groupBy: ${Object.keys(officerData).length} groups`);
+    
+        // Log before mapping
+        console.log('Starting officer processing...');
+        const processedOfficers = Object.entries(officerData).map(([uid, incidents]) => {
+          // Add logging for each officer's incidents
+          if (incidents.length === 0) {
+            console.warn(`No incidents found for UID: ${uid}`);
+          }
+          return {
             uid,
-            sha1
-          `);
-
-        if (fetchError) {
-          console.error('Data fetch error:', fetchError);
-          throw new Error(`Failed to fetch data: ${fetchError.message}`);
-        }
-
-        if (!documents || documents.length === 0) {
-          console.log('No documents found in the table');
-          setOfficers([]);
-          setLoading(false);
-          return;
-        }
-
-        console.log(`Found ${documents.length} documents`);
-        console.log('Sample document:', documents[0]);
-
-        // Process the data similarly to the original CSV processing
-        const officerData = _.groupBy(documents, 'uid');
-        const processedOfficers = Object.entries(officerData).map(([uid, incidents]) => ({
-          uid,
-          name: incidents[0].officer_name,
-          starNo: incidents[0].star_no,
-          agency: incidents[0].officer_agency || 'SFPD',
-          incidentCount: incidents.length,
-          incidents: incidents
-        }));
-
+            name: incidents[0]?.officer_name,
+            starNo: incidents[0]?.star_no,
+            agency: incidents[0]?.officer_agency || 'SFPD',
+            incidentCount: incidents.length,
+            incidents: incidents
+          };
+        });
+    
         console.log(`Processed ${processedOfficers.length} officers`);
         setOfficers(processedOfficers);
         setLoading(false);
@@ -100,7 +96,7 @@ export const OfficerList: React.FC<OfficerListProps> = ({ onOfficerSelect }) => 
         setLoading(false);
       }
     };
-
+    
     loadData();
   }, []);
 
