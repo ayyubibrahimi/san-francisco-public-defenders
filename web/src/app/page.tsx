@@ -188,10 +188,7 @@ export default function App() {
       <div className="max-w-4xl mx-auto p-4">
         <Card className="mb-8">
           <CardHeader>
-            <h1 className="text-3xl font-bold">SFPD Database</h1>
-            <p className="text-gray-600">
-              Tracking incidents, cases, and officer activities
-            </p>
+            <h1 className="text-3xl font-bold">1421 db</h1>
           </CardHeader>
         </Card>
 

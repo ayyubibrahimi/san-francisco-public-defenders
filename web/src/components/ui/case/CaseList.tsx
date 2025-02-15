@@ -36,74 +36,88 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
     return createClient(supabaseUrl, supabaseKey);
   };
 
-  const searchDocuments = async (term: string) => {
+  const searchDocuments = async (term: string, retryCount = 0) => {
     if (!term || term.length < 3) {
       setTextMatches(new Map());
       setSearching(false);
       return;
     }
-
+  
     setSearching(true);
     try {
       const supabase = initSupabase();
-
-      // Search in document_text table using full text search
+      const searchPhrase = term.split(' ').map(word => `${word}:*`).join(' & ');
+  
       const { data: searchResults, error: searchError } = await supabase
         .from('document_text')
         .select('*')
-        .textSearch('page_content', term, {
+        .textSearch('page_content', searchPhrase, {
           config: 'english',
-          type: 'plain'
-        });
-
-      if (searchError) throw searchError;
-
+          type: 'websearch',
+        })
+        .limit(50);
+  
+      if (searchError) {
+        // If it's a timeout error and we haven't retried too many times, try again
+        if (searchError.code === '57014' && retryCount < 2) {
+          console.log(`Search timed out, retrying (attempt ${retryCount + 1})...`);
+          setSearching(false);
+          return searchDocuments(term, retryCount + 1);
+        }
+        throw searchError;
+      }
+  
       if (!searchResults || searchResults.length === 0) {
         setTextMatches(new Map());
         setSearching(false);
         return;
       }
-
-      // Get metadata for matching documents
+  
+      // Optimized metadata fetch
       const uniqueSha1s = [...new Set(searchResults.map(r => r.sha1))];
       const { data: metadata, error: metadataError } = await supabase
         .from('document_metadata')
-        .select('*')
-        .in('sha1', uniqueSha1s);
-
+        .select('incident_id,sha1')  // Only select needed fields
+        .in('sha1', uniqueSha1s)
+        .limit(uniqueSha1s.length);
+  
       if (metadataError) throw metadataError;
-
-      // Create a map of incident_id to search matches
+  
+      // Create a map for faster lookups
+      const metadataMap = new Map(
+        metadata?.map(m => [m.sha1, m.incident_id]) ?? []
+      );
+  
+      // Optimize matches creation
       const matches = new Map<string, SearchMatch[]>();
-      
-      
       searchResults.forEach(result => {
-        const doc = metadata?.find(m => m.sha1 === result.sha1);
-        if (!doc) return;
-
+        const incidentId = metadataMap.get(result.sha1);
+        if (!incidentId) return;
+  
         const content = result.page_content;
         const words = content.split(/\s+/);
         const termIndex = words.findIndex((word: string) => 
           word.toLowerCase().includes(term.toLowerCase())
         );
         
-        // Get context around the matching term (5 words before and after)
+        if (termIndex === -1) return; // Skip if term not found
+  
         const start = Math.max(0, termIndex - 5);
         const end = Math.min(words.length, termIndex + 6);
         const contextText = words.slice(start, end).join(' ') + '...';
-
+  
         const match = {
           text: contextText,
           pageNumber: result.page_number,
           sha1: result.sha1
         };
-
-        if (!matches.has(doc.incident_id)) {
-          matches.set(doc.incident_id, []);
+  
+        if (!matches.has(incidentId)) {
+          matches.set(incidentId, []);
         }
-        matches.get(doc.incident_id)?.push(match);
+        matches.get(incidentId)?.push(match);
       });
-
+  
       setTextMatches(matches);
     } catch (error) {
       console.error('Error in text search:', error);
@@ -112,9 +126,6 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
       setSearching(false);
     }
   };
-
-  // Debounce the search function
-  const debouncedSearch = _.debounce(searchDocuments, 300);
 
   useEffect(() => {
     const loadInitialData = async () => {
@@ -157,14 +168,30 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
     loadInitialData();
   }, []);
 
+  const debouncedSearchRef = React.useRef<_.DebouncedFunc<typeof searchDocuments>>(
+    _.debounce(searchDocuments, 300)
+  );
+
+  // Create memoized debounced search function
+  const debouncedSearch = React.useMemo(() => {
+    // Cancel any existing debounced function
+    debouncedSearchRef.current?.cancel();
+    // Create new debounced function
+    debouncedSearchRef.current = _.debounce(searchDocuments, 300);
+    return debouncedSearchRef.current;
+  }, []); // Empty dependency array since searchDocuments is stable
+
+  // Update your search effect
   useEffect(() => {
     if (searchTerm) {
       debouncedSearch(searchTerm);
     } else {
       setTextMatches(new Map());
     }
-    return () => debouncedSearch.cancel();
-  }, [searchTerm, debouncedSearch]);
+    return () => {
+      debouncedSearchRef.current?.cancel();
+    };
+  }, [searchTerm]); // Remove debouncedSearch from dependencies
 
   const getFilteredCases = () => {
     let filtered = cases;
