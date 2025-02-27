@@ -106,7 +106,7 @@ export const OfficerProfile: React.FC<OfficerProfileProps> = ({
                     {officer.starNo && (
                       <>
                         <span>•</span>
-                        <span>Star #{officer.starNo}</span>
+                        <span>Badge #{officer.starNo}</span>
                       </>
                     )}
                     {officer.serviceStartDate && (

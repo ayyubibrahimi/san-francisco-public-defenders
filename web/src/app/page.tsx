@@ -9,6 +9,7 @@ import { OfficerList } from '../components/ui/officer/OfficerList';
 import { OfficerProfile } from '../components/ui/officer/OfficerProfile';
 import { CaseList } from '../components/ui/case/CaseList';
 import { CaseProfile } from '../components/ui/case/CaseProfile';
+import { Dashboard } from '../components/ui/dashboard/Dashboard';
 import { createClient } from '@supabase/supabase-js';
 import _ from 'lodash';
 
@@ -23,7 +24,7 @@ interface PostTableRow {
 export default function App() {
   const [selectedOfficer, setSelectedOfficer] = useState<Officer | null>(null);
   const [selectedCase, setSelectedCase] = useState<Case | null>(null);
-  const [activeView, setActiveView] = useState<'officers' | 'cases'>('officers');
+  const [activeView, setActiveView] = useState<'dashboard' | 'officers' | 'cases'>('dashboard');
 
   const initSupabase = () => {
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -163,6 +164,7 @@ export default function App() {
     }
   };
 
+  // Show officer profile if selected
   if (selectedOfficer) {
     return (
       <OfficerProfile
@@ -173,6 +175,7 @@ export default function App() {
     );
   }
 
+  // Show case profile if selected
   if (selectedCase) {
     return (
       <CaseProfile
@@ -183,20 +186,29 @@ export default function App() {
     );
   }
 
+  // Main view with tabs
   return (
     <div className="min-h-screen bg-gray-50">
-      <div className="max-w-4xl mx-auto p-4">
+      <div className="max-w-6xl mx-auto p-4">
         <Card className="mb-8">
           <CardHeader>
             <h1 className="text-3xl font-bold">1421 db</h1>
           </CardHeader>
         </Card>
 
-        <Tabs value={activeView} onValueChange={(value: string) => setActiveView(value as 'officers' | 'cases')}>
+        <Tabs value={activeView} onValueChange={(value: string) => setActiveView(value as 'dashboard' | 'officers' | 'cases')}>
           <TabsList className="mb-8">
+            <TabsTrigger value="dashboard">Dashboard</TabsTrigger>
             <TabsTrigger value="officers">Officers</TabsTrigger>
             <TabsTrigger value="cases">Cases</TabsTrigger>
           </TabsList>
+
+          <TabsContent value="dashboard">
+            <Dashboard 
+              onOfficerSelect={handleOfficerSelect}
+              onCaseSelect={handleCaseSelect}
+            />
+          </TabsContent>
 
           <TabsContent value="officers">
             <OfficerList onOfficerSelect={handleOfficerSelect} />

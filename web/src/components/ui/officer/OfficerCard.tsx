@@ -23,7 +23,7 @@ export const OfficerCard: React.FC<OfficerCardProps> = ({ officer, onClick }) =>
     >
       <CardContent className="p-4">
         <h2 className="font-bold text-lg">{officer.name}</h2>
-        {officer.starNo && <p className="text-sm text-gray-600">Star #{officer.starNo}</p>}
+        {officer.starNo && <p className="text-sm text-gray-600">Badge #{officer.starNo}</p>}
         <p className="text-sm text-gray-600">{officer.agency}</p>
         
         <div className="flex flex-wrap gap-2 mt-2">
