@@ -25,6 +25,7 @@ export default function App() {
   const [selectedOfficer, setSelectedOfficer] = useState<Officer | null>(null);
   const [selectedCase, setSelectedCase] = useState<Case | null>(null);
   const [activeView, setActiveView] = useState<'dashboard' | 'officers' | 'cases'>('dashboard');
+  const [currentSearchTerm, setCurrentSearchTerm] = useState<string>('');
 
   const initSupabase = () => {
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -42,9 +43,14 @@ export default function App() {
     setSelectedCase(null);
   };
 
-  const handleCaseSelect = (caseData: Case) => {
+  const handleCaseSelect = (caseData: Case, searchTerm?: string) => {
     setSelectedCase(caseData);
     setSelectedOfficer(null);
+    
+    // Save current search term if provided
+    if (searchTerm !== undefined) {
+      setCurrentSearchTerm(searchTerm);
+    }
   };
 
   const handleOfficerFromCase = async (uid: string) => {
@@ -119,6 +125,9 @@ export default function App() {
       setActiveView('officers');
       setSelectedCase(null);
       setSelectedOfficer(officer);
+      
+      // Reset search term when changing view
+      setCurrentSearchTerm('');
     } catch (error) {
       console.error('Error fetching officer data:', error);
       // You might want to show an error message to the user here
@@ -159,9 +168,20 @@ export default function App() {
       setActiveView('cases');
       setSelectedOfficer(null);
       setSelectedCase(caseData);
+      
+      // Reset search term when changing view
+      setCurrentSearchTerm('');
     } catch (error) {
       console.error('Error fetching case data:', error);
     }
+  };
+
+  const handleBackToList = () => {
+    setSelectedCase(null);
+    setSelectedOfficer(null);
+    
+    // Reset search term when returning to list
+    setCurrentSearchTerm('');
   };
 
   // Show officer profile if selected
@@ -169,7 +189,7 @@ export default function App() {
     return (
       <OfficerProfile
         officer={selectedOfficer}
-        onBack={() => setSelectedOfficer(null)}
+        onBack={handleBackToList}
         onCaseSelect={handleCaseFromOfficer}
       />
     );
@@ -180,8 +200,9 @@ export default function App() {
     return (
       <CaseProfile
         case={selectedCase}
-        onBack={() => setSelectedCase(null)}
+        onBack={handleBackToList}
         onOfficerSelect={handleOfficerFromCase}
+        searchTerm={currentSearchTerm}
       />
     );
   }

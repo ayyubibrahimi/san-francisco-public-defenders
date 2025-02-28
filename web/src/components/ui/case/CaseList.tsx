@@ -18,7 +18,7 @@ interface SearchMatch {
 }
 
 interface CaseListProps {
-  onCaseSelect: (caseData: Case) => void;
+  onCaseSelect: (caseData: Case, searchTerm?: string) => void;
 }
 
 export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
@@ -361,6 +361,12 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
   const getMatchSnippet = (caseData: Case) => {
     if (!hasTextMatches(caseData)) return null;
     return textMatches.get(caseData.incident_id)![0].text;
+  };
+
+  // Handle case selection with search context
+  const handleCaseSelection = (caseData: Case) => {
+    // Pass along the current search term to provide context for document display
+    onCaseSelect(caseData, searchTerm);
   };
 
   // Toggle a filter dropdown
@@ -717,7 +723,7 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
                     <tr 
                       key={caseData.incident_id}
                       className="hover:bg-gray-50 cursor-pointer"
-                      onClick={() => onCaseSelect(caseData)}
+                      onClick={() => handleCaseSelection(caseData)}
                     >
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="flex items-center">
