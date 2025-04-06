@@ -9,7 +9,6 @@ import {
   Search, 
   Users, 
   AlertCircle, 
-  Shield,
   Filter,
   TrendingUp,
   Clock
@@ -30,7 +29,7 @@ interface DashboardProps {
   onCaseSelect: (caseData: Case) => void;
 }
 
-export const Dashboard: React.FC<DashboardProps> = ({ onOfficerSelect, onCaseSelect }) => {
+export const Dashboard: React.FC<DashboardProps> = ({ onOfficerSelect}) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [officers, setOfficers] = useState<Officer[]>([]);
   const [recentIncidents, setRecentIncidents] = useState<Incident[]>([]);

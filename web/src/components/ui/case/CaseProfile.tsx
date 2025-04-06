@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Card, CardContent } from '@/components/ui/base/card';
 import { Button } from '@/components/ui/base/button';
 import { ScrollArea } from '@/components/ui/base/scroll-area';
@@ -6,7 +6,7 @@ import { Badge } from '@/components/ui/base/badge';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/base/tabs';
 import { 
   ArrowLeft, Shield, User, FileText, Search, 
-  ChevronDown, ChevronUp, ExternalLink, AlertCircle 
+  ChevronDown, ChevronUp, ExternalLink, AlertCircle,
 } from 'lucide-react';
 import { Case } from '../../types/case';
 import { createClient } from '@supabase/supabase-js';
@@ -24,6 +24,7 @@ interface DocumentMatch {
   title: string;
   source: string;
   date: string;
+  pdfUrl?: string; // URL to the PDF in Supabase storage
   matches: Array<{
     pageNumber: number;
     text: string;
@@ -45,9 +46,9 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
   const [documentMatches, setDocumentMatches] = useState<DocumentMatch[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [activeTab, setActiveTab] = useState<string>('details');
-  const [error, setError] = useState<string | null>(null);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  const initSupabase = () => {
+  const initSupabase = useCallback(() => {
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
     const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
     
@@ -56,14 +57,15 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
     }
 
     return createClient(supabaseUrl, supabaseKey);
-  };
+  }, []);
 
   // Find all document matches related to this case and the current search term
-  const fetchDocumentMatches = async () => {
+  const fetchDocumentMatches = useCallback(async () => {
     if (!caseData) return;
     
     if (!searchTerm || searchTerm.length < 3) {
       setDocumentMatches([]);
+      setIsLoading(false);
       return;
     }
     
@@ -116,6 +118,22 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
       
       // Group search results by SHA1
       const resultsByDocument = _.groupBy(searchResults, 'sha1');
+
+      // Get PDF URLs from pdf_mappings table
+      const { data: pdfMappings, error: pdfError } = await supabase
+        .from('pdf_mappings')
+        .select('sha1, url')
+        .in('sha1', Object.keys(resultsByDocument));
+
+      if (pdfError) throw pdfError;
+
+      // Create a lookup map for PDF URLs
+      const pdfUrlMap = new Map();
+      if (pdfMappings) {
+        pdfMappings.forEach(mapping => {
+          pdfUrlMap.set(mapping.sha1, mapping.url);
+        });
+      }
       
       // Create document match objects
       const matches: DocumentMatch[] = Object.entries(resultsByDocument).map(([sha1, pages]) => {
@@ -134,7 +152,7 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
           if (matchIndex === -1) {
             // If exact match not found, try to find partial match
             const words = lowerContent.split(/\s+/);
-            const termIndex = words.findIndex(word => 
+            const termIndex = words.findIndex((word: string) => 
               word.includes(lowerSearchTerm)
             );
             
@@ -181,19 +199,20 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
           title: docMetadata?.title || `Document ${sha1.substring(0, 8)}`,
           source: docMetadata?.source || 'Unknown source',
           date: docMetadata?.document_date || caseData.incident_date,
+          pdfUrl: pdfUrlMap.get(sha1) || null,
           matches: matchSnippets,
           isExpanded: false
         };
       });
       
       setDocumentMatches(matches);
-    } catch (error) {
-      console.error('Error fetching document matches:', error);
-      setError(error instanceof Error ? error.message : 'Failed to search documents');
+    } catch (err) {
+      console.error('Error fetching document matches:', err);
+      setErrorMessage(err instanceof Error ? err.message : 'Failed to search documents');
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [caseData, searchTerm, initSupabase]);
 
   useEffect(() => {
     // Reset whenever case changes
@@ -201,54 +220,79 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
       setActiveTab('details');
       fetchDocumentMatches();
     }
-  }, [caseData?.incident_id, searchTerm]);
+  }, [caseData?.incident_id, searchTerm, fetchDocumentMatches, setActiveTab]);
 
-  const fetchFullDocument = async (docMatch: DocumentMatch) => {
+  // Fetch all documents for this case
+  const fetchAllCaseDocuments = useCallback(async () => {
+    if (!caseData) return;
+    
+    setIsLoading(true);
     try {
       const supabase = initSupabase();
       
-      // Get all pages for this document
-      const { data: pages, error } = await supabase
-        .from('document_text')
+      // Get all document metadata for this case
+      const { data: caseDocuments, error: metadataError } = await supabase
+        .from('document_metadata')
         .select('*')
-        .eq('sha1', docMatch.sha1)
-        .order('page_number', { ascending: true });
+        .eq('incident_id', caseData.incident_id);
       
-      if (error) throw error;
+      if (metadataError) throw metadataError;
       
-      if (!pages || pages.length === 0) {
+      if (!caseDocuments || caseDocuments.length === 0) {
+        setDocumentMatches([]);
+        setIsLoading(false);
         return;
       }
+
+      // Get PDF URLs from pdf_mappings table
+      const sha1Values = caseDocuments.map(doc => doc.sha1).filter(Boolean);
       
-      // Update the document match with full content
-      setDocumentMatches(prevMatches => 
-        prevMatches.map(match => 
-          match.sha1 === docMatch.sha1 
-            ? {
-                ...match,
-                fullDocument: pages.map(page => ({
-                  pageNumber: page.page_number,
-                  content: page.page_content || ''
-                }))
-              }
-            : match
-        )
-      );
-    } catch (error) {
-      console.error('Error fetching full document:', error);
+      if (sha1Values.length === 0) {
+        setDocumentMatches([]);
+        setIsLoading(false);
+        return;
+      }
+
+      const { data: pdfMappings, error: pdfError } = await supabase
+        .from('pdf_mappings')
+        .select('sha1, url')
+        .in('sha1', sha1Values);
+
+      if (pdfError) throw pdfError;
+
+      // Create a lookup map for PDF URLs
+      const pdfUrlMap = new Map();
+      if (pdfMappings) {
+        pdfMappings.forEach(mapping => {
+          pdfUrlMap.set(mapping.sha1, mapping.url);
+        });
+      }
+
+      // Create document objects for all documents
+      const documents = caseDocuments.map(doc => {
+        return {
+          sha1: doc.sha1,
+          title: doc.title || `Document ${doc.sha1.substring(0, 8)}`,
+          source: doc.source || 'Unknown source',
+          date: doc.document_date || caseData.incident_date,
+          pdfUrl: pdfUrlMap.get(doc.sha1) || null,
+          matches: [],
+          isExpanded: false
+        };
+      });
+
+      setDocumentMatches(documents);
+    } catch (err) {
+      console.error('Error fetching case documents:', err);
+      setErrorMessage(err instanceof Error ? err.message : 'Failed to fetch documents');
+    } finally {
+      setIsLoading(false);
     }
-  };
+  }, [caseData, initSupabase]);
 
   const toggleDocument = async (sha1: string) => {
     const docIndex = documentMatches.findIndex(doc => doc.sha1 === sha1);
     if (docIndex === -1) return;
-    
-    const docMatch = documentMatches[docIndex];
-    
-    // If we're expanding and don't have full document yet, fetch it
-    if (!docMatch.isExpanded && !docMatch.fullDocument) {
-      await fetchFullDocument(docMatch);
-    }
     
     // Toggle expanded state
     setDocumentMatches(prevMatches => 
@@ -314,6 +358,13 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
         <ArrowLeft className="mr-2 h-4 w-4" />
         Back to Case List
       </Button>
+
+      {errorMessage && (
+        <div className="mb-4 p-4 bg-red-100 text-red-800 rounded-md flex items-center">
+          <AlertCircle className="h-5 w-5 mr-2 flex-shrink-0" />
+          <span>{errorMessage}</span>
+        </div>
+      )}
 
       <div className="grid gap-6">
         <Card>
@@ -419,7 +470,7 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
                   {searchTerm && documentMatches.length > 0 && (
                     <div className="flex items-center text-sm text-muted-foreground">
                       <Search className="h-4 w-4 mr-1" />
-                      Showing results for "{searchTerm}"
+                      Showing results for {searchTerm}
                     </div>
                   )}
                 </div>
@@ -432,19 +483,12 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
                 ) : searchTerm && documentMatches.length === 0 ? (
                   <div className="py-8 text-center text-muted-foreground">
                     <AlertCircle className="h-8 w-8 mx-auto mb-2 text-muted-foreground" />
-                    <p>No document matches found for "{searchTerm}"</p>
+                    <p>No document matches found for {searchTerm}</p>
                     <p className="text-sm mt-2">Try a different search term or browse all case documents</p>
                     <Button 
                       variant="outline" 
                       className="mt-4"
-                      onClick={() => fetchFullDocument({ 
-                        sha1: 'all', 
-                        title: 'All Case Documents', 
-                        source: '', 
-                        date: '', 
-                        matches: [],
-                        isExpanded: false
-                      })}
+                      onClick={fetchAllCaseDocuments}
                     >
                       View All Documents
                     </Button>
@@ -478,48 +522,91 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
                         </div>
                         
                         {doc.isExpanded ? (
-                          // Show full document with matched pages
-                          <div className="border-t">
-                            <ScrollArea className="h-[500px]">
-                              {doc.fullDocument ? (
-                                doc.fullDocument.map((page) => (
-                                  <div key={page.pageNumber} className="p-4 border-b last:border-0">
-                                    <h4 className="text-sm font-medium text-muted-foreground mb-2">
-                                      Page {page.pageNumber}
-                                      {doc.matches.some(m => m.pageNumber === page.pageNumber) && (
-                                        <Badge className="ml-2 bg-yellow-100 text-yellow-800" variant="outline">
-                                          Match
-                                        </Badge>
-                                      )}
-                                    </h4>
-                                    <p className="whitespace-pre-wrap text-sm">
-                                      {highlightSearchTerm(page.content, searchTerm)}
-                                    </p>
+                          // Show document info when expanded
+                          <div className="p-4 border-t text-center bg-gray-50">
+                            {doc.pdfUrl ? (
+                              <div className="space-y-4">
+                                <p className="text-muted-foreground">
+                                  This document contains {doc.matches.length} match{doc.matches.length !== 1 ? 'es' : ''} for your search term.
+                                </p>
+                                <a 
+                                  href={doc.pdfUrl} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer"
+                                  className="inline-flex items-center justify-center rounded-md text-sm font-medium bg-primary text-primary-foreground h-10 px-4 py-2"
+                                >
+                                  <ExternalLink className="h-4 w-4 mr-2" />
+                                  Open Full Document
+                                </a>
+                                
+                                {/* Pages with matches */}
+                                <div className="mt-4 border rounded-md overflow-hidden">
+                                  <div className="bg-muted p-3 text-sm font-medium">
+                                    Pages with Matches:
                                   </div>
-                                ))
-                              ) : (
-                                <div className="p-4 text-center">
-                                  <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-primary mx-auto"></div>
-                                  <p className="mt-2 text-sm text-muted-foreground">Loading document...</p>
+                                  <div className="divide-y">
+                                    {doc.matches.map((match, idx) => (
+                                      <div key={idx} className="p-3 hover:bg-gray-50">
+                                        <div className="flex justify-between items-center">
+                                          <div>
+                                            <h4 className="font-medium">Page {match.pageNumber}</h4>
+                                            <p className="text-sm text-muted-foreground">
+                                              {highlightSearchTerm(match.context, searchTerm)}
+                                            </p>
+                                          </div>
+                                          <a 
+                                            href={`${doc.pdfUrl}#page=${match.pageNumber}`}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="inline-flex items-center justify-center rounded-md text-sm font-medium border border-input bg-background h-9 px-3"
+                                            onClick={(e) => e.stopPropagation()}
+                                          >
+                                            View Page
+                                          </a>
+                                        </div>
+                                      </div>
+                                    ))}
+                                  </div>
                                 </div>
-                              )}
-                            </ScrollArea>
+                              </div>
+                            ) : (
+                              <p className="text-muted-foreground">
+                                PDF document not available for this document.
+                              </p>
+                            )}
                           </div>
                         ) : (
-                          // Show match snippets
+                          // Show match snippets when collapsed
                           <div className="border-t divide-y">
-                            {doc.matches.map((match, index) => (
+                            {doc.matches.slice(0, 2).map((match, index) => (
                               <div key={index} className="p-4 bg-yellow-50/50">
                                 <div className="flex justify-between items-start">
                                   <p className="text-sm mb-1 text-muted-foreground">
                                     Page {match.pageNumber}
                                   </p>
+                                  {doc.pdfUrl && (
+                                    <a
+                                      href={`${doc.pdfUrl}#page=${match.pageNumber}`}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="inline-flex items-center justify-center rounded-md text-xs font-medium h-7 px-2 py-0 border-none bg-transparent text-primary hover:underline"
+                                      onClick={(e) => e.stopPropagation()}
+                                    >
+                                      <ExternalLink className="h-3 w-3 mr-1" />
+                                      Open Page
+                                    </a>
+                                  )}
                                 </div>
                                 <p className="whitespace-pre-wrap text-sm">
                                   {highlightSearchTerm(match.text, searchTerm)}
                                 </p>
                               </div>
                             ))}
+                            {doc.matches.length > 2 && (
+                              <div className="p-2 text-center text-sm text-muted-foreground">
+                                +{doc.matches.length - 2} more matches
+                              </div>
+                            )}
                             <div className="p-2 bg-muted">
                               <Button 
                                 variant="ghost" 
@@ -528,7 +615,7 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
                                 onClick={() => toggleDocument(doc.sha1)}
                               >
                                 <ExternalLink className="h-3 w-3 mr-1" />
-                                View full document
+                                View all matches
                               </Button>
                             </div>
                           </div>
@@ -537,25 +624,55 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
                     ))}
                   </div>
                 ) : (
-                  // No search term - show prompt to search
-                  <div className="py-8 text-center text-muted-foreground">
-                    <Search className="h-8 w-8 mx-auto mb-2 text-muted-foreground" />
-                    <p>Search for terms in the case list to see relevant document snippets</p>
-                    <p className="text-sm mt-2">Or view all documents for this case</p>
-                    <Button 
-                      variant="outline" 
-                      className="mt-4"
-                      onClick={() => fetchFullDocument({ 
-                        sha1: 'all', 
-                        title: 'All Case Documents', 
-                        source: '', 
-                        date: '', 
-                        matches: [],
-                        isExpanded: false
-                      })}
-                    >
-                      View All Documents
-                    </Button>
+                  // No search term - show list of all documents or prompt to search
+                  <div>
+                    {documentMatches.length > 0 ? (
+                      <div className="space-y-4">
+                        {documentMatches.map((doc) => (
+                          <div key={doc.sha1} className="border rounded-lg overflow-hidden">
+                            <div className="p-4 bg-muted flex justify-between items-center">
+                              <div className="flex items-center gap-3">
+                                <FileText className="h-5 w-5 text-primary" />
+                                <div>
+                                  <h3 className="font-medium">{doc.title}</h3>
+                                  <p className="text-sm text-muted-foreground">
+                                    {doc.source} • {new Date(doc.date).toLocaleDateString()}
+                                  </p>
+                                </div>
+                              </div>
+                              {doc.pdfUrl ? (
+                                <a 
+                                  href={doc.pdfUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="inline-flex items-center justify-center rounded-md text-sm font-medium border border-input bg-background h-9 px-3"
+                                >
+                                  <ExternalLink className="h-4 w-4 mr-1" />
+                                  Open Document
+                                </a>
+                              ) : (
+                                <Badge variant="outline" className="text-muted-foreground">
+                                  PDF Not Available
+                                </Badge>
+                              )}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="py-8 text-center text-muted-foreground">
+                        <Search className="h-8 w-8 mx-auto mb-2 text-muted-foreground" />
+                        <p>Search for terms in the case list to see relevant document snippets</p>
+                        <p className="text-sm mt-2">Or view all documents for this case</p>
+                        <Button 
+                          variant="outline" 
+                          className="mt-4"
+                          onClick={fetchAllCaseDocuments}
+                        >
+                          View All Documents
+                        </Button>
+                      </div>
+                    )}
                   </div>
                 )}
               </CardContent>

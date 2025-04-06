@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/base/button';
 import { 
   Search, Calendar, MoreVertical, FileText, 
   ChevronLeft, ChevronRight, ChevronDown, ChevronUp, 
-  Filter, X, SlidersHorizontal, Clock 
+  Filter, X, 
 } from 'lucide-react';
 import _ from 'lodash';
 import { Case } from '../../types/case';
