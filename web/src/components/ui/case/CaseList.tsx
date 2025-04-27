@@ -166,6 +166,8 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
           incident_id,
           incident_type: incidents[0].incident_type,
           incident_date: incidents[0].incident_date,
+          incident_year: incidents[0].incident_year,
+          receive_date: incidents[0].receive_date, // This could be an array
           source: incidents[0].source,
           ois_details: incidents[0].ois_details,
           incident_details: incidents[0].incident_details,
@@ -217,9 +219,18 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
     return _.uniq(cases.map(c => c.incident_type)).sort();
   };
 
+  // Updated getYears function to use incident_year as the primary source
   const getYears = () => {
-    return _.uniq(cases.map(c => new Date(c.incident_date).getFullYear().toString()))
-      .sort((a, b) => parseInt(b) - parseInt(a));
+    const years = cases.map(c => {
+      if (c.incident_year) return c.incident_year.toString();
+      if (c.incident_date) {
+        const date = new Date(c.incident_date);
+        return !isNaN(date.getTime()) ? date.getFullYear().toString() : null;
+      }
+      return null;
+    }).filter(Boolean) as string[];
+    
+    return _.uniq(years).sort((a, b) => parseInt(b) - parseInt(a));
   };
 
   const getSources = () => {
@@ -252,11 +263,17 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
       filtered = filtered.filter(c => c.incident_type === filters.incidentType);
     }
 
-    // Apply year filter
+    // Updated year filter to use incident_year if available
     if (filters.year) {
-      filtered = filtered.filter(c => 
-        new Date(c.incident_date).getFullYear().toString() === filters.year
-      );
+      filtered = filtered.filter(c => {
+        if (c.incident_year) {
+          return c.incident_year.toString() === filters.year;
+        } else if (c.incident_date) {
+          const date = new Date(c.incident_date);
+          return !isNaN(date.getTime()) ? date.getFullYear().toString() === filters.year : false;
+        }
+        return false;
+      });
     }
 
     // Apply source filter
@@ -313,14 +330,41 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
     }
   };
 
-  // Format date function
+  // Updated formatDate function to handle invalid dates
   const formatDate = (dateString: string | null) => {
-    if (!dateString) return 'Unknown';
-    return new Date(dateString).toLocaleDateString('en-US', {
+    if (!dateString) return '';
+    
+    const date = new Date(dateString);
+    // Check if date is valid
+    if (isNaN(date.getTime())) return '';
+    
+    return date.toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'short',
       day: 'numeric'
     });
+  };
+
+  // New function to handle multiple receive dates
+  const formatReceiveDates = (receiveDates: string[] | string | null) => {
+    if (!receiveDates) return '';
+    
+    // Handle both single string and array of strings
+    const dates = Array.isArray(receiveDates) ? receiveDates : [receiveDates];
+    
+    return dates
+      .map(date => {
+        const formattedDate = formatDate(date);
+        return formattedDate || ''; // Use empty string if invalid
+      })
+      .filter(date => date !== '') // Filter out empty strings
+      .join(', ');
+  };
+
+  // New function to format incident year
+  const formatIncidentYear = (year: string | number | null) => {
+    if (!year) return '';
+    return String(year);
   };
 
   // Get incident type badge color
@@ -458,7 +502,14 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
               />
               <span className="text-sm text-gray-700">{year}</span>
               <span className="ml-auto text-xs text-gray-500">
-                {cases.filter(c => new Date(c.incident_date).getFullYear().toString() === year).length}
+                {cases.filter(c => {
+                  if (c.incident_year) return c.incident_year.toString() === year;
+                  if (c.incident_date) {
+                    const date = new Date(c.incident_date);
+                    return !isNaN(date.getTime()) ? date.getFullYear().toString() === year : false;
+                  }
+                  return false;
+                }).length}
               </span>
             </div>
           ))}
@@ -666,7 +717,7 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
                         className="flex items-center focus:outline-none mr-2" 
                         onClick={() => handleSort('incident_date')}
                       >
-                        Date
+                        Incident Date
                         {renderSortIndicator('incident_date')}
                       </button>
                       
@@ -679,6 +730,16 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
                       
                       {activeFilterDropdown === 'year' && renderYearFilter()}
                     </div>
+                  </th>
+                  <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <span className="flex items-center">
+                      Incident Year
+                    </span>
+                  </th>
+                  <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                    <span className="flex items-center">
+                      Receive Date(s)
+                    </span>
                   </th>
                   <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                     <div className="flex items-center relative">
@@ -749,7 +810,13 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        {caseData.source || "Unknown"}
+                        {formatIncidentYear(caseData.incident_year)}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        {formatReceiveDates(caseData.receive_date)}
+                      </td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                        {caseData.source || ""}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <span className="px-2 py-1 text-xs font-medium rounded-full bg-blue-100 text-blue-800">
@@ -757,7 +824,7 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
                         </span>
                         {caseData.officers.length > 0 && (
                           <span className="ml-2 text-xs text-gray-500 truncate max-w-[120px] inline-block align-middle">
-                            {caseData.officers[0].name}
+                            {caseData.officers[0].name || ""}
                             {caseData.officers.length > 1 && ` +${caseData.officers.length - 1} more`}
                           </span>
                         )}
@@ -782,7 +849,7 @@ export const CaseList: React.FC<CaseListProps> = ({ onCaseSelect }) => {
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={searchTerm && textMatches.size > 0 ? 7 : 6} className="px-6 py-8 text-center text-gray-500">
+                    <td colSpan={searchTerm && textMatches.size > 0 ? 9 : 8} className="px-6 py-8 text-center text-gray-500">
                       No cases matching your criteria
                     </td>
                   </tr>

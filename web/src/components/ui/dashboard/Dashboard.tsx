@@ -17,6 +17,8 @@ import { createClient } from '@supabase/supabase-js';
 import _ from 'lodash';
 import { Officer, Incident, PostRecord } from '../../types/officer';
 import { Case } from '../../types/case';
+import { DocumentMetadata, fetchAllRecords } from '../../types/supabase';
+
 
 interface IncidentTypeCount {
   type: string;
@@ -84,14 +86,13 @@ export const Dashboard: React.FC<DashboardProps> = ({ onOfficerSelect}) => {
         setLoading(true);
         const supabase = initSupabase();
         
-        // 1. Fetch all documents
-        const { data: documents, error: docsError } = await supabase
-          .from('document_metadata')
-          .select('*');
-
-        if (docsError || !documents) {
-          throw new Error(docsError ? docsError.message : 'No documents returned');
+        // 1. Fetch all documents using the new pagination function
+        const documents = await fetchAllRecords<DocumentMetadata>('document_metadata', supabase);
+  
+        if (!documents || documents.length === 0) {
+          throw new Error('No documents returned');
         }
+        
 
         // 2. Collect post_uids that exist
         const postUids = new Set(
@@ -103,20 +104,22 @@ export const Dashboard: React.FC<DashboardProps> = ({ onOfficerSelect}) => {
         // 3. Fetch all post records for these post_uids
         let postRecords: PostRecord[] = [];
         if (postUids.size > 0) {
-          const { data: posts, error: postsError } = await supabase
-            .from('post')
-            .select('post_uid, agency_name, start_date, end_date, officer_name');
-
-          if (postsError) throw new Error(postsError.message);
-          if (posts) {
-            postRecords = posts.map(post => ({
-              post_uid: post.post_uid,
-              agency_name: post.agency_name,
-              start_date: post.start_date,
-              end_date: post.end_date,
-              officer_name: post.officer_name || ''
-            }));
-          }
+          // Convert Set to Array for the in filter
+          const postUidsArray = Array.from(postUids) as string[];
+          
+          // Use pagination for post records too
+          const posts = await fetchAllRecords<PostRecord, string>('post', supabase, {
+            column: 'post_uid',
+            values: postUidsArray
+          });
+          
+          postRecords = posts.map(post => ({
+            post_uid: post.post_uid,
+            agency_name: post.agency_name,
+            start_date: post.start_date,
+            end_date: post.end_date,
+            officer_name: post.officer_name || ''
+          }));
         }
 
         // 4. Group documents by officer uid
@@ -132,7 +135,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onOfficerSelect}) => {
             .filter(post => incidents.some(inc => inc.post_uid === post.post_uid))
             .map(post => ({
               ...post,
-              officer_name: firstIncident.officer_name
+              officer_name: firstIncident.officer_name || ''  
             }));
 
           // Sort post records by date
@@ -141,15 +144,15 @@ export const Dashboard: React.FC<DashboardProps> = ({ onOfficerSelect}) => {
           const processedIncidents = incidents.map(inc => ({
             incident_id: inc.incident_id,
             incident_type: inc.incident_type,
-            incident_date: inc.incident_date,
-            source: inc.source,
-            officer_name: inc.officer_name,
+            incident_date: inc.incident_date || '',
+            source: inc.source || '',              
+            officer_name: inc.officer_name || '',   
             star_no: inc.star_no ? Number(inc.star_no) : null,
-            officer_agency: inc.officer_agency,
+            officer_agency: inc.officer_agency || '', 
             uid: inc.uid,
             post_uid: inc.post_uid,
-            ois_details: inc.ois_details,
-            incident_details: inc.incident_details,
+            ois_details: inc.ois_details || '',    
+            incident_details: inc.incident_details || '', 
             incident_uid: inc.incident_id
           }));
 
@@ -171,15 +174,15 @@ export const Dashboard: React.FC<DashboardProps> = ({ onOfficerSelect}) => {
         const allIncidents = documents.map(doc => ({
           incident_id: doc.incident_id,
           incident_type: doc.incident_type,
-          incident_date: doc.incident_date,
-          source: doc.source,
-          officer_name: doc.officer_name,
+          incident_date: doc.incident_date || '', 
+          source: doc.source || '',         
+          officer_name: doc.officer_name || '', 
           star_no: doc.star_no ? Number(doc.star_no) : null,
-          officer_agency: doc.officer_agency,
+          officer_agency: doc.officer_agency || '',
           uid: doc.uid,
           post_uid: doc.post_uid,
-          ois_details: doc.ois_details,
-          incident_details: doc.incident_details,
+          ois_details: doc.ois_details || '', 
+          incident_details: doc.incident_details || '',
           incident_uid: doc.incident_id
         }));
         
@@ -285,7 +288,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onOfficerSelect}) => {
     <div className="bg-gray-50 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto p-3">
         <div className="flex justify-between items-center mb-4">
-          <h1 className="text-2xl font-bold">1421 db Dashboard</h1>
+          <h1 className="text-2xl font-bold">1421</h1>
         </div>
         
         {/* Key stats - More compact design */}
@@ -485,84 +488,6 @@ export const Dashboard: React.FC<DashboardProps> = ({ onOfficerSelect}) => {
               </CardContent>
             </Card>
             
-            {/* Recent Incidents */}
-            {/* <Card className="shadow-sm">
-              <CardHeader className="py-3 px-3">
-                <CardTitle className="text-base">Recent Incidents</CardTitle>
-                <CardDescription className="text-xs">
-                  Latest reported incidents
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="py-2 px-3">
-                {loading ? (
-                  <div className="text-center py-4">Loading incident data...</div>
-                ) : (
-                  <>
-                    <div className="space-y-2">
-                      {recentIncidents.map((incident) => (
-                        <div 
-                          key={incident.incident_id}
-                          className="flex items-start space-x-2 p-2 rounded-md border hover:bg-gray-100 dark:hover:bg-gray-800 cursor-pointer transition-colors"
-                          onClick={() => onCaseSelect({ 
-                            incident_id: incident.incident_id,
-                            incident_type: incident.incident_type,
-                            incident_date: incident.incident_date,
-                            source: incident.source,
-                            ois_details: incident.ois_details,
-                            incident_details: incident.incident_details,
-                            officers: [{
-                              uid: incident.uid,
-                              name: incident.officer_name || '',
-                              starNo: incident.star_no,
-                              agency: incident.officer_agency || 'SFPD'
-                            }]
-                          })}
-                        >
-                          <div className="flex-shrink-0 mt-1">
-                            <div 
-                              className="h-6 w-6 rounded-full flex items-center justify-center"
-                              style={{ 
-                                backgroundColor: `${getColorForIncidentType(incident.incident_type)}20`, 
-                              }}
-                            >
-                              <Shield 
-                                className="h-3 w-3" 
-                                style={{ color: getColorForIncidentType(incident.incident_type) }}
-                              />
-                            </div>
-                          </div>
-                          <div className="flex-1 min-w-0">
-                            <div className="flex justify-between">
-                              <p className="font-medium text-xs">{incident.incident_type}</p>
-                              <p className="text-xs text-gray-500 dark:text-gray-400">
-                                {incident.incident_date ? new Date(incident.incident_date).toLocaleDateString() : 'No date'}
-                              </p>
-                            </div>
-                            <p className="text-xs truncate">{incident.officer_name || 'Unknown Officer'}</p>
-                            <p className="text-xs text-gray-500 dark:text-gray-400">
-                              {incident.star_no ? `Star #${incident.star_no}` : 'No star number'}
-                            </p>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                    <div className="mt-3">
-                      <Button 
-                        variant="outline" 
-                        size="sm"
-                        className="w-full text-xs h-7"
-                        onClick={() => {
-                          // This would navigate to the cases tab in your application
-                          // You'll need to implement this navigation
-                        }}
-                      >
-                        View All Incidents
-                      </Button>
-                    </div>
-                  </>
-                )}
-              </CardContent>
-            </Card> */}
           </div>
         </div>
       </div>

@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Card, CardContent } from '@/components/ui/base/card';
 import { Button } from '@/components/ui/base/button';
-import { ScrollArea } from '@/components/ui/base/scroll-area';
 import { Badge } from '@/components/ui/base/badge';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/base/tabs';
 import { 
   ArrowLeft, Shield, User, FileText, Search, 
   ChevronDown, ChevronUp, ExternalLink, AlertCircle,
+  FileDigit, Layers
 } from 'lucide-react';
 import { Case } from '../../types/case';
 import { createClient } from '@supabase/supabase-js';
@@ -24,7 +24,8 @@ interface DocumentMatch {
   title: string;
   source: string;
   date: string;
-  pdfUrl?: string; // URL to the PDF in Supabase storage
+  pdfUrl?: string;
+  summary?: string | null; 
   matches: Array<{
     pageNumber: number;
     text: string;
@@ -35,6 +36,7 @@ interface DocumentMatch {
     content: string;
   }>;
   isExpanded: boolean;
+  showSummary?: boolean; // Flag to toggle summary visibility
 }
 
 export const CaseProfile: React.FC<CaseProfileProps> = ({ 
@@ -58,6 +60,35 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
 
     return createClient(supabaseUrl, supabaseKey);
   }, []);
+
+  // Fetch summaries for the given SHA1 values
+  const fetchSummaries = useCallback(async (sha1Values: string[]) => {
+    if (!sha1Values.length) return {};
+    
+    try {
+      const supabase = initSupabase();
+      
+      const { data: summaries, error } = await supabase
+        .from('summaries')
+        .select('sha1, summary_txt')
+        .in('sha1', sha1Values);
+      
+      if (error) throw error;
+      
+      // Create a map of SHA1 to summary
+      const summaryMap: Record<string, string> = {};
+      if (summaries) {
+        summaries.forEach(item => {
+          summaryMap[item.sha1] = item.summary_txt;
+        });
+      }
+      
+      return summaryMap;
+    } catch (err) {
+      console.error('Error fetching summaries:', err);
+      return {};
+    }
+  }, [initSupabase]);
 
   // Find all document matches related to this case and the current search term
   const fetchDocumentMatches = useCallback(async () => {
@@ -95,6 +126,9 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
         setIsLoading(false);
         return;
       }
+      
+      // Fetch summaries for these documents
+      const summaryMap = await fetchSummaries(sha1Values);
       
       // Search all pages of these documents for the search term
       const searchPhrase = searchTerm.split(' ').map(word => `${word}:*`).join(' & ');
@@ -200,8 +234,10 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
           source: docMetadata?.source || 'Unknown source',
           date: docMetadata?.document_date || caseData.incident_date,
           pdfUrl: pdfUrlMap.get(sha1) || null,
+          summary: summaryMap[sha1] || null, // Add summary
           matches: matchSnippets,
-          isExpanded: false
+          isExpanded: false,
+          showSummary: false
         };
       });
       
@@ -212,12 +248,12 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
     } finally {
       setIsLoading(false);
     }
-  }, [caseData, searchTerm, initSupabase]);
+  }, [caseData, searchTerm, initSupabase, fetchSummaries]);
 
   useEffect(() => {
     // Reset whenever case changes
     if (caseData?.incident_id) {
-      setActiveTab('details');
+      setActiveTab('officers');
       fetchDocumentMatches();
     }
   }, [caseData?.incident_id, searchTerm, fetchDocumentMatches, setActiveTab]);
@@ -244,15 +280,23 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
         return;
       }
 
-      // Get PDF URLs from pdf_mappings table
-      const sha1Values = caseDocuments.map(doc => doc.sha1).filter(Boolean);
-      
+      // Add this line to deduplicate by sha1
+      const uniqueCaseDocuments = _.uniqBy(caseDocuments, 'sha1');
+
+      // Extract SHA1 identifiers from case documents
+      const sha1Values = uniqueCaseDocuments.map(doc => doc.sha1).filter(Boolean);
+
+        
       if (sha1Values.length === 0) {
         setDocumentMatches([]);
         setIsLoading(false);
         return;
       }
 
+      // Fetch summaries for these documents
+      const summaryMap = await fetchSummaries(sha1Values);
+
+      // Get PDF URLs from pdf_mappings table
       const { data: pdfMappings, error: pdfError } = await supabase
         .from('pdf_mappings')
         .select('sha1, url')
@@ -269,15 +313,18 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
       }
 
       // Create document objects for all documents
-      const documents = caseDocuments.map(doc => {
+      // Create document objects for all documents
+      const documents = uniqueCaseDocuments.map(doc => {
         return {
           sha1: doc.sha1,
           title: doc.title || `Document ${doc.sha1.substring(0, 8)}`,
           source: doc.source || 'Unknown source',
           date: doc.document_date || caseData.incident_date,
           pdfUrl: pdfUrlMap.get(doc.sha1) || null,
+          summary: summaryMap[doc.sha1] || null, // Add summary
           matches: [],
-          isExpanded: false
+          isExpanded: false,
+          showSummary: false
         };
       });
 
@@ -288,9 +335,9 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
     } finally {
       setIsLoading(false);
     }
-  }, [caseData, initSupabase]);
+  }, [caseData, initSupabase, fetchSummaries]);
 
-  const toggleDocument = async (sha1: string) => {
+  const toggleDocument = (sha1: string) => {
     const docIndex = documentMatches.findIndex(doc => doc.sha1 === sha1);
     if (docIndex === -1) return;
     
@@ -299,6 +346,21 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
       prevMatches.map(match => 
         match.sha1 === sha1 
           ? { ...match, isExpanded: !match.isExpanded } 
+          : match
+      )
+    );
+  };
+
+  // Toggle summary display
+  const toggleSummary = (sha1: string) => {
+    const docIndex = documentMatches.findIndex(doc => doc.sha1 === sha1);
+    if (docIndex === -1) return;
+    
+    // Toggle summary visibility
+    setDocumentMatches(prevMatches => 
+      prevMatches.map(match => 
+        match.sha1 === sha1 
+          ? { ...match, showSummary: !match.showSummary } 
           : match
       )
     );
@@ -394,7 +456,6 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
 
         <Tabs value={activeTab} onValueChange={setActiveTab}>
           <TabsList className="mb-4">
-            <TabsTrigger value="details">Case Details</TabsTrigger>
             <TabsTrigger value="officers">Officers</TabsTrigger>
             <TabsTrigger value="documents">
               Documents
@@ -405,31 +466,6 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
               )}
             </TabsTrigger>
           </TabsList>
-
-          <TabsContent value="details">
-            <Card>
-              <CardContent className="pt-6">
-                <h2 className="text-xl font-semibold mb-4">Incident Details</h2>
-                <ScrollArea className="h-[400px]">
-                  <p className="whitespace-pre-wrap">
-                    {searchTerm && caseData.incident_details 
-                      ? highlightSearchTerm(caseData.incident_details, searchTerm) 
-                      : caseData.incident_details || 'No incident details available'}
-                  </p>
-                  {caseData.ois_details && (
-                    <>
-                      <h3 className="text-lg font-semibold mt-4 mb-2">Additional Details</h3>
-                      <p className="whitespace-pre-wrap">
-                        {searchTerm 
-                          ? highlightSearchTerm(caseData.ois_details, searchTerm) 
-                          : caseData.ois_details}
-                      </p>
-                    </>
-                  )}
-                </ScrollArea>
-              </CardContent>
-            </Card>
-          </TabsContent>
 
           <TabsContent value="officers">
             <Card>
@@ -498,26 +534,59 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
                   <div className="space-y-4">
                     {documentMatches.map((doc) => (
                       <div key={doc.sha1} className="border rounded-lg overflow-hidden">
-                        <div 
-                          className="p-4 bg-muted flex justify-between items-center cursor-pointer"
-                          onClick={() => toggleDocument(doc.sha1)}
-                        >
-                          <div className="flex items-center gap-3">
-                            <FileText className="h-5 w-5 text-primary" />
-                            <div>
-                              <h3 className="font-medium">{doc.title}</h3>
-                              <p className="text-sm text-muted-foreground">
-                                {doc.source} • {new Date(doc.date).toLocaleDateString()} • 
-                                <span className="ml-1 font-medium text-yellow-600">
-                                  {doc.matches.length} match{doc.matches.length !== 1 ? 'es' : ''}
-                                </span>
-                              </p>
+                        <div className="p-4 bg-muted flex flex-col">
+                          <div 
+                            className="flex justify-between items-center cursor-pointer"
+                            onClick={() => toggleDocument(doc.sha1)}
+                          >
+                            <div className="flex items-center gap-3">
+                              <FileText className="h-5 w-5 text-primary" />
+                              <div>
+                                <h3 className="font-medium">{doc.title}</h3>
+                                <p className="text-sm text-muted-foreground">
+                                  {doc.source} • {new Date(doc.date).toLocaleDateString()} • 
+                                  <span className="ml-1 font-medium text-yellow-600">
+                                    {doc.matches.length} match{doc.matches.length !== 1 ? 'es' : ''}
+                                  </span>
+                                </p>
+                              </div>
+                            </div>
+                            <div className="flex items-center gap-2">
+                              {doc.summary && (
+                                <Button
+                                  variant="ghost"
+                                  size="sm"
+                                  className="flex items-center text-primary"
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    toggleSummary(doc.sha1);
+                                  }}
+                                >
+                                  <FileDigit className="h-4 w-4 mr-1" />
+                                  {doc.showSummary ? 'Hide Summary' : 'Show Summary'}
+                                </Button>
+                              )}
+                              {doc.isExpanded ? (
+                                <ChevronUp className="h-5 w-5" />
+                              ) : (
+                                <ChevronDown className="h-5 w-5" />
+                              )}
                             </div>
                           </div>
-                          {doc.isExpanded ? (
-                            <ChevronUp className="h-5 w-5" />
-                          ) : (
-                            <ChevronDown className="h-5 w-5" />
+                          
+                          {/* Summary section */}
+                          {doc.summary && doc.showSummary && (
+                            <div className="mt-3 p-3 bg-blue-50 rounded border border-blue-100">
+                              <div className="flex items-center mb-2 text-blue-800">
+                                <Layers className="h-4 w-4 mr-1" />
+                                <h4 className="font-medium text-sm">Document Summary</h4>
+                              </div>
+                              <p className="text-sm whitespace-pre-wrap">
+                                {searchTerm 
+                                  ? highlightSearchTerm(doc.summary, searchTerm) 
+                                  : doc.summary}
+                              </p>
+                            </div>
                           )}
                         </div>
                         
@@ -630,30 +699,56 @@ export const CaseProfile: React.FC<CaseProfileProps> = ({
                       <div className="space-y-4">
                         {documentMatches.map((doc) => (
                           <div key={doc.sha1} className="border rounded-lg overflow-hidden">
-                            <div className="p-4 bg-muted flex justify-between items-center">
-                              <div className="flex items-center gap-3">
-                                <FileText className="h-5 w-5 text-primary" />
-                                <div>
-                                  <h3 className="font-medium">{doc.title}</h3>
-                                  <p className="text-sm text-muted-foreground">
-                                    {doc.source} • {new Date(doc.date).toLocaleDateString()}
-                                  </p>
+                            <div className="p-4 bg-muted">
+                              <div className="flex justify-between items-center">
+                                <div className="flex items-center gap-3">
+                                  <FileText className="h-5 w-5 text-primary" />
+                                  <div>
+                                    <h3 className="font-medium">{doc.title}</h3>
+                                    <p className="text-sm text-muted-foreground">
+                                      {doc.source} • {new Date(doc.date).toLocaleDateString()}
+                                    </p>
+                                  </div>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                  {doc.summary && (
+                                    <Button
+                                      variant="ghost"
+                                      size="sm"
+                                      className="flex items-center text-primary"
+                                      onClick={() => toggleSummary(doc.sha1)}
+                                    >
+                                      <FileDigit className="h-4 w-4 mr-1" />
+                                      {doc.showSummary ? 'Hide Summary' : 'Show Summary'}
+                                    </Button>
+                                  )}
+                                  {doc.pdfUrl ? (
+                                    <a 
+                                      href={doc.pdfUrl}
+                                      target="_blank"
+                                      rel="noopener noreferrer"
+                                      className="inline-flex items-center justify-center rounded-md text-sm font-medium border border-input bg-background h-9 px-3"
+                                    >
+                                      <ExternalLink className="h-4 w-4 mr-1" />
+                                      Open Document
+                                    </a>
+                                  ) : (
+                                    <Badge variant="outline" className="text-muted-foreground">
+                                      PDF Not Available
+                                    </Badge>
+                                  )}
                                 </div>
                               </div>
-                              {doc.pdfUrl ? (
-                                <a 
-                                  href={doc.pdfUrl}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="inline-flex items-center justify-center rounded-md text-sm font-medium border border-input bg-background h-9 px-3"
-                                >
-                                  <ExternalLink className="h-4 w-4 mr-1" />
-                                  Open Document
-                                </a>
-                              ) : (
-                                <Badge variant="outline" className="text-muted-foreground">
-                                  PDF Not Available
-                                </Badge>
+                              
+                              {/* Summary section */}
+                              {doc.summary && doc.showSummary && (
+                                <div className="mt-3 p-3 bg-blue-50 rounded border border-blue-100">
+                                  <div className="flex items-center mb-2 text-blue-800">
+                                    <Layers className="h-4 w-4 mr-1" />
+                                    <h4 className="font-medium text-sm">Document Summary</h4>
+                                  </div>
+                                  <p className="text-sm whitespace-pre-wrap">{doc.summary}</p>
+                                </div>
                               )}
                             </div>
                           </div>

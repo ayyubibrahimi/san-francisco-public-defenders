@@ -152,8 +152,10 @@ export default function App() {
 
       const caseData: Case = {
         incident_id: incidentId,
+        incident_year: documents[0].incident_year,
         incident_type: documents[0].incident_type,
         incident_date: documents[0].incident_date,
+        receive_date: documents[0].incident_date,
         source: documents[0].source,
         ois_details: documents[0].ois_details,
         incident_details: documents[0].incident_details,
@@ -213,7 +215,7 @@ export default function App() {
       <div className="max-w-6xl mx-auto p-4">
         <Card className="mb-8">
           <CardHeader>
-            <h1 className="text-3xl font-bold">1421 db</h1>
+            <h1 className="text-3xl font-bold">1421</h1>
           </CardHeader>
         </Card>
 
