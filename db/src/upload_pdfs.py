@@ -6,9 +6,8 @@ import time
 from tqdm import tqdm
 import mimetypes
 
-# Initialize Supabase client - IMPORTANT: Use the service role key, not the anon key
 supabase_url = "https://mznepgyivrihcucwpcur.supabase.co"
-supabase_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im16bmVwZ3lpdnJpaGN1Y3dwY3VyIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNjQ3Njc3NSwiZXhwIjoyMDUyMDUyNzc1fQ.9CdlpUKrc41bKsMIYIUZu5OeT2np4uuCs4EqA8nqjtU"
+supabase_key = ""
 
 if not supabase_url or not supabase_key:
     print("Error: Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY environment variables")
